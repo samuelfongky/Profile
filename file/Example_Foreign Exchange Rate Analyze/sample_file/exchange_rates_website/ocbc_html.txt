@@ -1,0 +1,1303 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes">
+	<meta name="format-detection" content="telephone=no">
+	<title>Rate &amp; Market Update</title>
+	<link href="../../common/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="../../common/css/rate_market/common-responsive.css" rel="stylesheet">
+	<link href="../../common/css/rate_market/common.css" rel="stylesheet">
+	<link href="../../common/css/rate_market/common_footer.css" rel="stylesheet">
+	<link href="../../common/css/rate_market/framework.css" rel="stylesheet">
+	<link href="../../common/css/rate_market/typeface.css" rel="stylesheet">
+	<link href="../../common/css/rate_market/pushy-responsive.css" rel="stylesheet">
+	<link href="../../common/css/rate_market/index.css" rel="stylesheet">
+	<!-- <script src="../../common/js/smoothScroll.js" language="javascript" type="text/javascript"></script> -->
+	<script src="../../common/js/util.js" language="javascript" type="text/javascript"></script>
+	<script type="text/javascript" src="../../../assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../common/js/common_en.js"></script>
+	<script type="text/javascript" src="../../common/js/rate_table.js"></script>
+	<script type="text/javascript" src="../../../web/js/video.js"></script>
+
+	<script language="javascript" type="text/javascript">
+		(function($) {
+			$(document).ready(function() {
+				var tab = findGetParameter('tab');
+				if (tab == 'menu1') {
+					$("#tab_menu1").click();
+				} else if (tab == 'menu2') {
+					$("#tab_menu2").click();
+				} else if (tab == 'menu3') {
+					$("#tab_menu3").click();
+				}
+
+				var vid = document.getElementById("originVideo"); 
+				$("#closeVideo").on('click', function() {
+					vid.pause();
+					vid.currentTime = 0;
+				});
+				$("#videoModal").on('click', function() {
+					vid.pause();
+					vid.currentTime = 0;
+				});
+
+				// Auto play after opening modal ; and off after closing modal
+                $('#videoModal').on('shown.bs.modal', function () {
+					$('#originVideo')[0].play();
+				})
+				$('#videoModal_1').on('hidden.bs.modal', function () {
+					$('#originVideo')[0].pause();
+				})
+
+				videoObj.addSectionBanner("en", "MarketHotTopics", 139);
+				videoObj.addVideoSection("en", "MacroInsights", "videoModal", "originVideo", 130, "h5", "col-md-12", "ttlAdjust", "col-xs-5", "col-xs-7", true);
+				
+				setTimeout("loadSavingsRatesTable()","3000");
+			});
+		})(jQuery)
+		
+		function loadSavingsRatesTable()
+		{
+			$('#right-content_3 .title_wht_bold:eq(2)').parent().parent().parent().parent().parent().html($("#savingsRatesTable").html());
+		}
+	</script>
+</head>
+
+<body>
+	<!-- Modal -->
+	<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body" id="MacroInsights_video" name="MacroInsights_video">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeVideo">
+						<span aria-hidden="true">×</span>
+					</button>
+					<video class="macro_video" controls="" id="originVideo" name="originVideo">
+					</video>
+				</div>			 
+			</div>
+		</div>
+	</div><!-- / Modal -->
+
+    <header><script>
+if (!String.prototype.startsWith) {
+	String.prototype.startsWith = function(searchString, position) {
+	position = position || 0;
+	return this.indexOf(searchString, position) === position;
+	};
+}
+
+(function($) {
+		$(document).ready(function() {
+			// $("header").load("/personal-banking/en/header.html");
+			// $("footer").load("/personal-banking/en/footer.html");  
+			var u = window.location.href;
+			var tc = u.replace('/en/', '/zh/');
+			var sc = u.replace('/en/', '/cn/');
+			$("#langTC > a").attr("href", tc);
+			$("#langSC > a").attr("href", sc);
+		});
+})(jQuery)	
+
+</script>
+
+<div class="containerMain">
+		<div class="head-top">
+			<div class="logo"><a href="/web/home.html"><img src="/personal-banking/images/logo_EN.jpg" alt="OCBC Wing Hang"></a></div>
+			<ul class="headLinks">
+				<li class="lang" id="langTC"><a href="https://www.ocbcwhhk.com/personal-banking/zh/rate_market_update/index.html?tab=menu1">繁體</a></li>
+				<!--<li class="lang" id="langSC"><a href="#">简体</a></li>-->
+				<li><a href="/web/home.html"><img src="/personal-banking/images/menuIcon_01.jpg" alt="Go to Homepage"></a></li>
+				<li><a href="/webpages/en-us/html/fin_planners/fin_planners.html"><img src="/personal-banking/images/menuIcon_02.jpg" alt="Go to Financial planner page"></a></li>
+				<li><a href="/webpages/en-us/html/contact_us/contact.html"><img src="/personal-banking/images/menuIcon_03.jpg" alt="Contact us"></a></li>
+				<li><a href="/webpages/en-us/html/sitemap/sitemap.html"><img src="/personal-banking/images/menuIcon_04.jpg" alt="Go to Sitemap"></a></li>
+			</ul>
+		</div>
+	</div>
+
+     <div class="menu" role="navigation">
+            <div class="containerMain">
+                
+            <nav id="nav" aria-label="main-navigation">
+                <ul>  
+                    <li><a href="/personal-banking/en/index.html" class="firstItem" aria-haspopup="true" aria-expanded="false">Retail Banking</a>
+                        <ul class="sublevel">
+                            <li><a href="/personal-banking/en/internet-mobile-telemetic-banking.html" aria-haspopup="true" aria-expanded="false">Personal eBanking<span class="plusMark"> </span></a>
+                                <ul>
+                                    <li><a href="/personal-banking/en/mobile-banking.html">Mobile Banking</a></li>
+                                    <li><a href="/personal-banking/en/internet-mobile-telemetic-banking.html">Internet Banking</a></li>
+                                    <li><a href="/personal-banking/en/internet-mobile-telemetic-banking.html?type=1">Telematic Banking</a></li>
+                                    <li><a href="/personal-banking/en/atm-card.html">ATM Card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/personal-banking/en/e-cheque.html">e-Cheque Services</a></li>
+                            <li><a href="/personal-banking/en/estatement-and-eadvice.html">eStatement &amp; eAdvice Service</a></li>
+                            <li>
+                                <a href="/personal-banking/en/accounts/index.html">Deposit Services</a>
+                            </li>
+                            <li><a href="/personal-banking/en/loans/index.html">Loans Services</a></li>
+                            <li><a href="/personal-banking/en/card/index.html" aria-haspopup="true" aria-expanded="false">Card Services<span class="plusMark"> </span></a>
+                                <ul>
+                                <li><a href="/personal-banking/en/card/index.html">Credit Card and Debit Card</a></li>
+                                <li><a href="/personal-banking/en/card/index.html#credit_card_promotions">Credit Card Promotional Offer and Privileges</a></li>
+
+                                <li><a href="/personal-banking/en/card/index.html#information_notices">Information and Notices</a></li>
+
+                                <li><a href="/business-banking/en/accounts-and-payments/merchant-solutions.html">Merchant Solutions</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/personal-banking/en/insurance/index.html" aria-haspopup="true" aria-expanded="false">Insurance Services<span class="plusMark"> </span></a>
+                                <ul>
+                                    <li><a href="/personal-banking/en/insurance/travel_insurance_package.html">AsiaHoliday Insurance (Special Edition)</a></li>
+                                    <li><a href="/personal-banking/en/insurance/platinum_home_plus_insurance_plan.html">Asia Superior Home Insurance</a></li>
+                                    <li><a href="/personal-banking/en/insurance/platinum_maid_insurance_plan.html">Asia Superior Helper / Housemaid Insurance</a></li>
+									<li><a href="/personal-banking/en/insurance/platinum_china_medical_card_insurance_plan.html">Platinum China Medical Card Insurance Plan</a></li>
+                                    <li><a href="/personal-banking/en/insurance/canCash_cancer_plan.html">Can.Cash Cancer Plan</a></li>
+                                    <li><a href="/personal-banking/en/insurance/platinum_motor_insurance_plan.html">Platinum Motor Insurance Plan</a></li>
+                                    <li><a href="/personal-banking/en/insurance/life_plan.html">Life Insurance</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/personal-banking/en/remittance.html">Remittance Services</a></li>
+                            <li><a href="/personal-banking/en/investment/investment_services.html">Investment Services</a></li>
+                            <li><a href="/personal-banking/en/general-banking.html">General Banking</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/business-banking/en/index.html">Corporate Banking</a></li>
+                    <li><a href="/personal-banking/en/investment/investment_services.html" aria-haspopup="true" aria-expanded="false">Investment Services</a>
+                        <ul class="sublevel">
+                            <li><a href="/personal-banking/en/investment/securities.html">Securities</a></li>
+                            <li><a href="/personal-banking/en/investment/unit.html">Unit Trusts</a></li>
+                            <li><a href="/personal-banking/en/investment/currency.html">Currency-linked Deposit</a></li>
+                            <li><a href="/personal-banking/en/investment/structured_deposit.html">Structured Deposit (Currency Linked Target Rate)</a></li>
+                            <li><a href="/personal-banking/en/investment/fx_margin.html">Foreign Exchange Margin</a></li>
+                            <li><a href="/personal-banking/en/investment/gold.html" aria-haspopup="true" aria-expanded="false">Gold<span class="plusMark"> </span></a>
+                                <ul>
+                                    <li><a href="/personal-banking/en/investment/gold_account.html">Gold Passbook Account</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="/personal-banking/en/rate_market_update/index.html">Rate &amp; Market Update</a></li>
+                    <li><a href="/about/en/index.html">Corporate Overview</a></li>
+                    <li><a href="/webpages/en-us/html/china_bus/china_bus.html" aria-haspopup="true" aria-expanded="false">Greater China</a>
+                        <ul class="sublevel">
+                            <li><a href="/webpages/en-us/html/china_bus/china_bus/china_bus.html?id=china_bus">China Business</a></li>
+                            <li><a href="/webpages/en-us/html/china_bus/macau_bus/macau_bus.html?id=macau_bus">Macau Business</a></li>
+                        </ul>
+                    </li>
+					<li><a href="/personal-banking/en/greater_bay_area/index.html" style="margin-right:-15px">Cross Border Services</a></li>
+                    <li class="secondary_navi_pbank"><a href="/premier-banking/en/index.html" class="secondary_navi" title="Premier Banking">Premier Banking</a></li>
+                </ul>
+            </nav>
+           </div>
+        </div>
+ 
+
+    <script src="/personal-banking/common/js/script.js"></script>
+</header>
+
+    <div class="pageTop">
+        <div class="pageTopSpace"></div>
+        <div class="currentPage">
+            <div class="containerMain_top">
+                <h1>Rate &amp; Market Update</h1>
+			</div>
+        </div>
+		<div class=" ">
+			<div class="containerMain_top">
+				<div class="row">
+					<div class="col-md-12">
+						<ol class="breadcrumb">
+							<li><a href="../index.html">Personal Banking</a>
+							</li>
+							<li class="active">Rate &amp; Market Update</li>
+						</ol>
+					</div>
+				</div><!-- / row -->
+			</div>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="main-content">
+			<div class="containerMain">
+				<div class="container">
+					<div class=" ">
+						<div class="inner-container">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs enAdjust">
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#home">Market Hot Topics</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active show" data-toggle="tab" id="tab_menu1" href="#menu1">FX Rates &amp; Gold Price</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" id="tab_menu2" href="#menu2">Deposit &amp; Lending Rates</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" id="tab_menu3" href="#menu3">Stock Information</a>
+								</li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div id="home" class="tab-pane">
+									<div id="MarketHotTopics" name="MarketHotTopics" class="kvArea">
+									</div>
+
+									<div id="MacroInsights" name="MacroInsights" class="row topics_section topics_section_first">
+										<div id="MacroInsights_image" name="MacroInsights_image">
+										</div>
+									</div>
+
+									<div class="row topics_section">
+										<div class="col-md-12">
+											<h5 class="ttlAdjust">FX</h5>
+										</div>
+										<div class="col-md-12">
+											<img src="../../images/rate_market/001.png" class="featureImg" alt="Daily FX Outlook feature Image">
+											<div class="macroInfo">
+												<h5>Daily FX Outlook</h5>
+												<p class="macroLink"><a href="https://www.ocbcwhhk.com/whb/webpages_cmh/#/fixed-page/105/?locale=en-us" class="link">Daily FX analysis on 8 major currencies</a></p>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<img src="../../images/rate_market/002.png" class="featureImg" alt="Weekly FX Trend	feature Image">
+											<div class="macroInfo">
+												<h5>Weekly FX Trend</h5>
+												<p class="macroLink"><a href="https://www.ocbcwhhk.com/whb/webpages_cmh/#/fixed-page/106/?locale=en-us" class="link ">Weekly highlights and outlook on FX market</a></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row topics_section">
+										<div class="col-md-12">
+											<h5 class="ttlAdjust">Economic Overview <br>
+by Area</h5></div>
+										<div class="col-md-12">
+											<img src="../../images/rate_market/003.png" class="featureImg" alt="Greater China Image">
+											<div class="macroInfo">
+                                                <h5>Greater China </h5>
+												<p class="macroLink"><a href="https://www.ocbcwhhk.com/WIR1" class="link">Greater China economic developments overview</a></p>
+												<!-- <p class="macroLink"><a href="https://www.ocbcwhhk.com/WIR1" class="link" target="_blank">Greater China economic developments overview</a></p> -->
+											</div>
+										</div>
+                                        <div class="col-md-12">
+											<img src="../../images/rate_market/004.png" class="featureImg" alt="Hong Kong &amp; Macau Image">
+											<div class="macroInfo">
+												<h5>Hong Kong &amp; Macau
+</h5>
+												<p class="macroLink"><a href="https://www.ocbcwhhk.com/MEU" class="link">Monthly economic monitor on Hong Kong &amp; Macau</a></p>
+												<!-- <p class="macroLink"><a href="https://www.ocbcwhhk.com/MEU" class="link" target="_blank">Monthly economic monitor on Hong Kong &amp; Macau</a></p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div id="menu1" class="tab-pane fade active show">
+									<div class="col-md-12" id="right-content_1"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="171" valign="top" class="bg_sidemenu_col">
+		
+					
+				
+        </td>
+        <td width="6"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="6" height="1"></td>
+        <td valign="top">
+        
+        
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          
+			<tbody><tr><td><img src="https://www.ocbcwhhk.com/webpages/en-us/images/fin_info/tit_fce_rates.gif" alt="Currencies Exchange Rates and Gold Prices" width="590" height="33" id="bannerpic"></td></tr>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>
+
+
+
+
+
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td height="25" class="content_blue_bold_2"><table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                  <td class="title_green_bold_3"><div id="str29">Foreign Currencies Exchange Rates</div></td>
+                  <td><div>
+                    <p class="content_black"><b></b></p><div class="content_black" id="UPDATE_fn_vs_hkd">(Update as at 2022-05-19 17:51 )</div><p></p></div></td>
+                </tr>
+              </tbody></table></td>
+          </tr>
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="10"><span class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></span></td>
+                
+                
+                <td><table width="100%" border="1" cellpadding="6" cellspacing="0" bordercolor="#0E5EB8" style="border-collapse:collapse">
+                
+                  <tbody><tr>
+                    <td height="40" colspan="2" rowspan="2" bgcolor="#51A3F4" class="content_black"><div align="center"><span class="title_wht_bold">Currency</span></div>
+                        <div align="center" class="content_blue_bold"></div></td>
+                    <td colspan="2" bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">Telegraphic Transfer (TT) </div></td>
+                    
+                    <td colspan="2" bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">Bank Notes </div></td>
+                    
+                  </tr>
+                  <tr bgcolor="#BAF3FE">
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">Bank Buy</div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">Bank Sell</div></td>
+                    
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">Bank Buy</div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">Bank Sell</div></td>
+                    
+                  </tr>
+
+                  <tr>
+                    <td class="content_black">Australian Dollar</td>
+                    <td class="content_black" align="center">AUD</td>
+<td class="content_black" align="center">5.473</td><td class="content_black" align="center">5.498</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">New Zealand Dollar</td>
+                    <td class="content_black" align="center">NZD</td>
+<td class="content_black" align="center">4.964</td><td class="content_black" align="center">4.989</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr>
+                    <td class="content_black">Canadian Dollar</td>
+                    <td class="content_black" align="center">CAD</td>
+<td class="content_black" align="center">6.102</td><td class="content_black" align="center">6.127</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">US Dollar</td>
+                    <td class="content_black" align="center">USD</td>
+<td class="content_black" align="center">7.838</td><td class="content_black" align="center">7.856</td><td class="content_black" align="center">7.827</td><td class="content_black" align="center">7.867</td></tr>
+                  <tr>
+                    <td class="content_black">Pound Sterling</td>
+                    <td class="content_black" align="center">GBP</td>
+<td class="content_black" align="center">9.694</td><td class="content_black" align="center">9.754</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">Japanese Yen (per 100)</td>
+                    <td class="content_black" align="center">JPY</td>
+<td class="content_black" align="center">6.128</td><td class="content_black" align="center">6.154</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr>
+                    <td class="content_black">Swiss Franc</td>
+                    <td class="content_black" align="center">CHF</td>
+<td class="content_black" align="center">8.017</td><td class="content_black" align="center">8.047</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">Renminbi</td>
+                    <td class="content_black" align="center">CNH</td>
+<td class="content_black" align="center">1.152</td><td class="content_black" align="center">1.162</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr>
+                    <td class="content_black">Euro</td>
+                    <td class="content_black" align="center">EUR</td>
+<td class="content_black" align="center">8.212</td><td class="content_black" align="center">8.257</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">Norwegian Kroner</td>
+                    <td class="content_black" align="center">NOK</td>
+<td class="content_black" align="center">0.790</td><td class="content_black" align="center">0.804</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr>
+                    <td class="content_black">Danish Kroner</td>
+                    <td class="content_black" align="center">DKK</td>
+<td class="content_black" align="center">1.100</td><td class="content_black" align="center">1.114</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">Swedish Kroner</td>
+                    <td class="content_black" align="center">SEK</td>
+<td class="content_black" align="center">0.776</td><td class="content_black" align="center">0.790</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr>
+                    <td class="content_black">Singapore Dollar</td>
+                    <td class="content_black" align="center">SGD</td>
+<td class="content_black" align="center">5.640</td><td class="content_black" align="center">5.675</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">Thailand Baht (per 10)</td>
+                    <td class="content_black" align="center">THB</td>
+<td class="content_black" align="center">2.242</td><td class="content_black" align="center">2.302</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr>
+                    <td class="content_black">Malaysian Ringgit</td>
+                    <td class="content_black" align="center">MYR</td>
+<td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">New Taiwan Dollar</td>
+                    <td class="content_black" align="center">TWD</td>
+<td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr>
+                    <td class="content_black">South Korean Won (per 100)</td>
+                    <td class="content_black" align="center">KRW</td>
+<td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                  <tr bgcolor="#F3F9FE">
+                    <td class="content_black">Renminbi</td>
+                    <td class="content_black" align="center">CNY</td>
+<td class="content_black" align="center">1.156</td><td class="content_black" align="center">1.164</td><td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                </tbody></table></td>
+              </tr>
+            </tbody></table>
+	        
+            </td>
+          </tr>
+
+		
+	  <tr>
+            <td>&nbsp;</td>
+          </tr>
+	  <tr>
+            <td height="20" class="content_black"><span class="content_black"><div id="str1" class="content_black">Remark:<br>Renminbi (CNY) exchange rate applies to Trade Settlement Services for corporate customers.</div></span></td>
+          </tr>
+		
+          
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="20" class="content_black"><span class="content_black"><div id="str1" class="content_black">Foreign bank notes exchange service is available at the following branches: Main Branch, Causeway Bay Branch, Central Branch, Mongkok Road Branch, Tsimshatsui East Branch, Kowloon Branch, Shatin Branch and Tai Wai Branch.</div></span></td>
+          </tr>
+          
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><a href="#top"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/btn_top.gif" alt="Top" width="42" height="17" border="0"></a></td>
+          </tr>
+		</tbody></table>
+
+</td></tr>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>
+
+
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td><table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+                <td width="10" class="title_ogange_bold"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                <td class="title_ogange_bold"><div id="str9"><font color="#FF4411">Gold Prices</font></div></td>
+                <td valign="bottom"><div>
+                    <p class="content_black"><b></b></p><div id="UPDATE_gold_rate" class="content_black">(Update as at 2022-05-19 17:51 )</div><p></p>
+                </div></td>
+              </tr>
+            </tbody></table></td>
+          </tr>
+
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="10"><span class="title_ogange_bold"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></span></td>
+                <td><table width="100%" border="1" cellpadding="4" cellspacing="0" bordercolor="#FFA569" style="border-collapse:collapse">
+                  <tbody><tr bgcolor="#BAF3FE">
+                    <td height="40" bgcolor="#FFD369" class="content_black"><div align="center"><span class="title_wht_bold"></span>
+                      <div id="str7"><span class="title_ogange_bold">Gold</span></div>
+                      <span class="title_wht_bold"></span></div>
+                        <div align="center" class="content_blue_bold"></div></td>
+                    <td bgcolor="#FFD369" class="content_black"><div align="center" class="content_blue_bold"><span class="title_wht_bold"></span>
+                      <div id="str6"><span class="title_ogange_bold">Bank Buy</span></div>
+                      <span class="title_wht_bold"></span></div>                      </td>
+                  <td bgcolor="#FFD369" class="content_black"><div align="center"><span class="title_wht_bold"></span>
+                    <div id="str5"><span class="title_ogange_bold">Bank Sell</span></div>
+                    <span class="title_wht_bold"></span></div></td>
+                  </tr>
+<tr>
+		
+		
+			    <td class="content_black">99 Gold</td>
+					    
+		<td class="content_black" align="center">16994</td><td class="content_black" align="center">17114</td></tr><tr>
+		
+		
+			    <td class="content_black">Gold Maple Leaf</td>
+					    
+		<td class="content_black" align="center">14751</td><td class="content_black" align="center">14871</td></tr><tr>
+		
+		
+			    <td class="content_black">Ounce Gold</td>
+					    
+		<td class="content_black" align="center">14292</td><td class="content_black" align="center">14412</td></tr><tr>
+		
+		
+			    <td class="content_black">9999 Gold</td>
+					    
+		<td class="content_black" align="center">17204</td><td class="content_black" align="center">17354</td></tr><tr>
+		
+		
+			    <td class="content_black">Excel 9999 Gold *</td>
+					    
+		<td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr><tr>
+		
+		
+			    <td class="content_black">Excel 1-Tael Gold *</td>
+					    
+		<td class="content_black" align="center">N/A</td><td class="content_black" align="center">N/A</td></tr>
+                </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+            </td>
+          </tr>
+          <tr>
+            <td height="20" class="content_black_2"><table width="100%" height="40" border="0" cellpadding="0" cellspacing="0">
+				
+                <tbody><tr>
+                  <td class="content_blue_bold_2">&nbsp;</td>
+                  <td height="20" class="content_black_2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                  <td height="20" class="content_black"><span class="content_black"><div id="str1" class="content_black">*Price quoted is for physical gold trading only.</div></span></td>
+                </tr>
+				            
+                <tr>
+                  <td class="content_blue_bold_2">&nbsp;</td>
+                  <td height="20" class="content_black_2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                  <td height="20" class="content_black"><span class="content_black"><div id="str1" class="content_black">The above information is for reference only.</div></span></td>
+                </tr>
+              </tbody></table>
+         	  
+              </td>
+          </tr>
+
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><div><a href="#top"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/btn_top.gif" alt="Top" width="42" height="17" border="0"></a></div></td>
+          </tr>
+         </tbody></table>
+         
+</td></tr>
+            
+			<tr><td>&nbsp;</td></tr>
+        </tbody></table>
+ 
+
+
+
+
+<script type="text/javascript">
+<!--
+var	lang = "en-us";
+var basehref = "https://www.ocbcwhhk.com/webpages/";
+var	lang_path = "https://www.ocbcwhhk.com/webpages/en-us";
+var com_path = "https://www.ocbcwhhk.com/webpages/common/";
+
+// -->
+</script>
+        </td>
+        </tr>
+    </tbody></table></div>
+								</div><!-- / menu1 -->
+
+								<div id="menu2" class="tab-pane fade">
+									<div class="col-md-12" id="right-content_2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="171" valign="top" class="bg_sidemenu_col">
+		
+					
+				
+        </td>
+        <td width="6"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="6" height="1"></td>
+        <td valign="top">
+        
+        
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          
+   	        <tbody><tr><td><img src="https://www.ocbcwhhk.com/webpages/en-us/images/fin_info/tit_fc_dep_rates.gif" alt="Foreign Currencies Deposit Rates" width="590" height="33" id="bannerpic"></td></tr>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td height="25" class="content_blue_bold_2"><table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                  <td class="title_green_bold_3"><div id="str29">Foreign Currencies Deposit Rates (%p.a.)</div></td>
+                  <td><div>
+                    <p class="content_black"><b></b></p><div id="UPDATE_fc_deposit_rate" class="content_black">(Update as at 2022-05-19 17:49 )</div><p></p></div></td>
+                </tr>
+              </tbody></table></td>
+          </tr>
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="10"><span class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></span></td>
+                <td><div align="center"></div>
+                  <table width="100%" border="1" cellpadding="4" cellspacing="0" bordercolor="#0E5EB8" style="border-collapse:collapse">
+                    <tbody><tr bgcolor="#51A3F4">
+                      <td height="40" colspan="2" bgcolor="#51A3F4" class="content_black"><div align="center"><span class="title_wht_bold">Currency</span></div>
+                          <div align="center" class="content_blue_bold"></div></td>
+                      <td class="content_black"><div align="center" class="title_wht_bold">Savings</div></td>
+                      <td class="content_black"><div align="center" class="title_wht_bold">1 Week</div></td>
+                      <td class="content_black"><div align="center"><span class="title_wht_bold">1 Month</span></div></td>
+                      <td class="content_black"><div align="center"><span class="title_wht_bold">2 Months</span></div></td>
+                      <td class="content_black"><div align="center"><span class="title_wht_bold">3 Months</span></div></td>
+                    </tr>
+                  <tr>
+                      <td class="content_black">Australian Dollar</td>
+                      <td class="content_black"><div align="center">AUD</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.20000 </div></td></tr>                  <tr bgcolor="#F3F9FE">
+                      <td class="content_black">New Zealand Dollar</td>
+                      <td class="content_black"><div align="center">NZD</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.46000 </div></td>                      <td class="content_black"><div align="center"> 0.65000 </div></td>                      <td class="content_black"><div align="center"> 0.85000 </div></td>                      <td class="content_black"><div align="center"> 1.15000 </div></td></tr>                  <tr>
+                      <td class="content_black">Canadian Dollar</td>
+                      <td class="content_black"><div align="center">CAD</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.45000 </div></td>                      <td class="content_black"><div align="center"> 0.65000 </div></td>                      <td class="content_black"><div align="center"> 0.85000 </div></td>                      <td class="content_black"><div align="center"> 1.10000 </div></td></tr>                  <tr bgcolor="#F3F9FE">
+                      <td class="content_black">US Dollar</td>
+                      <td class="content_black"><div align="center">USD</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.73000 </div></td>                      <td class="content_black"><div align="center"> 0.48000 </div></td>                      <td class="content_black"><div align="center"> 0.88000 </div></td>                      <td class="content_black"><div align="center"> 1.07000 </div></td></tr>                  <tr>
+                      <td class="content_black">Pound Sterling</td>
+                      <td class="content_black"><div align="center">GBP</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.65000 </div></td>                      <td class="content_black"><div align="center"> 0.65000 </div></td>                      <td class="content_black"><div align="center"> 0.75000 </div></td>                      <td class="content_black"><div align="center"> 0.95000 </div></td></tr>                  <tr bgcolor="#F3F9FE">
+                      <td class="content_black">Japanese Yen</td>
+                      <td class="content_black"><div align="center">JPY</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td></tr>                  <tr>
+                      <td class="content_black">Swiss Franc</td>
+                      <td class="content_black"><div align="center">CHF</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td></tr>                  <tr bgcolor="#F3F9FE">
+                      <td class="content_black">Renminbi <sup>1</sup></td>
+                      <td class="content_black"><div align="center">CNH</div></td>
+                      <td class="content_black"><div align="center"> 0.50000 </div></td>                      <td class="content_black"><div align="center"> N/A </div></td>                      <td class="content_black"><div align="center"> 0.35000 </div></td>                      <td class="content_black"><div align="center"> 1.15000 </div></td>                      <td class="content_black"><div align="center"> 1.70000 </div></td></tr>                  <tr>
+                      <td class="content_black">Euro</td>
+                      <td class="content_black"><div align="center">EUR</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td></tr>                  <tr bgcolor="#F3F9FE">
+                      <td class="content_black">Norwegian Kroner</td>
+                      <td class="content_black"><div align="center">NOK</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.05000 </div></td>                      <td class="content_black"><div align="center"> 0.10000 </div></td>                      <td class="content_black"><div align="center"> 0.25000 </div></td>                      <td class="content_black"><div align="center"> 0.35000 </div></td></tr>                  <tr>
+                      <td class="content_black">Danish Kroner</td>
+                      <td class="content_black"><div align="center">DKK</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td></tr>                  <tr bgcolor="#F3F9FE">
+                      <td class="content_black">Swedish Kroner</td>
+                      <td class="content_black"><div align="center">SEK</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.01000 </div></td></tr>                  <tr>
+                      <td class="content_black">Singapore Dollar</td>
+                      <td class="content_black"><div align="center">SGD</div></td>
+                      <td class="content_black"><div align="center"> 0.01000 </div></td>                      <td class="content_black"><div align="center"> 0.55000 </div></td>                      <td class="content_black"><div align="center"> 0.67000 </div></td>                      <td class="content_black"><div align="center"> 0.76000 </div></td>                      <td class="content_black"><div align="center"> 0.88000 </div></td></tr>                  <tr bgcolor="#F3F9FE">
+                      <td class="content_black">Thailand Baht</td>
+                      <td class="content_black"><div align="center">THB</div></td>
+                      <td class="content_black"><div align="center"> 0.25000 </div></td>                      <td class="content_black"><div align="center"> 0.25000 </div></td>                      <td class="content_black"><div align="center"> 0.25000 </div></td>                      <td class="content_black"><div align="center"> 0.25000 </div></td>                      <td class="content_black"><div align="center"> 0.25000 </div></td></tr>
+                  </tbody></table></td>
+              </tr>
+            </tbody></table>
+            </td>
+          </tr>
+          <tr>
+            <td> <table width="100%" height="80" border="0" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_blue_bold_2">&nbsp;</td>
+              </tr>
+	       <tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_black"><span class="content_black"><div id="str1" class="content_black">Remark:  <br>1.  Renminbi deposit rate applies to personal and corporate customers.</div></span></td>
+              </tr>
+	      <tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_black">&nbsp;</td>
+              </tr>
+			  
+				<tr>
+                <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                <td height="20" class="content_blue_bold_2"><div id="str2">
+                <a class="content_blue_bold" href="https://www.ocbcwhhk.com/personal-banking/en/accounts/foreign-currency.html">Savings Deposit Amount Required for interest </a> 
+                <span class="content_black">and</span> 
+                <a class="content_blue_bold" href="https://www.ocbcwhhk.com/personal-banking/en/accounts/foreign-currency.html#Foreign-Currency-Fixed">Minimum Time Deposit Amount Required</a>
+                </div>
+				</td>
+                </tr>
+              <tr>
+			
+              </tr><tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_blue_bold_2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_black"><span class="content_black"><div id="str1" class="content_black">The above information is for reference only. Please contact our branch for details.</div></span></td>
+              </tr>
+            </tbody></table></td>
+          </tr>
+            </tbody></table>
+	        
+            </td>
+          </tr>
+
+	  <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><a href="#top"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/btn_top.gif" alt="Top" width="42" height="17" border="0"></a></td>
+          </tr>
+		</tbody></table>
+</td></tr>
+            
+			<tr><td>&nbsp;</td></tr>
+        </tbody></table></div>
+									<div class="col-md-12" id="right-content_3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="171" valign="top" class="bg_sidemenu_col">
+		
+					
+				
+        </td>
+        <td width="6"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="6" height="1"></td>
+        <td valign="top">
+        
+        
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          
+   	        <tbody><tr><td><img src="https://www.ocbcwhhk.com/webpages/en-us/images/fin_info/tit_hkd_dep.gif" alt="HK Deposit Rates" width="590" height="33" id="bannerpic"></td></tr>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td height="25" class="content_blue_bold_2"><table width="100%" height="30" border="0" cellpadding="0" cellspacing="0" style="display:none">
+              <tbody><tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                  <td class="title_green_bold_3"><div id="str29">HKD Savings Rates (% p.a.)</div></td>
+                <td><div>
+                    <p class="content_black_bold" id="UPDATE_hkd_sav_rate">(Update as at 2022-05-19 17:48 )</p>
+                </div></td>
+              </tr>
+            </tbody></table></td>
+          </tr>
+
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="10"><span class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></span></td>
+                <td>
+		<table style="border-collapse:collapse" width="100%" cellspacing="0" cellpadding="4" bordercolor="#0E5EB8" border="1">
+			<tbody>
+				<tr bgcolor="#BAF3FE">
+					<td class="content_black" height="40" bgcolor="#51A3F4">
+						<div align="center"><span class="title_wht_bold">Account Balance (HKD)</span></div>
+						<div class="content_blue_bold" align="center"></div>
+					</td>
+					<td class="content_black" bgcolor="#51A3F4"><div class="title_wht_bold" align="center">Applicable Interest Rate Per Annum</div></td>
+				</tr>
+				<tr>
+					<td class="content_black"><div align="center">10,000 or below</div></td>
+					<td class="content_black"><div align="center">0%</div></td>
+				</tr>
+				<tr>
+					<td class="content_black" rowspan="2"><div align="center">Above 10,000</div></td>
+					<td class="content_black"><div align="center">0.25% for the first HKD1,000,000 <br>(i.e. balance from HKD0 to 1,000,000)</div></td>
+				</tr>
+				<tr>
+					<td class="content_black"><div align="center">0.10% for the remainder <br>(i.e. balance above HKD1,000,000)</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+              </tr>
+            </tbody></table>
+	         
+            </td>
+          </tr>
+
+         </tbody></table></td></tr>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>
+<!-- [2.23.SP.305] AL 2007-03-28 Hot fix on FCY rate -->
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td class="content_black_2"><table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                  <td class="title_green_bold_3">HKD Deposit Rates (% p.a.)</td>
+                  <td><div>
+                    <p class="content_black"><span id="UPDATE_hkd_dep_rate">(Update as at 2022-05-19 17:48 )</span></p>
+                </div></td>
+              </tr></tbody></table></td>
+          </tr>
+
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="10"><span class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></span></td>
+                <td><table width="100%" border="1" cellpadding="4" cellspacing="0" bordercolor="#0E5EB8" style="border-collapse:collapse">
+                  <tbody><tr bgcolor="#BAF3FE">
+                    <td height="40" bgcolor="#51A3F4" class="content_black"><div align="center"><span class="title_wht_bold">Deposit range</span></div>
+                        <div align="center" class="content_blue_bold"></div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold"> <strong>Overnight</strong> </div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">1<br>Week</div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">2<br>Weeks</div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center"><span class="title_wht_bold">1<br>Month</span></div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center"><span class="title_wht_bold">2<br>Months</span></div></td>
+                    <td bgcolor="#51A3F4" class="content_black"><div align="center"><span class="title_wht_bold">3<br>Months</span></div></td>
+                  </tr>
+              <tr>
+  		 <!-- [2.23.SP.305] U+ -->
+                 <!--    <td class="content_black">500,000 or above</td> -->
+                    <td class="content_black">500,000 or above</td>
+                 <!-- [2.23.SP.305] U- -->
+    
+					<td class="content_black"><div align="center">0.0100</div></td>
+    
+					<td class="content_black"><div align="center">0.0100</div></td>
+    
+					<td class="content_black"><div align="center">0.0100</div></td>
+    
+					<td class="content_black"><div align="center">0.0400</div></td>
+    
+					<td class="content_black"><div align="center">0.3300</div></td>
+    
+					<td class="content_black"><div align="center">0.6400</div></td>
+    
+                  </tr>
+              <tr bgcolor="#F3F9FE">
+  		 <!-- [2.23.SP.305] U+ -->
+                 <!--    <td class="content_black">Less than 500,000</td> -->
+                    <td class="content_black">Less than 500,000</td>
+                 <!-- [2.23.SP.305] U- -->
+    
+					<td class="content_black"><div align="center">0.0100</div></td>
+    
+					<td class="content_black"><div align="center">0.0100</div></td>
+    
+					<td class="content_black"><div align="center">0.0100</div></td>
+    
+					<td class="content_black"><div align="center">0.0400</div></td>
+    
+					<td class="content_black"><div align="center">0.3300</div></td>
+    
+					<td class="content_black"><div align="center">0.6400</div></td>
+    
+                  </tr>
+
+                </tbody></table></td>
+              </tr>
+            </tbody></table>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><a href="#top"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/btn_top.gif" alt="Top" width="42" height="17" border="0"></a></td>
+          </tr>
+		</tbody></table>        </td></tr>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <!-- 2.32.SP.500 U+ -->
+          <!-- 
+		  <tr>
+            <td><table width="100%" height="30"  border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+          		 
+                <td class="title_green_bold_3">HKD Deposit Plans (% p.a.)</td>
+                
+                <td><div>
+                    <p class="content_black_bold" id="UPDATE_hkd_dep_plan"></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="10"><span class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></span></td>
+                <td><table width="100%"  border="1" cellpadding="4" cellspacing="0" bordercolor="#0E5EB8" style="border-collapse:collapse">
+                  <tr bgcolor="#51A3F4">
+                    <td height="40" class="content_black"><div align="center"></div>
+                        <div align="center" class="content_blue_bold"></div></td>
+                    <td class="content_black"><div align="center" class="title_wht_bold">12<br>Months</div></td>
+                    <td class="content_black"><div align="center" class="title_wht_bold">18<br>Months</div></td>
+                    <td class="content_black"><div align="center" class="title_wht_bold">24<br>Months</div></td>
+                    <td class="content_black"><div align="center"><span class="title_wht_bold">36<br>Months</span></div></td>
+                    <td class="content_black"><div align="center"><span class="title_wht_bold">48<br>Months</span></div></td>
+                  </tr>
+               <tr >
+                    <td class="content_black">Easy Rich Savings Plan</td>
+    
+                    <td class="content_black"><div align="center"> 0.500 </div></td>
+    
+                    <td class="content_black"><div align="center"> 0.500 </div></td>
+    
+                    <td class="content_black"><div align="center"> 0.750 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.000 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.250 </div></td>
+    
+                  </tr>
+               <tr bgcolor="#F3F9FE">
+                    <td class="content_black">Monthly Plus Fixed Deposit</td>
+    
+                    <td class="content_black"><div align="center"> 0.500 </div></td>
+    
+                    <td class="content_black"><div align="center"> 0.500 </div></td>
+    
+                    <td class="content_black"><div align="center"> 0.750 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.000 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.250 </div></td>
+    
+                  </tr>
+               <tr >
+                    <td class="content_black">Prime-linked Deposit</td>
+    
+                    <td class="content_black"><div align="center"> * </div></td>
+    
+                    <td class="content_black"><div align="center"> * </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.000 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.500 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.500 </div></td>
+    
+                  </tr>
+               <tr bgcolor="#F3F9FE">
+                    <td class="content_black">My Kid Savings Plan</td>
+    
+                    <td class="content_black"><div align="center"> 0.500 </div></td>
+    
+                    <td class="content_black"><div align="center"> 0.500 </div></td>
+    
+                    <td class="content_black"><div align="center"> 0.750 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.000 </div></td>
+    
+                    <td class="content_black"><div align="center"> 1.250 </div></td>
+    
+                  </tr>
+
+                </table></td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          -->
+          <!-- [2.32.SP.500] D- -->
+          <tbody><tr>
+            <td height="20"><table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+                <td width="10"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                <td height="20"><div id="str2">
+                  <div id="str2"><span class="content_black">Remark* Please contact any of </span><a class="content_blue_bold" href="#" id="returnBra">OCBC Wing Hang Branches</a> <span class="content_black">to enquire the interest rates. </span></div>
+                </div></td>
+              </tr>
+              <tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_blue_bold_2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_black"><span class="content_black"><div id="str1">The above information is for reference only. Please contact our branch for details.</div></span></td>
+              </tr>
+			  <!-- [2.32.SP.506] A+ -->
+              <tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_blue_bold_2">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="content_blue_bold_2">&nbsp;</td>
+                <td height="20" class="content_black"><span class="content_black"><div id="str3">Change of Hong Kong Dollar Savings Rate effective from 1 April 2021, <a class="content_blue_bold" href="#" id="returnDis">Click here</a> for more details</div></span></td>
+              </tr>
+			  <!-- [2.32.SP.506] A- -->
+            </tbody></table>
+	         <script>
+	         	<!-- [2.32.SP.500] D+ -->
+	         	<!--document.getElementById("UPDATE_hkd_dep_plan").innerHTML="(Update as at 2022-05-19 17:51 )"-->
+	         	<!-- [2.32.SP.500] D- -->
+	         	<!-- [2.31.SP.985] U+ -->
+				<!-- document.getElementById("returnBra").href="https://www.ocbcwhhk.com/webpages/en-us/html/cor_overview/branch/branch.html?id=BranchNetwork" -->
+				
+				document.getElementById("returnBra").href="https://www.ocbcwhhk.com/about/en/who-we-are/branch-network.html"
+				<!-- [2.32.SP.506] A+ -->
+				document.getElementById("returnDis").href="https://www.ocbcwhhk.com/whb/webpages_cmh/files/Latest%20News/HKD_Deposit_Savings_Rates_Revision_Notice.pdf"
+				<!-- [2.32.SP.506] A- -->
+				
+				<!-- [2.31.SP.985] U- -->
+	         </script>
+            </td>
+          </tr>
+<!---->
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><a href="#top"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/btn_top.gif" alt="Top" width="42" height="17" border="0"></a></td>
+          </tr>
+		</tbody></table>        </td></tr>
+            
+			<tr><td>&nbsp;</td></tr>
+        </tbody></table>
+ 
+
+
+
+
+<script type="text/javascript">
+<!--
+var	lang = "en-us";
+var basehref = "https://www.ocbcwhhk.com/webpages/";
+var	lang_path = "https://www.ocbcwhhk.com/webpages/en-us";
+var com_path = "https://www.ocbcwhhk.com/webpages/common/";
+
+// -->
+</script>
+        </td>
+        </tr>
+    </tbody></table></div>
+									<div class="col-md-12" id="right-content_4"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="171" valign="top" class="bg_sidemenu_col">
+		
+					
+				
+        </td>
+        <td width="6"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="6" height="1"></td>
+        <td valign="top">
+        
+        
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          
+   	        <tbody><tr><td><img src="https://www.ocbcwhhk.com/webpages/en-us/images/fin_info/tit_prime_lend.gif" alt="HKD Prime Lending Rate" width="460" height="33" id="bannerpic"></td></tr>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td height="25" class="content_blue_bold_2"><table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+                <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                <td class="title_green_bold_3"><div id="str29">OCBC Wing Hang HKD Prime Lending Rate</div></td>
+                <td><div>
+                    <p class="content_black_bold" id="UPDATE_prime_lending_rate">(Update as at 2022-05-19 17:46 )</p>
+                </div></td>
+              </tr>
+            </tbody></table></td>
+          </tr>
+
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="10"><span class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></span></td>
+                <td><table width="100%" border="1" cellpadding="4" cellspacing="0" bordercolor="#0E5EB8" style="border-collapse:collapse">
+                  <tbody><tr bgcolor="#BAF3FE">
+                    <td width="50%" height="40" bgcolor="#51A3F4" class="content_black"><div align="center"><span class="title_wht_bold">Date</span></div>
+                        <div align="center" class="content_blue_bold"></div></td>
+                    <td width="50%" bgcolor="#51A3F4" class="content_black"><div align="center" class="title_wht_bold">Rate (% p.a.)</div></td>
+                  </tr>
+                  <tr>
+	                    <td class="content_black"><div align="center">2018-09-28</div></td>
+	                    <td class="content_black"><div align="center">5.5000</div></td>
+	                  </tr>
+
+                </tbody></table></td>
+              </tr>
+            </tbody></table>
+            </td>
+          </tr>
+          <tr>
+            <td height="20"><span class="content_black_2"> </span>
+              <table width="100%" height="40" border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                  <td class="content_blue_bold_2">&nbsp;</td>
+                  <td height="20" class="content_black_2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="10" class="content_blue_bold_2"><img src="https://www.ocbcwhhk.com/webpages/en-us/images/spacer.gif" width="10" height="1"></td>
+                  <td height="20" class="content_black"><div id="str1">The above information is for reference only. Please contact our branch for details.</div></td>
+                </tr>
+              </tbody></table>
+              </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+         </tbody></table>
+         
+
+          </td></tr><tr>
+            <td>&nbsp;</td>
+          </tr>
+		</tbody></table>
+         
+          </td></tr>
+            
+			<tr><td>&nbsp;</td></tr>
+        </tbody></table></div>
+								</div><!-- / menu2 -->
+
+								<div id="menu3" class="tab-pane fade">
+									<div class="col-md-12">
+										
+										<div class="stockInfo_sect">
+											<h5>Stock code</h5>
+											<input name="stockvalue2" id="stockvalue2" type="text" class="stockcode"><button class="btn btn-red btn-big" onclick="searchstock(document.getElementById('stockvalue2').value)">Go</button> <br>
+											<br>
+											
+											<p><a href="/webpages/en-us/html/redirect.html?site=AAStocks" class="link" target="_blank">Market Information</a><br>
+											<span class="subNote">Delayed by at least 15 minutes</span></p>
+											
+										</div><!-- / stockInfo_sect -->
+										<br>
+										<br>
+										<h5>Stock Quote Service Plan</h5>
+										<p>FREE real time stock quote service will be offered to securities trading customers<sup>1</sup>
+										</p>
+										<div class="table-responsive ">
+											<table class="table">
+												<thead>
+													<tr>
+														<th></th>
+														<th>Basic Customer</th>
+														<th>OCBC Wing Hang<br>Premier Banking Customer</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><strong>Internet Banking &amp; Mobile Banking</strong></td>
+                                                        <td>Total 600 times per calendar month</td>
+                                                        <td>Total 2,500 times per calendar month</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+                                        <p>Customers can apply the Additional Stock Quote Service for Internet/Mobile Banking that HK$0.1 per quote (minimum charge per month: HK$20) will be charged for usage on top of the free quotes offered<sup>2</sup>.</p>
+										<br>
+										<br>
+
+										<h5>Trade Incentive Program</h5>
+                                        <p>Additional 100 times FREE Internet/Mobile Banking real-time stock quotes in the following calendar month for every accumulated successful transaction amount of HK$50,000 during the relevant calendar month<sup>3</sup>.</p>
+										<p>Example: <br>
+										In May, total turnover of a customer with basic investment account is HK$180,000, therefore, he will enjoy totally 900 times free Internet/Mobile Banking real-time quotes (i.e. 600 times basic plus 300 times additional) in June.</p>
+									</div><!-- / col-md-12 -->
+                                    <br>
+<br>
+<br>
+
+
+
+									<div class="remark-section">
+										<div class="embedRemark">
+												<h4 class="thinStyle">Remarks</h4>
+												<ol class="remarks-list" style="margin-bottom:0px">
+													<li>Only applicable to OCBC Wing Hang Investment Account holders who are users of Internet Banking / Mobile Banking Services.</li>
+													<li>Any fraction of HK$10 payable will be rounded upward to the nearest ten dollars. For example, service fee of HK$30 will be charged for the usage of 201 times real-time stock quotes on top of the free quotes offered. The service fee will be debited from customer's settlement account monthly and real-time stock quote service will be suspended automatically once the service fee cannot be received due to insufficient balance.</li>
+													<li>Customers shall trade securities via OCBC Wing Hang. Each investment account shall form a separate basis for the calculation of such transactions for each calendar month and no transaction can be carried forward to the next calendar month.</li>
+												</ol>
+												<p>OCBC Wing Hang Shares Brokerage Co. Limited, a subsidiary of OCBC Wing Hang and an exchange participant of the Stock Exchange of Hong Kong Limited, is the official broker of OCBC Wing Hang.</p><br>
+
+												<div class="content-title remark-importantNote"><strong>Risk Disclosure &amp; Important Notice</strong></div>
+												<p>Investment involves risks, including the substantial loss of the principal amount invested. The prices of securities may move up or down, sometimes dramatically and may even become valueless. Past performance is not indicative to future performance. It is as likely that losses will be incurred rather than profits made as a result of trading in securities. Renminbi-denominated securities have different features and varying degrees of risks. Before making any investment decision, you should read and consider the relevant risk disclosure statement(s). You should also seriously consider if trading in the relevant securities is suitable for you in light of your own financial resources and position, investment objectives, investment experience, risk profile and other relevant circumstances before making any investment decision. If necessary, please obtain independent professional advice before making any investment decision.</p>
+												<p>The information in this promotional material is neither a recommendation, an offer, nor solicitation of an offer to trade in securities.</p>
+												<p>This promotional material is published by OCBC Wing Hang and has not been reviewed by the Securities and Futures Commission or any regulatory authority in Hong Kong.</p>
+											</div>
+									</div>
+								</div><!-- / menu3 -->
+							</div>
+						</div><!-- / inner-container -->
+					</div><!-- / outer-container -->
+				</div><!-- / container -->
+			</div><!-- / containerMain -->
+		</div><!-- main-content end -->
+	</div>
+
+	<div id="savingsRatesTable" style="display:none">
+		<table style="border-collapse:collapse" width="100%" cellspacing="0" cellpadding="4" bordercolor="#0E5EB8" border="1">
+			<tbody>
+				<tr bgcolor="#BAF3FE">
+					<td class="content_black" height="40" bgcolor="#51A3F4">
+						<div align="center"><span class="title_wht_bold">Account Balance (HKD)</span></div>
+						<div class="content_blue_bold" align="center"></div>
+					</td>
+					<td class="content_black" bgcolor="#51A3F4"><div class="title_wht_bold" align="center">Applicable Interest Rate Per Annum</div></td>
+				</tr>
+				<tr>
+					<td class="content_black"><div align="center">10,000 or below</div></td>
+					<td class="content_black"><div align="center">0%</div></td>
+				</tr>
+				<tr>
+					<td class="content_black" rowspan="2"><div align="center">Above 10,000</div></td>
+					<td class="content_black"><div align="center">0.25% for the first HKD1,000,000 <br>(i.e. balance from HKD0 to 1,000,000)</div></td>
+				</tr>
+				<tr>
+					<td class="content_black"><div align="center">0.10% for the remainder <br>(i.e. balance above HKD1,000,000)</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+    <footer class="footPage">
+	<div class="containerMain">
+		<div class="foot_top">
+            <ul class="foot_top_list">
+                <li><a href="/about/en/careers/opportunities-available.html">Career Opportunities</a></li>
+                <li><a href="https://www.ocbcwhhk.com/webpages/en-us/html/online_app/online_app.html">Online Application</a></li>
+                <li><a href="/about/en/investor/regulatory-disclosure.html">Regulatory Disclosure</a></li>
+                <li><a href="https://www.ocbcwhhk.com/webpages/en-us/html/download_form/download_form.html">Forms &amp; Terms and Conditions</a></li>
+                <li><a href="https://www.ocbcwhhk.com/webpages/en-us/html/disclaimer/cus_notices.html">Customer Notices</a></li>
+                <li><a href="http://www.ocbcwhhk.com/SF2" target="_blank" rel="noopener noreferrer">Service Fees</a></li>
+                <li><a href="/personal-banking/en/barrier-free.html">Barrier-free Banking Services</a></li>
+            </ul>
+			<div class="foot_logo"><img src="/personal-banking/images/footer_logo.jpg" alt="Carbon Smart badge, Hong Kong Awards for Environmental Excellence - Energywi$e label, Hong Kong Awards for Environmental Excellence - Wastewi$e label"></div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="containerMain">
+		Copyright © 2008 - 2018 OCBC Wing Hang Bank Limited All Rights Reserved
+		&nbsp;&nbsp; <a href="https://www.ocbcwhhk.com/webpages/en-us/html/disclaimer/disclaimer.html">Disclaimer</a>    | 	<a href="https://www.ocbcwhhk.com/webpages/en-us/html/disclaimer/privacy.html">Privacy Policy &amp; Personal Information Collection Statement</a>
+	</div>
+	</div>
+</footer>
+
+	<input type="hidden" id="RateTablePageCount" name="RateTablePageCount" value="4">
+	<input type="hidden" id="tableDataUrl_1" name="tableDataUrl_1" value="https://www.ocbcwhhk.com/whb/action/rate/whbRate.do?id=fc_exchange_rate_gold&amp;locale=en-us">
+	<input type="hidden" id="lastUpdateDiv_1" name="lastUpdateDiv_1" value="UPDATE_fn_vs_hkd,UPDATE_gold_rate">
+	<input type="hidden" id="tableDataUrl_2" name="tableDataUrl_2" value="https://www.ocbcwhhk.com/whb/action/rate/whbRate.do?id=fc_deposit_rate&amp;locale=en-us">
+	<input type="hidden" id="lastUpdateDiv_2" name="lastUpdateDiv_2" value="UPDATE_fc_deposit_rate">
+	<input type="hidden" id="tableDataUrl_3" name="tableDataUrl_3" value="https://www.ocbcwhhk.com/whb/action/rate/whbRate.do?id=hkd_dep_rate&amp;locale=en-us">
+	<input type="hidden" id="lastUpdateDiv_3" name="lastUpdateDiv_3" value="UPDATE_hkd_sav_rate,UPDATE_hkd_dep_rate,UPDATE_hkd_dep_plan">
+	<input type="hidden" id="tableDataUrl_4" name="tableDataUrl_4" value="https://www.ocbcwhhk.com/whb/action/rate/whbRate.do?id=prime_lending_rate&amp;locale=en-us">
+	<input type="hidden" id="lastUpdateDiv_4" name="lastUpdateDiv_4" value="UPDATE_prime_lending_rate">
+
+    <script type="text/javascript" src="../../common/js/bootstrap.js"></script>
+<script type="text/javascript">
+	function searchstock(value){
+	var langurl = 'en-us';
+	var finlang = 'eng';
+	if (value != ""){
+		var finurl = 'https://product1.aastocks.com/Snapshot/WHBL/Quote.aspx?aaLanguage='+finlang+'&aaSymbol='+value;
+		window.open(finurl,'830_PORTAL','');
+	}else{
+		window.open('https://product1.aastocks.com/Snapshot/WHBL/Quote.aspx?aaLanguage='+finlang,'830_PORTAL','');
+	}
+	
+}
+</script>
+
+
+
+</body></html>

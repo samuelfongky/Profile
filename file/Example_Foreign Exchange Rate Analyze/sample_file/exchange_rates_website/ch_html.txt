@@ -1,0 +1,1748 @@
+<html lang="en"><!-- InstanceBegin template="/Templates/subpage_.dwt" codeOutsideHTMLIsLocked="false" --><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Chong Hing Bank - Foreign Currency Exchange</title>
+    <!-- InstanceEndEditable -->
+    <link rel="stylesheet" type="text/css" href="../../../../../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/subpage.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/print.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/external_alert.css"><!--2019-04-02-->
+    <script async="" src="../js/analytics.js"></script><script src="../../../../../js/en/external_alert.js"></script><!--2019-04-02-->
+    <script src="../../../../../js/jquery.min.js"></script>
+    <script src="../../../../../js/bootstrap.min.js"></script>
+    <script src="../../../../../js/swiper.min.js"></script>
+    <script src="../../../../../js/ratesXML.js"></script>
+    <script src="../../../../../js/loadxml.js"></script>
+
+
+    <!--  subpage&main.js is inside body.shtml -->
+
+    <link type="image/x-icon" rel="icon" href="../../../../../img/favicon2.ico">
+    <link type="image/x-icon" rel="shortcut icon" href="../../../../../img/favicon2.ico">
+    <!--javascript-->
+    <script type="text/javascript">
+
+        function logon_m(){
+            var iBankingLocation = "https://www.ibanking.chbank.com/index0041.html";
+            var isNetscape = (navigator.appName == "Netscape");
+            var features = '';
+            var winWidth = screen.availWidth > 1024 ? 1024 : screen.availWidth-10;
+            var winHeight = screen.availHeight >= 768 ? 768 : screen.availHeight-45;
+            var left = screen.availWidth <= 1024 ? 0 : (screen.availWidth-winWidth) / 2;
+            var top = (screen.availHeight - winHeight-45) / 2;
+            var ibank;
+
+            features = 'resizable, scrollbars, status, width=' + winWidth + ', height=' + winHeight;
+
+            if (isNetscape)
+                features += ', screenX=' + left + ', screenY=' + top;
+            else
+                features += ', left=' + left + ', top=' + top;
+
+            ibank = window.open(iBankingLocation,"ibank",features);
+
+            ibank.focus();
+        }
+
+
+        // Include header, body and footer
+        $(function(){
+
+            $("#HeaderInclude").load("/en/personal/include/header.shtml");
+            $("#BodyInclude").load("/en/personal/include/body.shtml");
+            $("#FooterInclude").load("/en/personal/include/footer.shtml");
+        });
+
+
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id="HeaderInclude"><!-- info start 2019-12-10  -->
+<!--<div class="info">
+    <div class="infoWrap">	
+		<i class="icon icon_info"></i>
+        Beware of Unauthorised Chong Hing Bank mobile application download website, fraudulent voice message phone calls, fraudulent SMS messages. <br />
+        <span style="margin-left: 25px;">Please read our <a href="/en/personal/digital-services/internet-banking/security/index.shtml"><u>Security Information</u></a></span>.
+        <button class="btn btn-close">Close</button>
+    </div>
+</div>--><!-- info end -->
+
+<div class="modal transit" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal">
+  <div class="modal-dialog modal-blackbg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<a href="#" class="btn-wrap" tabindex="0" data-dismiss="modal" aria-label="Close">
+			<button type="button" class="modal-close" tabindex="-1"><i class="fas fa-times"></i></button>
+		</a>
+		<a href="#" onclick="logon_m();" class="btn-wrap" "="" tabindex="0">
+			<button class="btn btn-login-modal btn-gradient" tabindex="-1"><i class="icon icon_lock"></i>i-banking <i class="fas fa-chevron-right"></i></button>
+		</a>
+		<div class="loginTips"><a href="/en/personal/digital-services/internet-banking/activation.shtml" class="link" target="_blank">Activate your i-banking account</a></div>
+		<a href="https://online1.chsec.com.hk/en/web/guest/notice-to-clients" target="_blank" class="btn-wrap" "="" tabindex="0">
+			<button class="btn btn-login-modal btn-gradient" tabindex="-1"><i class="icon icon_lock"></i>CH Securities<i class="fas fa-chevron-right"></i></button>
+		</a>
+		<div class="loginTips">Apply <a href="https://online.chsec.com.hk/eBookingRegister/customerNotice.do?language=en_US" target="_blank" class="link">CH Securities Account.</a></div>
+	  </div>
+    </div>
+  </div>
+</div><!-- login modal -->
+<header>
+  <div class="nav clearfix">
+    <div class="menuDesktop">
+		<div class="logo"><a href="/en/homepage.shtml"><img src="/img/chb_logo.png" alt="Chong Hing Bank"></a></div>
+		<div class="container">
+			<ul class="main_menu">
+				<li>
+					<a href="/en/personal/banking-services/index.shtml">Banking Services</a>
+					<div class="submenu">
+						<div class="container">
+							<div class="row equal">
+								<div class="col-xs-3">
+									<ul class="submenu-tab">
+										<li class="active"><a data-target="#submenu01-tab01">Private Banking</a></li>
+										<li><a data-target="#submenu01-tab02">Account Services</a></li>
+										<li><a data-target="#submenu01-tab03">Credit Card</a></li>
+										<li><a data-target="#submenu01-tab06">Loans</a></li>
+										<li><a data-target="#submenu01-tab04">Other Services</a></li>
+										<li><a data-target="#submenu01-tab05">Useful Information</a></li>
+
+										<!-- <li><a href="/en/personal/latest-promotion-offer/index.shtml">Latest Promotion Offer</a></li> -->
+										<!--li><a data-target="#submenu01-tab06">General Insurance</a></li-->
+									</ul>
+								</div>
+
+								<div class="col-xs-9">
+									<div class="row submenu-content" id="submenu01-tab01">
+										<div class="col-xs-4">
+											<ul class="submenu-list">
+												<li>
+													<a href="/en/personal/banking-services/private-banking/index.shtml"><div class="header-wrap">Private Banking</div></a>
+													<p>Chong Hing Private Banking strives to offer you one-stop private banking services. We provide flexible and comprehensive asset allocation solutions which encompass investment, life insurance, credit solutions, etc. for meeting your unique needs. We are here to help you achieve extraordinary life quality and have a wonderful life.</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="row submenu-content" id="submenu01-tab02">
+										<div class="col-xs-4">
+											<ul class="submenu-list">
+												
+												
+												<li>
+													<a href="/en/personal/banking-services/exceed-banking/index.shtml"><div class="header-wrap" style="font-weight:bold;color:#FF6633;">Exceed Banking</div></a>
+													<p>Exceed Banking</p>
+												</li>
+												
+												
+												<li>
+													<a href="/en/personal/banking-services/account-services/hkd-foreign-currency-savings-deposit/index.shtml"><div class="header-wrap">HKD / Foreign Currency Savings Deposit Account</div></a>
+													<p>Opt for flexible currency exchange anytime</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/account-services/current-account/index.shtml"><div class="header-wrap">Current Account</div></a>
+													<p>Settle your day-to-day personal or business payment</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/account-services/fixed-deposit-account/index.shtml"><div class="header-wrap">Fixed Deposit Account</div></a>
+													<p>Cater yourself with a high-yield and safety savings tool without delay</p>
+												</li>
+												
+											</ul>
+										</div>
+										<div class="col-xs-4">
+											<ul class="submenu-list">
+												<li>
+													<a href="/en/personal/banking-services/account-services/rmb-services/index.shtml"><div class="header-wrap">RMB services</div></a>
+													<p>Our RMB services encompass deposit, cheque, remittance and bank cards functions.</p>
+												</li>
+
+												<li>
+													<a href="/en/personal/banking-services/account-services/payroll-account-services/index.shtml"><div class="header-wrap">Payroll Account Services</div></a>
+													<p>Convernient "Payroll Account Services" helps you manage your wealth hassle-freely</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/account-services/i-kid-savings-account/index.shtml"><div class="header-wrap">i-kid Savings Account</div></a>
+													<p>Equip your kid to saving avocation now</p>
+												</li>
+												<!-- <li>
+													<a href="/en/personal/banking-services/account-services/my-dream-hkd-savings/index.shtml"><div class="header-wrap">My Dream HKD Savings</div></a>
+													<p>Take the concrete step and navigate your savings goal anytime!</p>
+												</li> -->
+												<li>
+													<a href="/en/personal/banking-services/account-services/fps-qr-generator/index.shtml"><div class="header-wrap">Faster Payment System QR Generator</div></a>
+												</li>
+											</ul>
+										</div>
+									</div><!-- submenu01-tab01 end -->
+
+									<div class="row submenu-content" id="submenu01-tab03">
+										<div class="col-xs-4">
+											<div class="h6">Personal Credit Cards</div>
+											<ul class="submenu-list autoHeight">
+												<li>
+													<a href="/en/personal/banking-services/card/credit-cards/personal-credit-cards/chong-hing-credit-card/index.shtml">Chong Hing Credit Card</a>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/card/credit-cards/personal-credit-cards/co-branded-credit-card/index.shtml">Co-branded Credit Card</a>
+												</li>
+												<li></li>
+											</ul>
+											<div class="h6">Corporate Credit Cards</div>
+											<ul class="submenu-list autoHeight">
+												<li>
+													<a href="/en/commercial/banking-services/card/corporate-credit-cards/index.shtml">Chong Hing Visa Platinum Corporate Card</a>
+												</li>
+											</ul>
+											<div class="h6">Credit Card Promotions</div>
+				<ul class="submenu-list autoHeight">
+				  <li><a href="/en/personal/banking-services/card/credit-cards/credit-cards-benefits/index.shtml">Visa/Mastercard/UnionPay Latest Promotions</a></li>
+				  <li><a href="/en/personal/banking-services/card/credit-cards/installment-loan/index.shtml">Installment Loan Program</a></li>
+				  <li><a href="/en/personal/banking-services/card/credit-cards/statement-installment/index.shtml">Statement Installment Program</a></li>
+				  <li><a href="/en/personal/banking-services/card/credit-cards/credit-cards-benefits/index2.shtml">Year Round Offers</a></li>
+				</ul>
+										</div>
+										<div class="col-xs-4">
+											<div class="h6">Merchant Acquiring Services</div>
+											<ul class="submenu-list autoHeight">
+												<li>
+													<a href="/en/commercial/banking-services/card/merchant-acquiring-services/index.shtml">Merchant Acquiring Services</a>
+												</li>
+												<!--
+												<li>
+												  <a href="/en/commercial/banking-services/card/merchant-acquiring-services/index.shtml">MasterCard Card Merchant Acquiring Services</a>
+												</li>
+												<li>
+												  <a href="/en/commercial/banking-services/card/merchant-acquiring-services/index.shtml">Unionpay Card Merchant Acquiring Services</a>
+												</li>
+												<li>
+												  <a href="/data/media/document/WeChatPaySetUpGuide_en.pdf" target="_blank">WeChat Pay</a>
+												</li>
+												<li>
+												  <a href="/en/personal/banking-services/card/merchant-acquiring-services/jetcop2m/index.shtml">Jetco P2M</a>
+												</li>
+												-->
+												<li></li>
+											</ul>
+											<div class="h6">Useful Information</div>
+											<ul class="submenu-list autoHeight">
+												<li><a href="/en/personal/digital-services/online-applications/credit-card/index.shtml">Credit Card Online Application</a></li>
+												<li><a href="https://www.chbank.com/ndcs/#/creditcard/activate?nl=en" target="_blank" class="uatLink">Online Credit Card Activation</a></li>
+												<li><a href="https://www.chbank.com/ndcs/#/dial-a-loan/apply?nl=en" target="_blank" class="uatLink">“Instalment Loan Program ” Online Application</a></li>
+												<li><a href="https://www.chbank.com/ndcs/#/dial-a-loan/supply?nl=en" target="_blank" class="uatLink">Online Documents Submission - “Instalment Loan Program”</a></li>
+												<li><a href="/tc/pdf/key_fact_statement.pdf" target="_blank">Chong Hing Credit Card Key Facts Statement</a></li>
+												<li><a href="/en/personal/banking-services/useful-information/form-download/index.shtml">Form Download</a></li>
+												
+											</ul>
+										</div>
+
+									</div><!-- submenu01-tab02 end -->
+
+									<div class="row submenu-content" id="submenu01-tab04">
+										<div class="col-xs-4">
+											<ul class="submenu-list">
+												<!--<li>
+													<a href="/en/personal/banking-services/other-services/cross-border-customers/index.shtml"><div class="header-wrap">Cross Border Service</div></a>
+													<p>Assist cross-border customers to manage their finance with ease and grasp the opportunities to grow wealth.</p>
+												</li>-->
+												<!--<li>
+													<a href="/en/personal/banking-services/other-services/hong-kong-account-opening/index.shtml"><div class="header-wrap">Hong Kong Account Opening Witness Service</div></a>
+													<p>Chong Hing Bank provides a wide range of value-added services for the convenience of our customers and to meet their financial needs.</p>
+												</li>-->
+												<li>
+													<a href="/en/personal/banking-services/other-services/remittance-services/index.shtml"><div class="header-wrap">Remittance Services</div></a>
+													<p>Through our established global network of correspondents, you can manage your fund throughout the world at your fingertips safely.</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/other-services/faster-payment-system/index.shtml"><div class="header-wrap">Faster Payment System (FPS)</div></a>
+													<p>Enjoy the instant local fund transfer with convenience.</p>
+												</li>
+												
+												<li>
+													<a href="/en/personal/banking-services/other-services/foreign-currency-money/index.shtml"><div class="header-wrap">Foreign Currency Money Exchange</div></a>
+													<p>Foreign Currency Savings Account gives you financial flexibility.</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/other-services/safe-deposit-box/index.shtml"><div class="header-wrap">Safe Deposit Box</div></a>
+													<p>You can enjoy a reliable storage with high confidentiality.</p>
+												</li>
+												
+											</ul>
+										</div>
+										<div class="col-xs-4">
+											<ul class="submenu-list">
+
+												
+												<li>
+													<a href="/en/personal/banking-services/other-services/gift-voucher/index.shtml"><div class="header-wrap">Gift Voucher</div></a>
+													<p>Our well-designed gift voucher should be your smart choice at any occasion and festivity!</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/china-overseas/index.shtml"><div class="header-wrap">Mainland China &amp; Overseas Services</div></a>
+													<p>Provides a wide range of banking services including</p>
+												</li>
+												
+												
+												 <li>
+													<a href="/en/personal/digital-services/index.shtml"><div class="header-wrap">Digital Services</div></a>
+													<p>Our professionals will support you with the best tailor-made financial solution to suit your different business needs.</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/other-services/mpf/index.shtml"><div class="header-wrap">MPF</div></a>
+													<p>MPF</p>
+												</li>
+
+											</ul>
+										</div>
+
+										<!--<div class="col-xs-4">
+											<ul class="submenu-list">
+											   
+											</ul>
+										</div>-->
+									</div><!-- submenu01-tab03 end -->
+
+									<div class="row submenu-content" id="submenu01-tab05">
+										<div class="col-xs-4">
+											<ul class="submenu-list">
+												<li>
+													<a href="/en/personal/banking-services/useful-information/deposit-rates/index.shtml"><div class="header-wrap">Deposit Rates</div></a>
+													<p>To suit your business needs, we offer a wide variety of deposit services.</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/useful-information/foreign-currency-exchange/index.shtml"><div class="header-wrap">Foreign Currency Exchange Rates</div></a>
+													<p></p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/useful-information/documents-required/index.shtml"><div class="header-wrap">Documents Required for Opening Personal Accounts</div></a>
+													<p>A wide range of value-added services for the convenience of our customers and to meet their financial needs.</p>
+												</li>
+												<li>
+													<a href="/en/personal/digital-services/online-applications/index.shtml" target="_blank"><div class="header-wrap">Online appointment for Account Opening</div></a>
+													<p>You can manage your fund throughout the world at your fingertips safely.</p>
+												</li>
+												
+											</ul>
+										</div>
+										<div class="col-xs-4">
+											<ul class="submenu-list">
+												<li>
+													<a href="/en/personal/banking-services/loans/consumer-loan/personal-loan-calculator/index.shtml"><div class="header-wrap">Calculators</div></a>
+													<p>Foreign Currency Savings Account gives you financial flexibility.</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/useful-information/service-charges/index.shtml"><div class="header-wrap">Service Charges</div></a>
+													<p>You can enjoy a reliable storage with high confidentiality.</p>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/useful-information/form-download/index.shtml"><div class="header-wrap">Form Download</div></a>
+													<p>Our well-designed gift voucher should be your smart choice at any occasion and festivity!</p>
+												</li>
+												<li><a href="http://www.chbank.com/en/personal/banking-services/useful-information/security/index.shtml">Security Tips for Using Bank Accounts</a></li>
+											</ul>
+										</div>
+									</div>
+
+									<!-- submenu01-tab04 end -->
+
+									<div class="row submenu-content" id="submenu01-tab06">
+										<div class="col-xs-4">
+											<div class="h6"><a href="/en/personal/banking-services/loans/mortgage-loan/index.shtml">Mortgage Loan</a></div>
+											<ul class="submenu-list autoHeight">
+												<li>
+													<a href="/en/personal/banking-services/loans/mortgage-loan/residential-mortgage-loan/index.shtml">Residential Mortgage Loan</a>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/loans/mortgage-loan/mortgage-insurance-programme/index.shtml">Mortgage Insurance Programme</a>
+												</li>
+												<li>
+													<a href="/en/personal/banking-services/loans/mortgage-loan/government-housing-schemes/index.shtml">Government Housing Schemes</a>
+												</li>
+												<!--
+												<li>
+												  <a href="/en/personal/banking-services/loans/mortgage-loan/mortgage-loan-calculator/index.shtml">Mortgage Loan Calculator</a>
+												</li>
+
+												<li>
+												  <a href="/en/personal/digital-services/online-applications/index.shtml">Online Application</a>
+												</li>
+												<li>
+												  <a href="/en/personal/footer/others/key-facts-statement/index.shtml">Key Facts Statement</a>
+												</li>-->
+											</ul>
+										</div>
+										<div class="col-xs-4">
+											<div class="h6"><a href="/en/personal/banking-services/loans/index.shtml">Consumer Loan</a></div>
+											<ul class="submenu-list autoHeight">
+												<li>
+													<a href="/en/personal/banking-services/loans/consumer-loan/personal-loan/index.shtml">Personal Loan</a>
+												</li>
+												<!--
+												<li class="entryElement">
+												  <a href="/en/personal/banking-services/loans/consumer-loan/tax-loan/index.shtml">Tax Loan</a>
+												</li>
+												-->
+												<li>
+													<a href="/en/personal/banking-services/loans/pledged-deposit/index.shtml">Pledged Deposit Overdraft Facility</a>
+												</li>
+												
+												
+												
+												<!--<li>
+												  <a href="/en/personal/banking-services/loans/consumer-loan/personal-loan-calculator/index.shtml">Personal Loan Calculator</a>
+												</li>
+
+												<li>
+												  <a href="/en/personal/banking-services/loans/consumer-loan/tax-loan-calculator/index.shtml">Tax Loan Calculator</a>
+												</li>
+
+												<li>
+												  <a href="/en/personal/digital-services/online-applications/index.shtml">Online Application</a>
+												</li>
+												<li>
+												  <a href="/en/personal/footer/others/key-facts-statement/index.shtml">Key Facts Statement</a>
+												</li>-->
+											</ul>
+										</div>
+										<!--
+										<div class="col-xs-4">
+											<div class="h6"><a href="/en/personal/banking-services/loans/car-loan/index.shtml">Car Loan</a></div>
+											<ul class="submenu-list autoHeight">
+												<li>
+													<a href="/en/personal/banking-services/loans/car-loan/index.shtml">Car Loan</a>
+												</li>
+											</ul>
+										</div>
+										-->
+									</div><!-- submenu01-tab05 end -->
+									<!--div class="row submenu-content" id="submenu01-tab06">
+									<div class="col-xs-4">
+										<ul class="submenu-list">
+										  <li>
+											<a onclick="e_alert(` https://www.chins.com.hk/en/travel-plus-2-0-en/`)"><div class="header-wrap">Travel Plus2.0</div></a>
+											<p>Travel Plus2.0</p>
+										  </li>
+										  <li>
+											<a href="/en/personal/banking-services/general-insurance/domestic-helper-plus/index.shtml"><div class="header-wrap">Domestic Helper Plus</div></a>
+											<p>Domestic Helper Plus</p>
+										  </li>
+										  <li>
+											<a href="/en/personal/banking-services/general-insurance/personal-accident-insurance-plan/index.shtml" target="_blank"><div class="header-wrap">Personal Accident Insurance Plan</div></a>
+											<p>Personal Accident Insurance Plan</p>
+										  </li>
+										  <li>
+											<a href="/en/personal/banking-services/general-insurance/family-plus/index.shtml"><div class="header-wrap">Family Plus</div></a>
+											<p>Family Plus</p>
+										  </li>
+										</ul>
+									  </div>
+									  <div class="col-xs-4">
+										<ul class="submenu-list">
+										  <li>
+											<a href="/en/personal/banking-services/general-insurance/car-plus/index.shtml"><div class="header-wrap">Car Plus</div></a>
+											<p>Car Plus</p>
+										  </li>
+										  <li>
+											<a href="/en/personal/banking-services/general-insurance/fire-insurance/index.shtml"><div class="header-wrap">Fire Insurance</div></a>
+											<p>Fire Insurance</p>
+										  </li>
+										</ul>
+									  </div>
+									</div-->
+
+
+
+
+								</div>
+							</div>
+						</div>
+					</div><!-- sub menu end -->
+				</li>
+				<li>
+					<a href="/en/personal/wealth-management/index.shtml">Wealth Management</a>
+					<div class="submenu">
+						<div class="container">
+							<div class="row">
+
+								<div class="col-xs-3">
+									<div class="h6">Investment Choices</div>
+									<ul class="submenu-list">
+										<li><a href="/en/personal/wealth-management/investment-choices/securities-investment/index.shtml">Securities Investment</a><br><span style="font-size:0.8em;">(provided by Chong Hing Securities)</span></li>
+										<li><a href="/en/personal/wealth-management/investment-choices/commodities-futures-investment/index.shtml">Commodities &amp; Futures Investment</a><br><span style="font-size:0.8em;">(provided by Chong Hing Commodities &amp; Futures)</span></li>
+										<li><a href="/en/personal/wealth-management/investment-choices/investment-funds-services/index.shtml">Investment Funds Services</a></li>
+										<li><a href="/en/personal/wealth-management/investment-choices/currency-linked-deposit/index.shtml">Currency Linked Deposit</a></li>
+										<li><a href="/en/personal/wealth-management/investment-choices/bond-investment-services/index.shtml">Bond Investment Services</a></li>
+									</ul>
+								</div>
+
+								<div class="col-xs-3">
+									<div class="h6"><a href="/en/personal/wealth-management/life-insurance/index.shtml">Life Insurance</a></div>
+									<ul class="submenu-list">
+										<li><a href="/en/personal/wealth-management/life-insurance/life-protection-plans/index.shtml">Life Protection Plans</a></li>
+										<li><a href="/en/personal/wealth-management/life-insurance/retirement-plans/index.shtml">Retirement Plans</a></li>
+										<li><a href="/en/personal/wealth-management/life-insurance/education-savings-plans/index.shtml">Education Savings Plans</a></li>
+										<li><a href="/en/personal/wealth-management/life-insurance/savings-investments-plans/index.shtml">Savings &amp; Investments Plans</a></li>
+										<li><a href="/en/personal/wealth-management/life-insurance/medical-insurance-plans/index.shtml">Medical Insurance Plans</a></li>
+										<!--<li><a href="/en/personal/wealth-management/life-insurance/promotions/index.shtml">Promotions</a></li>-->
+										
+										<li><a onclick="e_alert4('https://www.chins.com.hk/en/')"><span style="font-weight:bold; color:#FF6633;">General Insurance</span></a><br><span style="font-size:0.8em;">(provided by Chong Hing Insurance Co Ltd.)</span></li>
+										
+									</ul>
+									
+								</div>
+								
+								<!--
+								<div class="col-xs-3">
+									
+									<ul class="submenu-list">
+										<li><a onclick="e_alert('https://www.chins.com.hk/en/travel-plus-2-0-en/')">Travel Plus2.0</a></li>
+										<li><a href="/en/personal/wealth-management/general-insurance/domestic-helper-plus/index.shtml">Domestic Helper Plus</a></li>
+										<li> <a href="/en/personal/wealth-management/general-insurance/personal-accident-insurance-plan/index.shtml" target="_blank">Personal Accident Insurance Plan</a></li>
+										<li><a href="/en/personal/wealth-management/general-insurance/family-plus/index.shtml">Family Plus</a></li>
+										<li><a href="/en/personal/wealth-management/general-insurance/car-plus/index.shtml">Car Plus</a></li>
+										<li><a href="/en/personal/wealth-management/general-insurance/fire-insurance/index.shtml">Fire Insurance</a></li>
+
+									</ul>
+								
+								</div>
+								-->
+
+								<div class="col-xs-3">
+									<div class="h6">Wealth Management Tools</div>
+
+									<ul class="submenu-list">
+										<li><a href="/en/fund_wb.html" target="_blank">Fund Search</a></li>
+										<li><a href="/tc/pdf/fund_performance_monthly_report.pdf" target="_blank">Fund Performance Monthly Report</a></li>
+										<li><a href="/en/pdf/tools/IPQPersonalEng.pdf" target="_blank">Investment Profile Questionnaire and Vulnerable Customer Assessment - Personal / Joint</a></li>
+										<li><a href="/en/personal/wealth-management/tools/video-training.shtml">Video of Derivative Product Knowledge</a></li>
+										<li><a href="/en/pdf/tools/risk_level_description_en.pdf" target="_blank">Product Risk Rating and Customer Risk Profile</a></li>
+									</ul>
+								</div>
+								
+								<div class="col-xs-3">
+									<div class="h6">Cross-boundary Wealth Management Connect</div>
+									<ul class="submenu-list">
+										<li><a href="/en/personal/wealth-management/wmc/index.shtml">Cross-boundary Wealth Management Connect</a></li>
+									</ul>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="/en/personal/digital-services/index.shtml">Digital Services</a>
+					<div class="submenu">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-3">
+									<ul class="submenu-list">
+										<li><a href="/en/personal/digital-services/mobile-apps/new-services/index.shtml">Mobile Banking</a></li>
+										<li><a href="/en/personal/digital-services/mobile-apps/index.shtml">Mobile App</a></li>
+										<li><a href="/en/personal/digital-services/internet-banking/index.shtml">Internet Banking</a></li>
+										<li><a href="/en/personal/digital-services/phone-banking/index.shtml">Phone Banking</a></li>
+										<li><a href="/en/personal/digital-services/atm/index.shtml">ATM</a></li>
+										<li><a href="/en/personal/banking-services/card/chong-hing-cards/index.shtml">ATM Card</a></li>
+
+
+
+
+
+									</ul>
+								</div>
+								<div class="col-xs-3">
+									<ul class="submenu-list">
+										<li><a href="/en/personal/digital-services/open-api/index.shtml">Open API</a></li>
+										<li><a href="/en/personal/banking-services/other-services/faster-payment-system/index.shtml">Faster Payment System</a></li>
+										<li><a href="/en/personal/digital-services/mobile-token/index.shtml">Mobile Token</a></li>
+										<!-- <li><a href="/en/personal/banking-services/card/merchant-acquiring-services/jetcop2m/index.shtml">JETCOPAY</a></li> -->
+
+									</ul>
+								</div>
+								<div class="col-xs-3">
+									<ul class="submenu-list">
+										<li><a href="https://www.chbank.com/ndcs/#/apply/formsubmit?nl=en">Online Application Submission</a></li>
+										<li><a href="/en/personal/digital-services/online-applications/index.shtml">Online applications</a></li>
+										<!--<li><a href="/en/personal/digital-services/online-doc-submission/index.shtml">Online Documents Submission</a></li>-->
+										<!--<li><a href="/en/personal/digital-services/linkedin/index.shtml">LinkedIn</a></li>-->
+										<!--<li><a href="/en/personal/digital-services/e-cheque/index.shtml">e-Cheque</a></li>-->
+										<li><a href="/en/personal/digital-services/internet-banking/security/index.shtml">Security Tips</a></li>
+										<li><a href="/en/personal/digital-services/atm-security/index.shtml">Security Tips for using ATM</a></li>
+
+										<li><a href="/en/personal/digital-services/system-maintenance/index.html">System Maintenance</a></li>
+
+									</ul>
+								</div>
+
+								<div class="col-cs-3">
+									<ul class="submenu-list">
+										<li><a href="/en/personal/digital-services/wechat/index.shtml">WeChat Official Account</a></li>
+										<li><a href="/en/personal/digital-services/exclusive-promotion-offer/index.shtml">Exclusive Promotions &amp; Offers</a></li>
+									</ul>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<a href="/en/commercial/index.shtml">Corporate Banking</a>
+
+				</li>
+
+				<li>
+					<a href="/en/personal/footer/about-ch-bank/bank-profile/index.shtml">About Us</a>
+					<div class="submenu">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-3">
+									<ul class="submenu-list">
+										<li><a href="/en/personal/footer/about-ch-bank/bank-profile/index.shtml">Bank Profile</a></li>
+										<li><a href="/en/personal/footer/about-ch-bank/corporate-culture/index.shtml">Corporate Culture</a></li>
+										<li><a href="/en/personal/footer/about-ch-bank/70th-anniversary/index.shtml">Chong Hing Bank 70<sup>th</sup> Anniversary</a></li>
+										<li><a href="/en/personal/footer/about-ch-bank/investor-relations/index.shtml">Investor Relations</a></li>
+									</ul>
+								</div>
+								<div class="col-xs-3">
+									<ul class="submenu-list">
+										<li><a href="/en/personal/footer/about-ch-bank/corporate-news/index.shtml">Corporate News</a></li>
+										<li><a href="/en/personal/footer/about-ch-bank/media-releases/index.shtml">Media Releases</a></li>
+										<li><a href="/en/personal/footer/about-ch-bank/branches/index.shtml">Branches &amp; Service Centres</a></li>
+									</ul>
+								</div>
+								<div class="col-xs-3">
+									<ul class="submenu-list">
+										<li><a href="/en/personal/footer/about-ch-bank/career/index.shtml">Career Opportunities</a></li>
+										<li><a href="/en/personal/footer/about-ch-bank/contact-us/index.shtml">Contact Us</a></li>
+										<li><a href="/en/personal/footer/about-ch-bank/regulatory-disclosures/index.shtml">Regulatory Disclosures</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+		<ul class="smallmenu clearfix">
+			<li class="headerLogin dropdown">
+				<a href="#" class="btn-wrap" id="loginLabel" tabindex="0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<button class="btn btn-login btn-gradient" type="button" tabindex="-1"><i class="icon icon_lock"></i> Logon</button>
+				</a>
+				<div class="dropdown-menu dropdown-loginLabel" aria-labelledby="loginLabel">
+					<div class="dropdown-body">
+						<a class="btn-wrap" tabindex="0" href="https://www.ibanking.chbank.com/index0041.html" target="_blank">
+							<button class="btn btn-login-modal btn-gradient" type="button" tabindex="-1"><i class="icon icon_lock"></i>i-banking<i class="fas fa-chevron-right"></i></button>
+						</a>
+						<div class="loginTips"><a href="/en/personal/digital-services/internet-banking/activation.shtml" class="link" target="_blank">Activate your i-banking account</a></div>
+						<a class="btn-wrap" tabindex="0" href="https://online1.chsec.com.hk/en/web/guest/notice-to-clients" target="_blank">
+							<button class="btn btn-login-modal btn-gradient" type="button" tabindex="-1"><i class="icon icon_lock"></i>CH Securities<i class="fas fa-chevron-right"></i></button>
+						</a>
+						<div class="loginTips">Apply <a href="https://online.chsec.com.hk/eBookingRegister/customerNotice.do?language=en_US" target="_blank" class="link">CH Securities Account.</a></div>
+					</div>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="javascript:;" class="btn-wrap" tabindex="0" id="searchLabel">
+					<button type="button" class="btn-2" tabindex="-1"><i class="icon icon_search"></i></button>
+				</a>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="btn-wrap" id="langLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+					<button class="headerLang btn-2" id="langLabel" type="button" tabindex="-1">EN &nbsp;|&nbsp; Hong Kong <i class="fas fa-chevron-down"></i></button>
+				</a>
+				<div class="dropdown-menu langWrap" aria-labelledby="langLabel">
+					<div class="langTop">
+					  Language:
+					  <ul class="lang">
+						<li class="active"><a href="javascript:enClick();">EN</a></li><li><a href="javascript:tcClick();">繁</a></li><li><a href="javascript:scClick();">简</a></li>
+					  </ul>
+					</div><!-- langtop end -->
+					<div class="langBottom">
+					  <ul class="location">
+						<li class="active"><a href="">Hong Kong</a></li>
+						<li><a href="http://www.chbank.com.cn/sc/index.shtml" target="_blank">Mainland China</a></li>
+					  </ul>
+					</div><!-- langBottom end -->
+				</div>
+			</li>
+		</ul>
+		<form action="/en/search/search_result.shtml?" id="cse-search-box" autocomplete="on" class="search-box-desktop dropdown-menu" aria-labelledby="searchLabel">
+			<input type="hidden" name="cx" value="004523570296458646112:d11b5sam8em">
+			<input type="hidden" name="cof" value="FORID:11;NB:1">
+			<input type="hidden" name="ie" value="UTF-8">
+			<input type="hidden" name="q" id="q" class="headerSearch">
+			<input type="text" name="q" id="q" class="headerSearch" title="search" placeholder="Type keywords to search">
+			<button class="btn btn-clear" type="button" value="clear">Clear</button>
+			<button class="btn btn-search">Search Now</button>
+		</form>
+	</div><!-- menuDesktop end -->
+    <div class="menuMobile">
+      <div class="headerMobile">
+          <!-- warmingsign start  2019-12-10  -->
+          <!--2019-12-12 new -->
+          <!--
+		  <div  >
+              <p style="background-color: #fdcd00;padding:11px;font-size: 14px" id="warning">
+                  <i class="icon icon_info"></i>
+                  <span style="color: black; margin-left: 5px">Beware of Unauthorised Chong Hing Bank mobile application download website, fraudulent voice message phone calls, fraudulent SMS messages.Please read our</span>
+                  <a style="color: black;" href="/en/personal/digital-services/internet-banking/security/index.shtml" target="_blank" rel="noopener noreferrer"><u>Security Information</u>.</a><span class="close" style="color:black">&times;</span>
+              </p>
+          </div>
+		  -->
+          <!-- warmingsign end -->
+        <a href="javascript:;" class="smobitrigger" aria-label="Open menu">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<div class="logo"><a href="/en/homepage.shtml"><img src="/img/chb_logo.png" alt="Chong Hing Bank"></a></div>
+		<a href="#" class="btn-wrap" tabindex="0" data-toggle="modal" data-target="#loginModal">
+			<button class="btn btn-login btn-modalNobg btn-gradient" type="button" tabindex="-1"><i class="icon icon_lock"></i> Logon</button>
+		</a>
+      </div><!-- headerMobile end -->
+      <div class="mobMenuWrap">
+				<div class="headMobile">
+					<div class="mobLang">
+						<a class="orignal" href="javascript:;">EN &nbsp;|&nbsp; Hong Kong <i class="fas fa-chevron-down"></i></a><a class="back" type="button" aria-label="Back" href="javascript:;"><i class="fas fa-arrow-left"></i></a>
+					</div>
+					<a class="menuClose" type="button" aria-label="Close" href="javascript:;"><i class="icon icon_close"></i></a>
+				</div><!-- headMobile end -->
+				<ul class="mobMenu">
+					<div class="searchBox">
+						<form action="/en/search/search_result.shtml?" autocomplete="on" class="search-box-mobile">
+							<input type="hidden" name="cx" value="004523570296458646112:d11b5sam8em">
+							<input type="hidden" name="cof" value="FORID:11;NB:1">
+							<input type="hidden" name="ie" value="UTF-8">
+							<input type="hidden" name="q" id="q" class="headerSearch">
+							<input id="search_pos" name="q" type="text" placeholder="Type search here">
+							<button class="btn btn-search"><i class="icon icon_search"></i></button>
+						</form>
+					</div>
+					<li tabindex="0">
+						Banking Services
+						<div class="submenu">
+							<ul class="submenu-list">
+								<li>
+									Private Banking
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+											<li>
+												<a href="/en/personal/banking-services/private-banking/index.shtml"><div class="header-wrap">Private Banking</div></a>
+												<p></p>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									Account Services
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+											<li><a href="/en/personal/banking-services/exceed-banking/index.shtml"><div class="header-wrap" style="font-weight:bold;color:#FF6633;">Exceed Banking</div></a></li>
+											
+											<li><a href="/en/personal/banking-services/account-services/hkd-foreign-currency-savings-deposit/index.shtml">HKD / Foreign Currency Savings Deposit Account</a></li>
+											<li><a href="/en/personal/banking-services/account-services/current-account/index.shtml">Current Account</a></li>
+											<li><a href="/en/personal/banking-services/account-services/fixed-deposit-account/index.shtml">Fixed Deposit Account</a></li>
+											<li><a href="/en/personal/banking-services/account-services/rmb-services/index.shtml">RMB services</a></li>
+											<li><a href="/en/personal/banking-services/account-services/payroll-account-services/index.shtml">Payroll Account Services</a></li>
+											<li><a href="/en/personal/banking-services/account-services/i-kid-savings-account/index.shtml">i-kid Savings Account</a></li>
+											<!-- <li><a href="/en/personal/banking-services/account-services/my-dream-hkd-savings/index.shtml">my dream HKD Savings</a></li> -->
+											<li><a href="/en/personal/banking-services/account-services/fps-qr-generator/index.shtml">Faster Payment System QR Generator</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									Credit Card
+									<div class="thirdmenu">
+										<div class="h6">Personal Credit Cards</div>
+										<ul class="thirdmenu-list">
+											<li>
+												<a href="/en/personal/banking-services/card/credit-cards/personal-credit-cards/chong-hing-credit-card/index.shtml">Chong Hing Credit Card</a>
+											</li>
+											<li>
+												<a href="/en/personal/banking-services/card/credit-cards/personal-credit-cards/co-branded-credit-card/index.shtml">Co-branded Credit Card</a>
+											</li>
+										</ul>
+										<div class="h6">Corporate Credit Cards</div>
+										<ul class="thirdmenu-list">
+											<li><a href="/en/commercial/banking-services/card/corporate-credit-cards/index.shtml">Chong Hing Visa Platinum Corporate Card</a></li>
+										</ul>
+										<div class="h6">Credit Card Promotions</div>
+										<ul class="thirdmenu-list">
+											  <li><a href="/en/personal/banking-services/card/credit-cards/credit-cards-benefits/index.shtml">Visa/Mastercard/UnionPay Latest Promotions</a></li>
+											  <li><a href="/en/personal/banking-services/card/credit-cards/installment-loan/index.shtml">Installment Loan Program</a></li>
+											  <li><a href="/en/personal/banking-services/card/credit-cards/statement-installment/index.shtml">Statement Installment Program</a></li>
+											  <li><a href="/en/personal/banking-services/card/credit-cards/credit-cards-benefits/index2.shtml">Year Round Offers</a></li>
+										</ul>
+										<div class="h6">Merchant Acquiring Services</div>
+										<ul class="thirdmenu-list">
+											<li>
+												<a href="/en/commercial/banking-services/card/merchant-acquiring-services/index.shtml">Merchant Acquiring Services</a>
+											</li>
+											<!--
+			<li>
+			  <a href="/en/personal/banking-services/card/merchant-acquiring-services/mastercard-card-merchant-acquiring/index.shtml">MasterCard Card Merchant Acquiring Services</a></li>
+			<li>
+			  <a href="/en/personal/banking-services/card/merchant-acquiring-services/unionpay-card-merchant-acquiring/index.shtml">Unionpay Card Merchant Acquiring Services</a></li>
+			<li>
+			  <a href="/en/personal/banking-services/card/merchant-acquiring-services/wechat-pay/index.shtml">WeChat Pay</a></li>
+			<li>
+			  <a href="/en/personal/banking-services/card/merchant-acquiring-services/jetcop2m/index.shtml">Jetco P2M</a></li>
+			  -->
+										</ul>
+										<div class="h6">Useful Information</div>
+										<ul class="thirdmenu-list">
+											<li><a href="/en/personal/digital-services/online-applications/credit-card/index.shtml">Credit Card Online Application</a></li>
+											<li><a href="https://www.chbank.com/ndcs/#/creditcard/activate?nl=en" target="_blank" class="uatLink">Online Credit Card Activation</a></li>
+											<li><a href="https://www.chbank.com/ndcs/#/dial-a-loan/apply?nl=en" target="_blank" class="uatLink">“Instalment Loan Program ” Online Application</a></li>
+											<li><a href="https://www.chbank.com/ndcs/#/dial-a-loan/supply?nl=en" target="_blank" class="uatLink">Online Documents Submission - “Instalment Loan Program”</a></li>
+											<li><a href="/tc/pdf/key_fact_statement.pdf" target="_blank">Chong Hing Credit Card Key Facts Statement</a></li>
+											<li><a href="/en/personal/banking-services/useful-information/form-download/index.shtml">Form Download</a></li>
+										</ul>
+
+
+
+								</div></li>
+								<li>
+									Loans
+									<div class="thirdmenu">
+
+										<div class="h6">Mortgage Loan</div>
+										<ul class="thirdmenu-list">
+											<li>
+												<a href="/en/personal/banking-services/loans/mortgage-loan/residential-mortgage-loan/index.shtml">Residential Mortgage Loan</a>
+											</li>
+											<li>
+												<a href="/en/personal/banking-services/loans/mortgage-loan/mortgage-insurance-programme/index.shtml">Mortgage Insurance Programme</a>
+											</li>
+											<li>
+												<a href="/en/personal/banking-services/loans/mortgage-loan/government-housing-schemes/index.shtml">Government Housing Schemes</a>
+											</li>
+											<!--
+			<li>
+			  <a href="/en/personal/banking-services/loans/mortgage-loan/mortgage-loan-calculator/index.shtml">Mortgage Loan Calculator</a>
+			</li>
+
+			<li>
+			  <a href="/en/personal/digital-services/online-applications/index.shtml">Online Application</a>
+			</li>
+			<li>
+			  <a href="/en/personal/footer/others/key-facts-statement/index.shtml">Key Facts Statement</a>
+			</li>
+			-->
+										</ul>
+										<div class="h6">Consumer Loan</div>
+										<ul class="thirdmenu-list">
+											<li>
+												<a href="/en/personal/banking-services/loans/consumer-loan/personal-loan/index.shtml">Personal Loan</a>
+											</li>
+											<!--<li class="entryElement">
+												<a href="/en/personal/banking-services/loans/consumer-loan/tax-loan/index.shtml">Tax Loan</a>
+											</li>-->
+											<li>
+												<a href="/en/personal/banking-services/loans/pledged-deposit/index.shtml">Pledged Deposit Overdraft Facility</a>
+											</li>
+											
+			
+			<!--
+			<li>
+			  <a href="/en/personal/banking-services/loans/consumer-loan/personal-loan-calculator/index.shtml">Personal Loan Calculator</a>
+			</li>
+
+			<li>
+			  <a href="/en/personal/banking-services/loans/consumer-loan/tax-loan-calculator/index.shtml">Tax Loan Calculator</a>
+			</li>
+
+			<li>
+			  <a href="/en/personal/digital-services/online-applications/index.shtml">Online Application</a>
+			</li>
+			<li>
+			  <a href="/en/personal/footer/others/key-facts-statement/index.shtml">Key Facts Statement</a>
+			</li>
+			-->
+										</ul>
+										<!--
+										<div class="h6">Car Loan</div>
+										<ul class="thirdmenu-list">
+											<li>
+												<a href="/en/personal/banking-services/loans/car-loan/index.shtml">Car Loan</a>
+											</li>
+										</ul>
+										-->
+									</div>
+								</li>
+								<li>
+									Other Services
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+											<!--<li><a href="/en/personal/banking-services/other-services/cross-border-customers/index.shtml">Cross Border Service</a></li>-->
+											<!--<li><a href="/en/personal/banking-services/other-services/hong-kong-account-opening/index.shtml">Hong Kong Account Opening Witness Service</a></li>-->
+											<li><a href="/en/personal/banking-services/other-services/remittance-services/index.shtml">Remittance Services</a></li>
+											<li><a href="/en/personal/banking-services/other-services/faster-payment-system/index.shtml">Faster Payment System (FPS)</a></li>
+											<li><a href="/en/personal/banking-services/other-services/foreign-currency-money/index.shtml">Foreign Currency Money Exchange</a></li>
+											<li><a href="/en/personal/banking-services/other-services/safe-deposit-box/index.shtml">Safe Deposit Box</a></li>
+											<li><a href="/en/personal/banking-services/other-services/gift-voucher/index.shtml">Gift Voucher</a></li>
+											<li><a href="/en/personal/banking-services/china-overseas/index.shtml">Mainland China &amp; Overseas Services</a></li>
+											<li><a href="/en/personal/digital-services/index.shtml">Digital Services</a></li>
+											<li><a href="/en/personal/banking-services/other-services/mpf/index.shtml">MPF</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									Useful Information
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+											<li><a href="/en/personal/banking-services/useful-information/deposit-rates/index.shtml">Deposit Rates</a></li>
+											<li>
+												<a href="/en/personal/banking-services/useful-information/foreign-currency-exchange/index.shtml">Foreign Currency Exchange Rates</a>
+											</li>
+											<li><a href="/en/personal/banking-services/useful-information/documents-required/index.shtml">Documents Required for Opening Personal Accounts</a></li>
+											<li><a href="/en/personal/digital-services/online-applications/index.shtml" target="_blank">Online appointment for Account Opening</a></li>
+											<li><a href="/en/personal/banking-services/loans/consumer-loan/personal-loan-calculator/index.shtml">Calculators</a></li>
+											<li><a href="/en/personal/banking-services/useful-information/service-charges/index.shtml">Service Charges</a></li>
+											<li><a href="/en/personal/banking-services/useful-information/form-download/index.shtml">Form Download</a></li>
+										</ul>
+									</div>
+								</li>
+
+								<!--<li>
+  General Insurance
+  <div class="thirdmenu">
+	<ul class="thirdmenu-list">
+	  <li><a onclick="e_alert('https://www.chins.com.hk/en/travel-plus-2-0-en/')">Travel Plus2.0</a></li>
+	  <li><a href="/en/personal/banking-services/useful-information/documents-required/index.shtml">Domestic Helper Plus</a></li>
+	  <li><a href="/onlineapplication/forms/anon/org/app/3a53340a-ba1a-4808-827f-682e3ce4d1a8/launch/index.html?form=F_Enquiry&nl=en" target="_blank">Personal Accident Insurance Plan</a></li>
+	  <li><a href="/en/personal/banking-services/useful-information/calculators/index.shtml">Family Plus</a></li>
+	  <li><a href="/en/personal/banking-services/useful-information/service-charges/index.shtml">Car Plus</a></li>
+	  <li><a href="/en/personal/wealth-management/general-insurance/fire-insurance/index.shtml">Fire Insurance</a></li>
+	</ul>
+  </div>
+</li>-->
+								<!-- <li><a href="/en/personal/latest-promotion-offer/index.shtml">Latest Promotion Offer</a></li> -->
+
+							</ul>
+						</div>
+					</li>
+					<li tabindex="0">
+						Wealth Management
+						<div class="submenu">
+							<ul class="submenu-list">
+								<li>
+									Investment Choices
+									<div class="thirdmenu">
+
+										<ul class="thirdmenu-list">
+											<li>
+												<a href="/en/personal/wealth-management/investment-choices/securities-investment/index.shtml">Securities Investment</a><br><span style="font-size:0.8em;">(provided by Chong Hing Securities)</span>
+											</li>
+											<li><a href="/en/personal/wealth-management/investment-choices/commodities-futures-investment/index.shtml">Commodities &amp; Futures Investment</a><br><span style="font-size:0.8em;">(provided by Chong Hing Commodities &amp; Futures)</span></li>
+											<li><a href="/en/personal/wealth-management/investment-choices/investment-funds-services/index.shtml">Investment Funds Services</a></li>
+											<li><a href="/en/personal/wealth-management/investment-choices/currency-linked-deposit/index.shtml">Currency Linked Deposit</a></li>
+											<li><a href="/en/personal/wealth-management/investment-choices/bond-investment-services/index.shtml">Bond Investment Services</a></li>
+										</ul>
+									</div>
+								</li>
+
+								<li>
+									Life Insurance
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+											<li><a href="/en/personal/wealth-management/life-insurance/life-protection-plans/index.shtml">Life Protection Plans</a></li>
+											<li><a href="/en/personal/wealth-management/life-insurance/retirement-plans/index.shtml">Retirement Plans</a></li>
+											<li><a href="/en/personal/wealth-management/life-insurance/education-savings-plans/index.shtml">Education Savings Plans</a></li>
+											<li><a href="/en/personal/wealth-management/life-insurance/savings-investments-plans/index.shtml">Savings &amp; Investments Plans</a></li>
+											<li><a href="/en/personal/wealth-management/life-insurance/medical-insurance-plans/index.shtml">Medical Insurance Plans</a></li>
+											<!--<li><a href="/en/personal/wealth-management/life-insurance/promotions/index.shtml">Promotions</a></li>-->
+										</ul>
+									</div>
+								</li>
+
+								<li>
+									<a onclick="e_alert4('https://www.chins.com.hk/en/')">General Insurance</a><br><span style="font-size:0.8em;">(provided by Chong Hing Insurance Co Ltd.)</span>
+									<!--
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+											<li><a onclick="e_alert('https://www.chins.com.hk/en/travel-plus-2-0-en/')">Travel Plus2.0</a></li>
+											<li><a href="/en/personal/wealth-management/general-insurance/domestic-helper-plus/index.shtml"><div class="header-wrap">Domestic Helper Plus</div></a></li>
+											<li> <a href="/en/personal/wealth-management/general-insurance/personal-accident-insurance-plan/index.shtml" target="_blank"><div class="header-wrap">Personal Accident Insurance Plan</div></a></li>
+											<li><a href="/en/personal/wealth-management/general-insurance/family-plus/index.shtml"><div class="header-wrap">Family Plus</div></a></li>
+											<li><a href="/en/personal/wealth-management/general-insurance/car-plus/index.shtml"><div class="header-wrap">Car Plus</div></a></li>
+											<li><a href="/en/personal/wealth-management/general-insurance/fire-insurance/index.shtml"><div class="header-wrap">Fire Insurance</div></a></li>
+
+										</ul>
+									</div>
+									-->
+								</li>
+
+								<li>
+									Wealth Management Tools
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+											<li><a href="/en/fund_wb.html" target="_blank">Fund Search</a></li>
+											<li><a href="/tc/pdf/fund_performance_monthly_report.pdf" target="_blank">Fund Performance Monthly Report</a></li>
+											<li><a href="/en/pdf/tools/IPQPersonalEng.pdf" target="_blank">Investment Profile Questionnaire and Vulnerable Customer Assessment - Personal / Joint</a></li>
+											<li><a href="/en/personal/wealth-management/tools/video-training.shtml">Video of Derivative Product Knowledge</a></li>
+											<li><a href="/en/pdf/tools/risk_level_description_en.pdf" target="_blank">Product Risk Rating and Customer Risk Profile</a></li>
+										</ul>
+									</div>
+								</li>
+								
+								<li>
+									Cross-boundary Wealth Management Connect
+									<div class="thirdmenu">
+										<ul class="thirdmenu-list">
+										<li><a href="/en/personal/wealth-management/wmc/index.shtml">Cross-boundary Wealth Management Connect</a></li>
+									</ul>
+									</div>
+								</li>
+
+
+
+
+							</ul>
+						</div>
+					</li>
+
+					<li tabindex="0">
+						Digital Services
+						<div class="submenu">
+							<ul class="submenu-list">
+								<li><a href="/en/personal/digital-services/mobile-apps/new-services/index.shtml">Mobile Banking</a></li>
+								<li><a href="/en/personal/digital-services/mobile-apps/index.shtml">Mobile App</a></li>
+								<li><a href="/en/personal/digital-services/internet-banking/index.shtml">Internet Banking</a></li>
+								<li><a href="/en/personal/digital-services/phone-banking/index.shtml">Phone Banking</a></li>
+								<li><a href="/en/personal/digital-services/atm/index.shtml">ATM</a></li>
+								<li><a href="/en/personal/banking-services/card/chong-hing-cards/index.shtml">ATM Card</a></li>
+								<li><a href="/en/personal/digital-services/open-api/index.shtml">Open API</a></li>
+								<li><a href="/en/personal/banking-services/other-services/faster-payment-system/index.shtml">Faster Payment System</a></li>
+								<li><a href="/en/personal/digital-services/mobile-token/index.shtml">Mobile Token</a></li>
+								<!-- <li><a href="/en/personal/banking-services/card/merchant-acquiring-services/jetcop2m/index.shtml">JETCOPAY</a></li> -->
+								<li><a href="https://www.chbank.com/ndcs/#/apply/formsubmit?nl=en">Online Application Submission</a></li>
+								<li><a href="/en/personal/digital-services/online-applications/index.shtml">Online applications</a></li>
+								<!--<li><a href="/en/personal/digital-services/online-doc-submission/index.shtml">Online Documents Submission</a></li>-->
+								<!--<li><a href="/en/personal/digital-services/linkedin/index.shtml">LinkedIn</a></li>-->
+								<!--<li><a href="/en/personal/digital-services/e-cheque/index.shtml">e-Cheque</a></li>-->
+								<li><a href="/en/personal/digital-services/internet-banking/security/index.shtml">Security Tips</a></li>
+								<li><a href="/en/personal/digital-services/atm-security/index.shtml">Security Tips for using ATM</a></li>
+
+								<li><a href="/en/personal/digital-services/system-maintenance/index.html">System Maintenance</a></li>
+								<li><a href="/en/personal/digital-services/wechat/index.shtml">WeChat Official Account</a></li>
+								<li><a href="/en/personal/digital-services/exclusive-promotion-offer/index.shtml">Exclusive Promotions &amp; Offers</a></li>
+							</ul>
+							
+							
+						</div>
+					</li>
+
+
+					<li><a href="/en/commercial/index.shtml">Corporate Banking</a></li>
+
+					<li tabindex="0">
+						About Us
+						<div class="submenu">
+							<ul class="submenu-list">
+								<li><a href="/en/personal/footer/about-ch-bank/bank-profile/index.shtml">Bank Profile</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/corporate-culture/index.shtml">Corporate Culture</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/70th-anniversary/index.shtml">Chong Hing Bank 70<sup>th</sup> Anniversary</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/investor-relations/index.shtml">Investor Relations</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/corporate-news/index.shtml">Corporate News</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/media-releases/index.shtml">Media Releases</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/branches/index.shtml">Branches &amp; Service Centres</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/career/index.shtml">Career Opportunities</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/contact-us/index.shtml">Contact Us</a></li>
+								<li><a href="/en/personal/footer/about-ch-bank/regulatory-disclosures/index.shtml">Regulatory Disclosures</a></li>
+							</ul>
+						</div>
+					</li>
+
+
+				</ul><!-- mobMenu end -->
+			</div><!-- mobMenuWrap end -->
+			<div class="mobLangWrap">
+				<div class="headMobile">
+					<div class="mobLang">
+						<a class="back" type="button" aria-label="Back" href="javascript:;"><i class="fas fa-arrow-left"></i></a>
+					</div>
+					<a class="menuClose" type="button" aria-label="Close" href="javascript:;"><i class="icon icon_close"></i></a>
+				</div><!-- headMobile end -->
+				<div class="langTop">
+				  <ul class="lang">
+					<li class="active"><a href="javascript:enClick();">EN</a></li><li><a href="javascript:tcClick();">繁</a></li><li><a href="javascript:scClick();">简</a></li>
+				  </ul>
+				</div><!-- langtop end -->
+				<div class="langBottom">
+				  <ul class="location">
+					<li class="active"><a href="">Hong Kong</a></li>
+					<li><a href="http://www.chbank.com.cn/sc/index.shtml">Mainland China</a></li>
+				  </ul>
+				</div><!-- langBottom end -->
+			</div><!-- mobLangWrap end -->
+		</div><!-- menuMobile end -->
+    </div><!-- menuMobile end -->
+  <!-- nav end -->
+</header><!-- header end -->
+
+<script type="text/javascript">
+
+  // ************* Header Changing Language ******************
+  var url = window.location.href;
+
+  //var url2 = "/tc/about-ch-bank/service-network/securities-centres/index.shtml";
+  //use an example link like url2
+
+  var arr=url.split('/');
+  console.log(arr[3]);
+
+ //if sc clicked
+  function enClick()
+  {
+    
+    arr[3] = "en";
+    var urlString = arr[0] + "/";
+
+    for (var i=1; i<arr.length; i++)
+    {
+      if(arr[i] == arr[arr.length-1])
+      {
+        urlString += arr[i];
+      } else
+      {
+        urlString += arr[i] + "/";
+      }
+    }
+    window.location = urlString;
+  }
+
+  //if sc clicked
+  function tcClick()
+  {
+    if(window.location.href.indexOf("/personal/footer/about-ch-bank/career/") > -1){
+    window.location = "http://www.chbank.com/tc/personal/footer/about-ch-bank/career/index.shtml";
+    return;
+   }
+    arr[3] = "tc";
+    var urlString = arr[0] + "/";
+
+    for (var i=1; i<arr.length; i++)
+    {
+      if(arr[i] == arr[arr.length-1])
+      {
+        urlString += arr[i];
+      } else
+      {
+        urlString += arr[i] + "/";
+      }
+    }
+    window.location = urlString;
+  }
+
+  //if sc clicked
+  function scClick()
+  {
+    if(window.location.href.includes("/personal/footer/about-ch-bank/career/")){
+    window.location = "http://www.chbank.com/sc/personal/footer/about-ch-bank/career/index.shtml";
+    return;
+   }
+    arr[3] = "sc";
+    var urlString = arr[0] + "/";
+
+    for (var i=1; i<arr.length; i++)
+    {
+      if(arr[i] == arr[arr.length-1])
+      {
+        urlString += arr[i];
+      } else
+      {
+        urlString += arr[i] + "/";
+      }
+    }
+    window.location = urlString;
+  }
+  var uatLinkList = document.getElementsByClassName("uatLink");
+    if(window.location.href.indexOf("uat") == -1){
+    
+        for(var i = 0 ; i < uatLinkList.length; i++){
+            if(uatLinkList[i].getAttribute("href").indexOf("uat3") > -1){
+                var href = uatLinkList[i].href;
+                href = href.replace("uat3","www");
+                uatLinkList[i].href = href;
+            }
+            else if(uatLinkList[i].getAttribute("href").indexOf("uat") > -1){
+                var href = uatLinkList[i].href;
+                href = href.replace("uat","www");
+                uatLinkList[i].href = href;
+            }
+        }
+    }
+</script>
+  <script type="text/javascript" language="javascript" src="/js/recommendation_counter.js"></script>
+  <script src="/js/scheduler.js"></script></div>
+
+    <main>
+        <div id="BodyInclude"><script src="/js/subpage.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/detectBrowser.js"></script>
+<script src="/js/gobackpage.js"></script>
+<script src="/en/js/external_alert.js"></script>
+
+
+<script src="/en/js/external_alert3.js"></script>
+<script src="/en/js/external_alert4.js"></script>
+
+<!--2019-12-10  share-->
+<link rel="stylesheet" href="/dist/css/share.min.css">
+<script src="/dist/js/qrcode.js"></script>
+<script src="/dist/js/social-share.js"></script>
+
+<script type="text/javascript" language="javascript" src="/js/share.js"></script>
+
+<script>
+   $(function()
+    {
+      detectBrowser();
+    });
+</script>
+<script type="text/javascript">
+
+      function logon() {
+        var opt = document.getElementById("login_type");
+        if (opt.options[opt.selectedIndex].value == '0') {
+
+
+
+
+        var iBankingLocation = "https://www.ibanking.chbank.com/index0041.html";
+        var isNetscape = (navigator.appName == "Netscape");
+        var features = '';
+        var winWidth = screen.availWidth > 1024 ? 1024 : screen.availWidth-10;
+        var winHeight = screen.availHeight >= 768 ? 768 : screen.availHeight-45;
+        var left = screen.availWidth <= 1024 ? 0 : (screen.availWidth-winWidth) / 2;
+        var top = (screen.availHeight - winHeight-45) / 2;
+        var ibank;
+
+        features = 'resizable, scrollbars, status, width=' + winWidth + ', height=' + winHeight;
+
+        if (isNetscape)
+               features += ', screenX=' + left + ', screenY=' + top;
+        else
+               features += ', left=' + left + ', top=' + top;
+
+        ibank = window.open(iBankingLocation,"ibank",features);
+
+        ibank.focus();
+        } else if (opt.options[opt.selectedIndex].value == '1') {
+
+          window.open('https://online1.chsec.com.hk/en/web/guest/notice-to-clients');
+        }
+      }
+
+      // hide and show function
+      function show(target) {
+      document.getElementById(target).style.display = 'block';
+       }
+
+    function hide(target) {
+      document.getElementById(target).style.display = 'none';
+     }
+
+     function logon_m(){
+        var iBankingLocation = "https://www.ibanking.chbank.com/index0041.html";
+        var isNetscape = (navigator.appName == "Netscape");
+        var features = '';
+        var winWidth = screen.availWidth > 1024 ? 1024 : screen.availWidth-10;
+        var winHeight = screen.availHeight >= 768 ? 768 : screen.availHeight-45;
+        var left = screen.availWidth <= 1024 ? 0 : (screen.availWidth-winWidth) / 2;
+        var top = (screen.availHeight - winHeight-45) / 2;
+        var ibank;
+
+        features = 'resizable, scrollbars, status, width=' + winWidth + ', height=' + winHeight;
+
+        if (isNetscape)
+        features += ', screenX=' + left + ', screenY=' + top;
+        else
+        features += ', left=' + left + ', top=' + top;
+
+        ibank = window.open(iBankingLocation,"ibank",features);
+
+        ibank.focus();
+        }
+
+
+</script>
+
+<div class="banner_overlay">
+	<ul class="float_menu" id="float_menu1">
+		<li data-target="#overlayPage-01" tabindex="0"><i class="icon icon_lockWhite icon_overlay" title="Secure Logon"><span class="sr-only">Secure Logon</span></i><i class="icon icon_minisize" title="Close"><span class="sr-only">Close</span></i></li>
+		<li data-target="#overlayPage-02" tabindex="0"><i class="icon icon_map icon_overlay" title="Branch Network"><span class="sr-only">Branch Network</span></i><i class="icon icon_minisize" title="Close"><span class="sr-only">Close</span></i></li>
+		<li data-target="#overlayPage-03" tabindex="0"><i class="icon icon_phone icon_overlay" title="Service Hotline"><span class="sr-only">Service Hotline</span></i><i class="icon icon_minisize" title="Close"><span class="sr-only">Close</span></i></li>
+		<li id="exception"><a href="/en/personal/banking-services/account-services/fps-qr-generator/index.shtml" aria-label="FPS QR Code Collection Service"><i class="icon icon_qr_right icon_overlay" title="FPS QR Code Collection Service"></i><i class="icon icon_minisize"></i></a></li>
+		<li id="exception"><a onclick="e_alert('https://www.facebook.com/CHBankHK/')"><i class="icon icon_fb_right icon_overlay" title=""></i><i class="icon icon_minisize"></i></a></li>
+	</ul>
+	<div class="banner_overlay_main">
+		<div id="overlayPage-01" class="overlay-page">
+			<div class="overlay-title">Secure Logon</div>
+			<div class="select-wrappersecurelogon select-wrapper" style="float:left">
+				<select class="form-control overlay-login" title="login type" id="login_type">
+					<option selected="" value="https://www.ibanking.chbank.com/index0041.html	Activate Now	https://www.ibanking.chbank.com/acctOpenIndex.html">i-banking</option>
+					<option value="https://online1.chsec.com.hk/en/web/guest/notice-to-clients	Apply CH Securities Account	https://online.chsec.com.hk/eBookingRegister/customerNotice.do?language=en_US">CH Securities</option>
+				</select>
+			</div>
+			<div style="float:left;"><a href="https://www.ibanking.chbank.com/index0041.html" target="_blank" id="login_a"><button class="btn btn-login btn-gradient">Logon</button></a></div>
+			<div class="loginTips" style="clear:both;">Activate your i-banking account via <a href="https://www.ibanking.chbank.com/acctOpenIndex.html" class="link" target="_blank" id="login_a2">ATM Card</a> or <a href="https://www.chbank.com/ndcs/#/pbnk/activateib?nl=en" class="link" target="_blank">Deposit Account</a> now</div>
+
+		</div><!-- overlayPage-01 end -->
+
+		<div id="overlayPage-02" class="overlay-page">
+            <div class="overlay-title">Branch Network</div>
+            <div class="select-wrapper">
+                <select class="form-control overlay-branch" title="Branch Network">
+                    <option value="branch01">Hong Kong Island</option>
+                    <option value="branch02">Kowloon</option>
+                    <option value="branch03">New Territories</option>
+                    <option value="branch04">Mainland China and Macau</option>
+                    
+                </select>
+            </div>
+            <div class="overlayMap" id="branch01">
+                <div class="loginTips">Hong Kong Main Branch<br>Chong Hing Bank Centre, 24 Des Voeux Rd. Central, HK &nbsp;<a class="link" href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=mainbranch">  more...</a></div>
+                <br>
+                <a href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=mainbranch" class="more mapLink" target="_blank"><span class="fas fa-map-marker-alt"></span>Show in map</a>
+                <a href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=mainbranch" class="more" target="_blank">Details <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="overlayMap" id="branch02">
+                <div class="loginTips">Tsim Sha Tsui<br>16 Granville Rd., Tsim Sha Tsui, Kln<br> <a class="link" href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=tsimshatsui">  more...</a></div>
+                <br>
+                <a href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=tsimshatsui" class="more mapLink" target="_blank"><span class="fas fa-map-marker-alt"></span>Show in map</a>
+                <a href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=tsimshatsui" class="more" target="_blank">Details <span class="fas fa-chevron-right"></span></a>
+            </div>
+            <div class="overlayMap" id="branch03">
+                <div class="loginTips">Tsuen Wan<br>298 Sha Tsui Rd., Tsuen Wan, N.T. <br> <a class="link" href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=tsuenwan">  more...</a></div>
+                <br>
+                <a href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=tsuenwan" class="more mapLink" target="_blank"><span class="fas fa-map-marker-alt"></span>Show in map</a>
+                <a href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=tsuenwan" class="more" target="_blank">Details <span class="fas fa-chevron-right"></span></a>
+            </div>
+            <div class="overlayMap" id="branch04">
+                <div class="loginTips">
+                    Guangzhou<br>50/F, Yuexiu Financial Tower, No. 28 Zhujiang East Road,Tianhe District, Guangzhou, Guangdong, PRC.
+                    Post Code: 510623 <br> <a class="link" href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=guangzhou">  more...</a>
+                </div>
+
+               
+                <a href="/en/personal/footer/about-ch-bank/branches/index.shtml?pre=guangzhou" class="more" target="_blank">Details <span class="fas fa-chevron-right"></span></a>
+            </div>
+            
+
+        </div><!-- overlayPage-02 end -->
+
+
+		<div id="overlayPage-03" class="overlay-page">
+			<div class="overlay-title">Service Hotline</div>
+			<div class="select-wrapper">
+				<select class="form-control overlay-hotline" title="Service Hotline">
+					<option value="hotline01">Customer Services</option>
+					<option value="hotline02">Credit Card</option>
+					<option value="hotline03">Report Card Loss </option>
+				</select>
+			</div>
+			<div class="overlayTel" id="hotline01">
+				<div class="overlayTxt">(852) 3768 6888</div>
+				<a href="mailto:customerservice@chbank.com" class="more mapLink"><span class="fab fa-telegram-plane"></span>Email Us</a>
+				<a href="/en/personal/footer/about-ch-bank/contact-us/index.shtml" class="more" target="_blank">Details <span class="fas fa-chevron-right"></span></a>
+
+			</div>
+			<div class="overlayTel" id="hotline02">
+				<div class="overlayTxt">(852) 3768 8888</div>
+				<a href="mailto:customerservice@chbank.com" class="more telLink"><span class="fab fa-telegram-plane"></span>Email Us</a>
+				<a href="/en/personal/footer/about-ch-bank/contact-us/index.shtml" class="more" target="_blank">Details <span class="fas fa-chevron-right"></span></a>
+			</div>
+			<div class="overlayTel" id="hotline03">
+				<div class="overlayTxt">(852) 3768 8811 (Credit Card)</div>
+				<div class="overlayTxt">(852) 3768 6800 (ATM Card)</div>
+				<a href="/en/personal/footer/about-ch-bank/contact-us/index.shtml" class="more" target="_blank">Details <span class="fas fa-chevron-right"></span></a>
+			</div>
+		</div><!-- overlayPage-03 end -->
+		<!-- <div id="overlayPage-04" class="overlay-page">
+<div class="social-share" data-initialized="true" id="share">
+	<a onclick="e_alert(toLinkedin());"><i class="icon icon_linkedin "></i></a>
+	<a href="#" class="social-share-icon icon-wechat"><i class="icon icon_wechat"></i></a>
+	<a onclick="e_alert(totwitter());"><i class="icon icon_twitter "></i></a>
+	<a onclick="e_alert(toWhatapp());" ><i class="icon icon_whatsapp"></i></a>
+	<a onclick="e_alert(tofacebook());"><i class="icon icon_facebook "></i></a>
+
+</div>
+</div> -->
+	</div><!-- banner_overlay_main end -->
+</div><!-- banner_overlay end -->
+<!--mobile share_menu start 2019-12-10-->
+<!--
+<div class="mobile_overlay">
+    <ul class="share_menu fixed" >
+        <!--mobile version-->
+        <!--<div class="social-share" data-initialized="true" id="share">
+            <li onclick="e_alert(toLinkedin());" ><div class="hover_btn"><img src="/img/linkedin_icon.jpg" class="before" ></div></li>
+            <li><div  class="hover_btn"><a href="#" class="social-share-icon icon-wechat"></a></div></li>
+            <li onclick="e_alert(toWhatapp());" ><div class="hover_btn"><img src="/img/whatsapp_icon.jpg" class="before" ></div></li>
+            <li onclick="e_alert(totwitter());" ><div class="hover_btn"><img src="/img/twitter_icon.jpg" class="before" ></div></li>
+            <li onclick="e_alert(tofacebook());" ><div class="hover_btn"><img src="/img/facebook_icon.jpg" class="before" ></div></li>
+        </div>
+    </ul>
+</div>
+-->
+<!--mobile share_menu end-->
+
+
+<script type="text/javascript" language="javascript" src="/js/detectBrowser.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/external_alert.css">
+
+
+<!-- InstanceBeginEditable name="main" --></div>
+        <!---------------------------------------- CMS Starts ------------------------------------>
+        <!---------------------------------------- Subpage Banner photo ------------------------->
+        <!--<div class="pageKeyVisual" style="background-image: url(../../../../../../../img/insurance-detail-bg.jpg);">-->
+        <div class="pageKeyVisual" style="background-image: url(../../../../../data/media/image/20190320-153533034.jpg);">
+            <h1 class="pageTitle">Foreign Currency Exchange</h1>
+
+
+        </div>
+        <div class="detail-content">
+            <div class="simple-text-tab-content">
+                <div class="container">
+                    <div class="navigation">
+                        <ol class="breadcrumb">
+                            <li><a href="/en/homepage.shtml">Home</a></li>
+                            <li><a href="/en/personal/index.shtml">Personal Banking</a></li>
+                            <li><a href="/en/personal/banking-services/index.shtml">Banking Services</a></li>
+                            <li>Useful Information</li>
+                            <li class="active">Foreign Currency Exchange</li>
+                        </ol>
+
+
+
+
+                        <div class="right"><a href="javascript:window.location.reload(true);"><button value="refresh" class="btn btn-gradient btn-download">refresh</button></a></div>
+
+                        <div class="red1 rateNewsBar">
+                            <br>
+                            <h2 class="h4"><strong>Foreign Currency Exchange Rates</strong></h2>
+                        </div>
+                        <div class="financialRateInfo clearfix">
+                            <div class="left"><p>The following information is for reference only</p></div>
+                            <div class="right">Last Update Time: <span id="rateDate">19-05-2022</span>&nbsp;<span id="rateTime">17:45 HKT</span></div>
+
+                            <hr class="separate">
+
+                        </div>
+
+
+                        <!--<div class="red1 rateNewsBar"><strong>Foreign Exchange Rate - T.T</strong></div>
+                    <div class="financialRateInfo">The following information is for reference only</div>-->
+
+                        <table id="rateTable" class="table table-zebra">
+							<caption style="font-weight: bold; color: black">Telegraphic Transfer (T.T)</caption>
+                            <!--<table class="table table-zebra">-->
+                            <tbody><tr>
+                                <th id="currency">Currency</th>
+                                <th id="unit">Unit</th>
+                                <th id="buy">Bank Buy</th>
+                                <th id="sell">Bank Sell</th>
+                            </tr>
+
+                        <tr class="bgColor" title="AUD"><td rowspan="1" class="rateDepositTD">Australian Dollars</td><td class="rateDepositTD2">100</td><td>546.95</td><td>549.97</td></tr><tr title="CAD"><td rowspan="1" class="rateDepositTD">Canadian Dollars</td><td class="rateDepositTD2">100</td><td>609.42</td><td>613.28</td></tr><tr class="bgColor" title="CHF"><td rowspan="1" class="rateDepositTD">Swiss Francs</td><td class="rateDepositTD2">100</td><td>799.53</td><td>806.64</td></tr><tr title="DKK"><td rowspan="1" class="rateDepositTD">Danish Kroners</td><td class="rateDepositTD2">100</td><td>108.10</td><td>113.13</td></tr><tr class="bgColor" title="EUR"><td rowspan="1" class="rateDepositTD">Euro</td><td class="rateDepositTD2">100</td><td>819.51</td><td>826.72</td></tr><tr title="GBP"><td rowspan="1" class="rateDepositTD">Sterling</td><td class="rateDepositTD2">100</td><td>968.22</td><td>975.73</td></tr><tr class="bgColor" title="JPY"><td rowspan="1" class="rateDepositTD">Japanese Yen</td><td class="rateDepositTD2">1,000</td><td>61.19</td><td>61.63</td></tr><tr title="NZD"><td rowspan="1" class="rateDepositTD">New Zealand Dollars</td><td class="rateDepositTD2">100</td><td>495.67</td><td>499.65</td></tr><tr class="bgColor" title="RMB"><td rowspan="1" class="rateDepositTD">Renminbi (Onshore)</td><td class="rateDepositTD2">100</td><td>115.17</td><td>116.92</td></tr><tr title="RMB"><td rowspan="1" class="rateDepositTD">Renminbi (Offshore)</td><td class="rateDepositTD2">100</td><td>114.93</td><td>116.57</td></tr><tr class="bgColor" title="SEK"><td rowspan="1" class="rateDepositTD">Swedish Kroners</td><td class="rateDepositTD2">100</td><td>76.76</td><td>79.80</td></tr><tr title="SGD"><td rowspan="1" class="rateDepositTD">Singapore Dollars</td><td class="rateDepositTD2">100</td><td>563.66</td><td>567.61</td></tr><tr class="bgColor" title="THB"><td rowspan="1" class="rateDepositTD">Thai Bahts</td><td class="rateDepositTD2">100</td><td>20.81</td><td>24.55</td></tr><tr title="USD"><td rowspan="1" class="rateDepositTD">U.S. Dollars</td><td class="rateDepositTD2">100</td><td>783.27</td><td>786.32</td></tr></tbody></table>
+                        <!--<div class="financialRateInfo">&copy; Chong Hing Bank Limited </div>-->
+                    </div>
+                    <br>
+
+                    <div id="colR">
+                        <!--<div class="moreMarketBtn right"><a href="javascript:window.location.reload(true);">Update Information</a></div>-->
+                        <!--<div class="red1 rateNewsBar"><strong>Foreign Exchange Rate - Notes</strong></div>
+                    <div class="financialRateInfo">The following information is for reference only</div>-->
+
+                        <table id="rateTable2" class="table table-zebra">
+							<caption style="font-weight: bold; color: black">Banknote</caption>
+                            <!--<table class="table table-zebra">-->
+                            <tbody><tr>
+                                <th id="currency">Currency</th>
+                                <th id="unit">Unit</th>
+                                <th id="buy">Bank Buy</th>
+                                <th id="sell">Bank Sell</th>
+                            </tr>
+                        <tr class="bgColor" title="AUD"><td rowspan="1" class="rateDepositTD">Australian Dollars</td><td class="rateDepositTD2">100</td><td>544.98</td><td>551.94</td></tr><tr title="CAD"><td rowspan="1" class="rateDepositTD">Canadian Dollars</td><td class="rateDepositTD2">100</td><td>606.27</td><td>616.43</td></tr><tr class="bgColor" title="EUR"><td rowspan="1" class="rateDepositTD">Euro</td><td class="rateDepositTD2">100</td><td>815.85</td><td>830.38</td></tr><tr title="GBP"><td rowspan="1" class="rateDepositTD">Sterling</td><td class="rateDepositTD2">100</td><td>962.00</td><td>982.12</td></tr><tr class="bgColor" title="JPY"><td rowspan="1" class="rateDepositTD">Japanese Yen</td><td class="rateDepositTD2">1,000</td><td>60.92</td><td>61.90</td></tr><tr title="NZD"><td rowspan="1" class="rateDepositTD">New Zealand Dollars</td><td class="rateDepositTD2">100</td><td>492.83</td><td>502.10</td></tr><tr class="bgColor" title="RMB"><td rowspan="1" class="rateDepositTD">Renminbi</td><td class="rateDepositTD2">100</td><td>114.74</td><td>116.76</td></tr><tr title="SGD"><td rowspan="1" class="rateDepositTD">Singapore Dollars</td><td class="rateDepositTD2">100</td><td>560.05</td><td>571.22</td></tr><tr class="bgColor" title="TWD"><td rowspan="1" class="rateDepositTD">New Taiwan Dollars</td><td class="rateDepositTD2">100</td><td>24.15</td><td>28.58</td></tr><tr title="USD"><td rowspan="1" class="rateDepositTD">U.S. Dollars (Big note)</td><td class="rateDepositTD2">100</td><td>780.59</td><td>789.00</td></tr></tbody></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        <!---------------------------------------- CMS Ends --------------------------------------------->
+    </main>
+
+
+
+    <div id="FooterInclude"><footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 footer-menu">
+          <div class="footer-link-title">About Us</div>
+          <div class="footer-link-titleMob" data-target="#footer-link-01"><i class="fas fa-chevron-down"></i>About Us</div>
+          <ul class="footer-link" id="footer-link-01">
+            <li><a href="/en/personal/footer/about-ch-bank/bank-profile/index.shtml">Bank Profile</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/corporate-culture/index.shtml">Corporate Culture</a></li>
+			<li><a href="/en/personal/footer/about-ch-bank/70th-anniversary/index.shtml">Chong Hing Bank 70<sup>th</sup> Anniversary</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/investor-relations/index.shtml">Investor Relations</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/corporate-news/index.shtml">Corporate News</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/media-releases/index.shtml">Media Releases</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/branches/index.shtml">Branches &amp; Service Centres</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/career/index.shtml">Career Opportunities</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/contact-us/index.shtml">Contact Us</a></li>
+			<li><a href="https://www.chbank.com/en/personal/footer/about-ch-bank/live-chat/index.shtml" target="_blank">Live Chat</a></li>
+            <li><a href="/en/personal/footer/about-ch-bank/regulatory-disclosures/index.shtml">Regulatory Disclosures</a></li>
+			
+          </ul>
+        </div>
+        <div class="col-md-3 footer-menu">
+          <div class="footer-link-title">Quick Links</div>
+          <div class="footer-link-titleMob" data-target="#footer-link-02"><i class="fas fa-chevron-down"></i>Quick Links</div>
+          <ul class="footer-link" id="footer-link-02">
+            <li><a href="/en/personal/banking-services/card/credit-cards/index.shtml">Credit Card</a></li>
+            <li><a href="/en/personal/banking-services/loans/mortgage-loan/index.shtml">Mortgage Loan</a></li>
+            <li><a href="/en/personal/banking-services/loans/index.shtml">Loans</a></li>
+            <!--<li><a href="/en/personal/banking-services/loans/car-loan/index.shtml">Chong Hing Car Loan</a></li>-->
+            <!--<li><a onclick="e_alert4('https://www.chins.com.hk/en/travel-plus-2-0-en/')">Travel Plus 2.0</a></li>-->
+            <li><a href="/en/commercial/banking-services/loans/smes-lending-service/index.shtml">SMEs Lending Service</a></li>
+            <li><a href="/en/personal/digital-services/online-applications/index.shtml">Online Application &amp; Enquiry</a></li>
+            <li><a href="/en/personal/banking-services/useful-information/service-charges/index.shtml">Service Charges</a></li>
+            <li><a href="/en/personal/banking-services/loans/consumer-loan/personal-loan-calculator/index.shtml">Calculators</a></li>
+            <li><a href="/en/personal/banking-services/useful-information/form-download/index.shtml">Form Download</a></li>
+            <li><a href="/en/fund_wb.html" target="_blank">Fund Search</a></li>
+            <li><a href="/en/personal/footer/others/key-facts-statement/index.shtml">Key Facts Statement</a></li>
+            <!--<li><a href="/en/personal/banking-services/other-services/cross-border-customers/index.shtml">Cross Border Services</a></li>-->
+			
+			<li><a href="/en/personal/banking-services/useful-information/documents-required/index.shtml">Documents Required for Opening Personal Accounts</a></li>
+			<li><a href="/en/commercial/banking-services/banking-services/notes-for-corporate-account-opening/index.shtml">Notes for Corporate Account Opening</a></li>
+			<li><a href="/en/personal/banking-services/card/credit-cards/credit-cards-benefits/point-to-gift-redemption/index.shtml">"Point-to-Gift Redemption Program" or "Cash Rebate Scheme"</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer-menu">
+          <div class="footer-link-title">Others</div>
+          <div class="footer-link-titleMob" data-target="#footer-link-03"><i class="fas fa-chevron-down"></i>Others</div>
+          <ul class="footer-link" id="footer-link-03">
+              <li><a href="/en/personal/footer/others/site-map/index.shtml">Site Map</a></li>
+              <li><a href="/en/personal/footer/others/viewing-note/index.shtml">Viewing Note</a></li>
+              <li><a href="/en/personal/digital-services/internet-banking/security/index.shtml">Security Information</a></li>
+              <li><a href="/en/personal/footer/others/privacy-policy/pics.shtml">Personal Information Collection Statement</a></li>
+              <li><a href="/en/personal/footer/others/privacy-policy/pps.shtml">Privacy Policy Statement</a></li>
+              <li><a href="/en/personal/footer/others/disclaimer/index.shtml">Disclaimer</a></li>
+              <li><a href="/en/personal/footer/others/hyperlink-policy/index.shtml">Hyperlink Policy</a></li>
+              <li><a href="/en/personal/digital-services/system-maintenance/index.html" <!--onclick="window.open(this.href,'targetWindow','width=725,height=590');return false;" --="">System Maintenance Schedule</a></li>
+			  <li><a href="/en/personal/footer/others/w3c.shtml">Accessible Webpages</a></li>
+              <li><a href="/en/personal/footer/others/crs-aeoi/index.shtml">Common Reporting System (CRS) / Automatic Exchange of Financial Account Information (AEOI)</a></li>
+              <li><a href="/en/personal/banking-services/useful-information/form-download/account-opening.shtml">Account Opening Reference Documents</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="contact-info">
+            <li><a href="/en/personal/footer/about-ch-bank/contact-us/index.shtml"><i class="icon icon_call"></i>Contact Us</a></li><li><a href="/en/personal/footer/about-ch-bank/branches/index.shtml"><i class="icon icon_location"></i>ATM &amp; Branches</a></li>
+          </ul><!-- contact-info end -->
+		  
+		  <ul class="social-media">
+			<li>Follow us</li>
+            <li><a onclick="e_alert('https://www.facebook.com/CHBankHK/')"><i class="icon icon_fb"></i></a></li>
+			<li><a href="/en/personal/digital-services/wechat/index.shtml"><i class="icon icon_wechat"></i></a></li>
+			<li><a onclick="e_alert('https://www.linkedin.com/company/%E5%89%B5%E8%88%88%E9%8A%80%E8%A1%8C%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8')"><i class="icon icon_linkedin"></i></a></li>
+          </ul><!-- social-media end -->
+		  
+          <div class="download-app">
+            <div class="download-app-left">
+                <div class="download-app-txtMob">CH Bank Mobile Banking</div>
+              <ul class="appIcon">
+                <li><a onclick="e_alert('https://itunes.apple.com/hk/app/創興流動理財/id1373152885')"><i class="icon icon_appleStore"></i></a></li>
+				<li><a onclick="e_alert('https://play.google.com/store/apps/details?id=com.chbank.softtoken')"><i class="icon icon_googlePlay"></i></a></li>
+              </ul>
+              <div class="download-app-txt">CH Bank Mobile Banking</div>
+            </div><!-- download-app-left end -->
+            <div class="download-app-right">
+              <img src="/img/banking_qr_code.jpg" alt="scan qr code">
+            </div><!-- download-app-right end -->
+          </div><!-- download-app end -->
+		   <div class="download-app">
+            <div class="download-app-left">
+              <div class="download-app-txtMob">Customers from Mainland China can download the Android apk in high speed via Chong Hing Bank’s Mainland server</div>
+              <ul class="appIcon">
+               <a onclick="e_alert3('https://corpbank.chbank.com.cn/corpbank/static/androidDownload/hongkongchb.apk')" aria-label="Android Robot"><i class="icon icon_android_robot"></i></a><li></li>
+              </ul>
+              <div class="download-app-txt">Customers from Mainland China can download the Android apk in high speed via Chong Hing Bank’s Mainland server</div>
+            </div><!-- download-app-left end -->
+            <div class="download-app-right">
+              <img src="/img/qr_code_apk_en.png" alt="scan qr code">
+            </div><!-- download-app-right end -->
+          </div><!-- download-app end -->
+          
+		  
+		  
+        </div> 
+      </div>
+	  
+	  
+	  <div id="awards" style="width:100%; margin-top:20px;">
+		<div class="caringLogo">
+                            <img src="/img/caring_company.png" alt="Caring Company"><br>
+                        </div>
+                        
+                        <div class="caringLogo">
+                            <img src="/img/goodjobs_awards1.png" alt="CT goodjobs Best HR Awards"><br>
+                        </div>
+						
+						<div class="caringLogo">
+                            <img src="/img/goodjobs_awards2.png" alt="CT goodjobs Best HR Awards"><br>
+                        </div>
+
+                        <div class="caringLogo">
+                            <img src="/img/happy_company.png" alt="Happy Company"><br>
+                        </div>
+						
+						<div class="caringLogo">
+							<img src="/img/good_mpf_employer_logo.png" alt="Good MPF Employer">
+						</div><!-- caring logo end -->
+						
+					
+		  <div class="caringLogo">
+			<img src="/img/scb_logo.png" alt="Social Capital Builder Awards">
+         </div>
+		 
+		  <div class="caringLogo">
+			<img src="/img/city_partnership_scheme_logo.png" alt="City Partnership Scheme">
+         </div> 
+		 </div>
+	  
+	  
+    </div>
+  </div><!-- footer-top end -->
+  
+  
+  
+  <div class="footer-bottom">©
+    <span class="year">2022</span>
+     Chong Hing Bank Limited. All Rights Reserved.  <img src="/img/logo_member_en.png" alt="member logo" class="memberLogo"></div><!-- fooer-bottom end -->
+</footer><!-- footer end -->
+<script type="text/javascript">
+      var d = new Date();
+      var n = d.getFullYear();
+      $(".year").eq(0).html(n);
+    </script></div>
+
+    <!-- InstanceBeginEditable name="footer" -->
+    <!-- InstanceEndEditable -->
+
+
+<!-- InstanceEnd -->
+
+
+<script type="text/javascript" language="javascript">
+            getFontSize();
+            genTopTitle();
+            //findGlossary();
+            if(typeof sslNewWindow != 'function'){
+                window.sslNewWindow = function(mypage, myname, w, h, scroll,resizable) {
+                    var sslSubDomainMap = {
+                        "uat" : "uat",
+                        "www" : "sportal"
+                    };
+                    var winl = (screen.width - w) / 2;
+                    var wint = (screen.height - h) / 2;
+                    var sslSubDomain = window.location.hostname.split('.');
+                    sslSubDomain = sslSubDomain[0];
+                    var sslDomain = (typeof sslSubDomainMap[sslSubDomain] != '1')?window.location.hostname.replace(sslSubDomain + ".", sslSubDomainMap[sslSubDomain]+ "."):window.location.hostname;
+                    var url = 'https://' + sslDomain + mypage;
+                    winprops = 'height='+h+',width='+w+',top='+wint+',left='+winl+',toolbar=no,status=yes,scrollbars='+scroll+',resizable='+resizable+'';
+                    win = window.open(url, myname, winprops);
+                    win.self.focus();
+                    if (parseInt(navigator.appVersion) >= 4) { win.window.focus(); }
+                }
+            }
+</script>
+<script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','../js/analytics.js','ga');
+
+            ga('create', 'UA-42064682-2', 'auto');
+            ga('send', 'pageview');
+
+</script>
+<!-- Footer ends -->
+<script>
+            //Gen Rate - T.T. XML Table
+           var nameObj = new Object();
+            nameObj["ZAU"] = "Australian Dollars";
+            nameObj["ZCA"] = "Canadian Dollars";
+            nameObj["ZCH"] = "Swiss Francs";
+            nameObj["ZDK"] = "Danish Kroners";
+            nameObj["ZEU"] = "Euro";
+            nameObj["ZGB"] = "Sterling";
+            nameObj["ZJP"] = "Japanese Yen";
+            nameObj["ZNZ"] = "New Zealand Dollars";
+            nameObj["ZRM"] = "Renminbi (Onshore)";
+            nameObj["ZRH"] = "Renminbi (Offshore)";
+            nameObj["ZSE"] = "Swedish Kroners";
+            nameObj["ZSG"] = "Singapore Dollars";
+            nameObj["ZTH"] = "Thai Bahts";
+            nameObj["ZUS"] = "U.S. Dollars";
+
+            var genObj = function(x)
+            {
+                setObj(x);
+                genRateTable("rateTable", nameObj, null);
+                changeTableTrBg("rateTable");
+            }
+            loadXML("/xml_rates2/fer_tt_en.xml", genObj);
+
+
+            //Gen Rate - Notes. XML Table
+            var nameObj2 = new Object();
+            nameObj2["AUD"] = "Australian Dollars";
+            nameObj2["CAD"] = "Canadian Dollars";
+            nameObj2["CHF"] = "Swiss Francs";
+            nameObj2["DKK"] = "Danish Kroners";
+            nameObj2["EUR"] = "Euro";
+            nameObj2["GBP"] = "Sterling";
+            nameObj2["JPY"] = "Japanese Yen";
+            nameObj2["NZD"] = "New Zealand Dollars";
+            nameObj2["RMB"] = "Renminbi";
+            nameObj2["PHP"] = "Philippine Pesos";
+            nameObj2["SGD"] = "Singapore Dollars";
+            nameObj2["THB"] = "Thai Bahts";
+            nameObj2["TWD"] = "New Taiwan Dollars";
+            nameObj2["USD"] = "U.S. Dollars (Big note)";
+            nameObj2["US$"] = "U.S. Dollars (Small note)";
+            nameObj2["WON"] = "Korean Won";
+
+            var genObj2 = function(x)
+            {
+               // alert(2);
+                setObj(x);
+                genRateTime();
+                genRateTable("rateTable2", nameObj2, null);
+                changeTableTrBg("rateTable2");
+            };
+            loadXML("/xml_rates2/fer_n_en.xml", genObj2);
+</script>
+</body></html>

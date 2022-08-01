@@ -1,0 +1,76 @@
+2022-05-19 17:25:04.113 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:26:43.576 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:26:43.576 [INFO] Start Process: get_final_rate
+2022-05-19 17:26:44.304 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:26:44.305 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:27:14.310 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:28:41.744 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:28:41.745 [INFO] Start Process: get_final_rate
+2022-05-19 17:28:42.596 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:28:42.596 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:29:12.601 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:30:33.210 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:30:33.211 [INFO] Start Process: get_final_rate
+2022-05-19 17:30:33.943 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:30:33.943 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:31:03.949 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:32:25.617 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:32:25.618 [INFO] Start Process: get_final_rate
+2022-05-19 17:32:26.386 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:32:26.387 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:32:56.391 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:34:16.376 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:34:16.377 [INFO] Start Process: get_final_rate
+2022-05-19 17:34:17.144 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:34:17.145 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:34:47.150 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:36:08.288 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:36:08.289 [INFO] Start Process: get_final_rate
+2022-05-19 17:36:08.976 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:36:08.976 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:36:38.981 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:37:55.902 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:37:55.902 [INFO] Start Process: get_final_rate
+2022-05-19 17:37:56.830 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:37:56.831 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:38:26.833 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:39:44.667 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:39:44.668 [INFO] Start Process: get_final_rate
+2022-05-19 17:39:45.365 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:39:45.366 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:40:15.370 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:41:31.097 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:41:31.098 [INFO] Start Process: get_final_rate
+2022-05-19 17:41:31.795 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:41:31.796 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:42:01.800 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:43:23.064 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:43:23.065 [INFO] Start Process: get_final_rate
+2022-05-19 17:43:23.736 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:43:23.737 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:43:53.741 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:45:13.307 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:45:13.308 [INFO] Start Process: get_final_rate
+2022-05-19 17:45:14.110 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:45:14.111 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:45:44.116 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:46:59.781 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:46:59.782 [INFO] Start Process: get_final_rate
+2022-05-19 17:47:00.295 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:47:00.296 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:47:30.299 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:48:48.408 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:48:48.409 [INFO] Start Process: get_final_rate
+2022-05-19 17:48:49.179 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:48:49.180 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:49:19.183 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:50:33.171 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:50:33.172 [INFO] Start Process: get_final_rate
+2022-05-19 17:50:33.933 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:50:33.933 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:51:03.937 [INFO] Start Process: get_all_bank_exchange_rate
+2022-05-19 17:52:20.710 [INFO] Data uploaded to mongodb >> currency_api >> get_all_bank_exchange_rate
+2022-05-19 17:52:20.711 [INFO] Start Process: get_final_rate
+2022-05-19 17:52:21.275 [INFO] Data uploaded to mongodb >> currency_api >> get_final_rate
+2022-05-19 17:52:21.275 [INFO] Finish Process and wait for next cycle
+2022-05-19 17:52:51.279 [INFO] Start Process: get_all_bank_exchange_rate

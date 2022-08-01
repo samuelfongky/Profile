@@ -1,0 +1,366 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script src="https://s.yimg.com/wi/ytc.js" async=""></script><script src="https://connect.facebook.net/signals/config/1314819638534053?v=2.9.60&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MQ4VP6"></script><script async="" type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=1586741103"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=1024">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>Foreign Currency Notes Exchange Rates</title>
+
+<link href="/css/print.css" rel="stylesheet" type="text/css" media="print">
+<link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox.css" media="screen">
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="/js/read-font-size.js"></script>
+<script type="text/javascript" src="/js/init.js"></script><link rel="stylesheet" type="text/css" class="pagetheme" id="effStyle" title="eff" href="/css/theme1.css?20200814"><link rel="alternate stylesheet" type="text/css" class="pagetheme" title="alt" href="/css/theme1.css?20200814"><link rel="alternate stylesheet" type="text/css" class="pagetheme" title="alt" href="/css/theme2.css?20200814"><meta http-equiv="origin-trial" content="A9wkrvp9y21k30U9lU7MJMjBj4USjLrGwV+Z8zO3J3ZBH139DOnCv3XLK2Ii40S94HG1SZ/Zeg2GSHOD3wlWngYAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><link rel="stylesheet" type="text/css" href="/css/footer_cookie_desktop.css"><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/925997138/?random=1652953973401&amp;cv=9&amp;fst=1652953973401&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1120&amp;u_w=1792&amp;u_ah=1015&amp;u_aw=1792&amp;u_cd=30&amp;u_his=2&amp;u_tz=480&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2wg5b0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.hkbea.com%2Fcgi-bin%2Frate_notesfx.jsp%3Flanguage%3Den&amp;tiba=Foreign%20Currency%20Notes%20Exchange%20Rates&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head><body class="en desktop mac">
+<script type="text/javascript" src="/js/width-control.js"></script>
+
+
+<div class="outer inner outer-grid-1-2 otherBrowser">
+<div class="rainbowBg"></div>
+<!-- START:header--><!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQ4VP6"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MQ4VP6');</script>
+	<!-- End Google Tag Manager --><script xmlns:iw="http://www.interwoven.com/XSL">var headerLang="en";var searchText="What are you looking for?";</script><!-- <HKBEAHEADER> --><div xmlns:iw="http://www.interwoven.com/XSL" style="left:0px; width:100%" id="homePageHeader" class="header"><div class="headerTop clearfix"><div class="containerLeft"><a tabindex="1" id="skipper" class="offscreen" href="#skip">Skip to Content</a><a href="/html/en/index.html"><img src="/images/logo.gif" alt="Bank of East Asia"></a></div><div class="containerRight"><ul class="clearfix"><li class="headerSearch clearfix"><input onkeypress="checkPressKey(event, 'en','en')" type="text" id="headerTxtSearch" class="headerSearchTxt" value="What are you looking for?" onblur="onBlur(this)" onfocus="onFocus(this)" title="What are you looking for?"><a href="javascript:goToSearch('en','en');" class="headerSearchBtn imgBtn"><span style="display:none;">search</span></a></li><li class="color"><div id="changescheme"><a href="javascript:void(0);">Page Theme</a><div class="" id="styleL"><div onclick="changeTheme(this)" id="theme1"><a href="javascript:void(0);"><img style="margin:10px 0 0px 0px; width:90px;height:35px;" src="/images/pageTheme1.png" alt="Original Color Tone"></a></div><div onclick="changeTheme(this)" id="theme2"><a href="javascript:void(0);"><img style="margin:10px 0 0px 0px; width:90px;height:35px;" src="/images/pageTheme2.png" alt="Dark Color Tone"></a></div></div></div></li><li class="contactUs"><a href="/html/en/bea-contact-us.html">Contact Us</a></li><li class="fontSize"><a href="javascript:changeFont(-1);"><span class="iconHeaderLangS selected"></span><span style="display:none;">Standard Font Size</span></a><a href="javascript:changeFont(0);"><span class="iconHeaderLangM"></span><span style="display:none;">Larger Font Size</span></a><a href="javascript:changeFont(1);"><span class="iconHeaderLangL"></span><span style="display:none;">Largest Font Size</span></a></li><li><a href="javascript:sitemap_changeLang('en', 'tc');">繁</a></li><li><a href="javascript:sitemap_changeLang('en', 'sc');">简</a></li></ul></div></div><div style="left:0px; width:100%; height:35px;" id="homeHeaderBtm" class="headerBtm"><ul class="menu clearfix"><li style="width:11.4%;" class="none tab" id="headerTab1"><a style="text-align: center;" href="/html/en/bea-personal-banking-supremeGold-services.html">Personal Banking</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-personal-banking-supremegold-private.html" target="_self" class="headerSG">SupremeGold Private</a></li><li><a href="/html/en/bea-personal-banking-supremeGold-services-features.html?&amp;utm_source=BEA_Website&amp;utm_medium=Personal_Banking_Dropdown_List_SG_Services_Button&amp;utm_campaign=SG_acquisition_Q2_EN" target="_self" class="">SupremeGold</a></li><li><a href="/html/en/bea-personal-banking-supreme.html" target="_self" class="">Supreme</a></li><li><a href="/html/en/bea-personal-banking-account-services.html" target="_self" class="">Account Services </a></li><li><a href="/html/en/bea-wealth-management-connect.html" target="_self" class="">Cross Border Services</a></li><li><a href="/html/en/bea-rate-and-gold-price.html" target="_self" class="">Rates and Gold Price</a></li><li><a href="/html/en/bea-mortgage-loans.html" target="_self" class="">Mortgage Loans</a></li><li><a href="/html/en/bea-personal-banking-consumer-loan-hot-promotion.html" target="_self" class="">Consumer Loans</a></li><li><a href="/html/en/bea-credit-card-hot-promotions.html" target="_self" class="">Credit Cards </a></li><li><a href="/MarketInsights/en" target="_self" class="">Market Insights</a></li><li><a href="/html/en/bea-personal-banking-cyberbanking.html" target="_self" class="">Cyberbanking </a></li><li><a href="/html/en/bea-personal-banking-bea-mobile-app.html" target="_self" class="">BEA App</a></li><li><a href="/html/en/bea-mall-app.html" target="_self" class="">BEA Mall</a></li><li><a href="/html/en/bea-personal-banking-branches-and-atm-network.html" target="_self" class="">Branch, ATM and i-Teller Network</a></li><li><a href="/html/en/bea-personal-banking-innovation-and-awards.html" target="_self" class="">Innovation &amp; Awards</a></li><li><a href="/html/en/bea-personal-banking-bank-charges.html" target="_self" class="">Bank Charges</a></li><li><a href="/html/en/bea-personal-banking-key-facts-statement.html" target="_self" class="">Key Facts Statement</a></li></ul></div><div class="ansLinks"><p>Supreme</p><ul><li><a href="/beaflash/en/rewards?tspId=BEAWebsiteHomepageTopMenuBarQ2MAOGeneric1150EN&amp;utm_source=BEA_Website&amp;utm_medium=HomepageTop_Menu_Bar&amp;utm_campaign=Q2MAOGeneric_1150_EN" target="_blank">Open an account through BEA Flash</a></li><li><a href="https://ww2.hkbea-cyberbanking.com/servlet/OA011Show?Lang=Eng" target="_blank">Contact us for any enquiries</a></li></ul></div><div class="promo"><img alt="HKBEA Supreme" src="/images/en/menu/menu-personal-banking.jpg"><a href="/html/en/bea-personal-banking-supreme.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Supreme</p></a></div></li></ul></li><li style="width:12%;" class="none tab" id="headerTab2"><a style="text-align: center;" href="/html/en/bea-corporate-banking-overview.html">Wholesale Banking</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-corporate-banking-overview.html" target="_self">Overview</a></li><li><a href="/html/en/bea-corporate-banking-sme-financing.html" target="_self">SME Financing</a></li><li><a href="/html/en/bea-corporate-banking-corporate-and-commercial-financing.html" target="_self">Corporate and Commercial Financing</a></li><li><a href="/html/en/bea-corporate-banking-trade-services.html" target="_self">Trade Services</a></li><li><a href="/html/en/bea-corporate-banking-cash-management-services.html" target="_self">Cash Management Services</a></li><li><a href="/html/en/bea-corporate-banking-investment-insurance-services.html" target="_self">Investment and Insurance Services</a></li><li><a href="/html/en/bea-corporate-banking-treasury-products.html" target="_self">Treasury Products</a></li><li><a href="/html/en/bea-corporate-banking-greater-bay-area-services.html" target="_self">Greater Bay Area Services</a></li><li><a href="/html/en/bea-corporate-banking-useful-tips.html" target="_self">Useful Tips</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-corporate-banking-overview.html" target="_self">I need professional advice on how to grow my business.</a></li></ul></div><div class="promo"><img alt="HKBEA Wholesale Banking Services" src="/images/bea-menu-corporate-banking.jpg"><a href="/html/en/bea-corporate-banking-overview.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Wholesale Banking Services</p></a></div></li></ul></li><li style="width:13%;" class="none tab" id="headerTab3"><a style="text-align: center;" href="/html/en/bea-wealth-management-private-banking-services.html">Wealth Management</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-wealth-management-private-banking-services.html" target="_self">Private Banking Services</a></li><li><a href="/html/en/bea-wealth-management-investment-solution.html" target="_self">Investment Solutions</a></li><li><a href="/html/en/bea-wealth-management-porfolio-management.html" target="_self">Portfolio Management</a></li><li><a href="/html/en/bea-wealth-management-market-outlook.html" target="_self">Market Outlook</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-wealth-management-investment-solution.html" target="_self">I want to grow my wealth.</a></li></ul></div><div class="promo"><img alt="HKBEA Wealth Management Services" src="/images/comprehensive-service.jpg"><a href="/html/en/bea-wealth-management-private-banking-services.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Private Banking Services</p></a></div></li></ul></li><li style="width:15%;" class="none tab" id="headerTab4"><a style="text-align: center;" href="/html/en/bea-insurance-retirement-and-mpf-and-trusts.html">Insurance, MPF &amp; Trust</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-insurance-services.html" target="_self">Insurance Services</a></li><li><a href="/html/en/bea-mpf-index.html" target="_self">MPF Services</a></li><li><a href="/html/en/bea-trust-services.html" target="_self">Trust Services</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="http://www.hkbea.com/insurance/index.html?lang=eng&amp;page=productlanding" target="_self">I want to provide my family with comprehensive protection.</a></li></ul></div><div class="promo"><img alt="HKBEA Insurance &amp; MPF Services" src="/images/ISD_plan.jpg"><a href="http://www.hkbea.com/insurance/index.html?lang=eng&amp;page=productlanding" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Insurance Products</p></a></div></li></ul></li><li style="width:12.8%;" class="none tab" id="headerTab5"><a style="text-align: center;" href="/html/en/bea-investment-services-securities-services.html">Investment Services</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-investment-services-securities-services.html" target="_self">BEA Securities Services</a></li><li><a href="http://www.easecurities.com.hk/en/Index.htm" target="_blank">East Asia Securities Cybertrading</a></li><li><a href="https://www.eafutures.com.hk/html/en/index.html" target="_blank">East Asia Futures Cybertrading</a></li><li><a href="/html/en/bea-investment-services-foreign-exchange-margin-n-option-margin-trading.html" target="_self">FX/Precious Metal Margin Trading Services</a></li><li><a href="/html/en/external_link_alert_name.html?page=http://www.beawarrants.com.hk/en/home&amp;Name=warrant" target="_blank">Derivative Warrants / CBBC</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-investment-services-foreign-exchange-margin-n-option-margin-trading.html" target="_self">I want to maximise my investment returns.</a></li></ul></div><div class="promo"><img alt="HKBEA Investment Services" src="/images/FX.jpg"><a href="/html/en/bea-investment-services-foreign-exchange-margin-n-option-margin-trading.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Foreign Exchange Margin and Option Margin Trading Services</p></a></div></li></ul></li><li style="width:14.5%;" class="none tab" id="headerTab6"><a style="text-align: center;" href="/html/en/bea-china-services-background.html">Greater China Services</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-china-services-background.html" target="_self">Background</a></li><li><a href="/html/en/bea-china-services-services.html" target="_self">Services</a></li><li><a href="/html/en/bea-china-services-network.html" target="_self">Network</a></li><li><a href="http://eng.hkbea.com.cn/" target="_blank">Mainland Homepage</a></li><li><a href="https://www.hkbea.com.mo/html/en/index.html" target="_blank">Macau Homepage</a></li><li><a href="https://www.hkbea.com.tw/html/en/index.html" target="_blank">Taiwan Homepage</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-china-services-services.html" target="_self">I want to know more about BEA services in Greater China.</a></li></ul></div><div class="promo"><img alt="HKBEA China Services" src="/images/CHBD-Picture-r.jpg"><a href="/html/en/bea-china-services-services.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Services</p></a></div></li></ul></li><li style="width:13.8%;" class="none tab" id="headerTab7"><a style="text-align: center;" href="/html/en/bea-international-services-services.html">International Services</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-international-services-services.html" target="_self">Services</a></li><li><a href="/html/en/bea-international-services-international-contact.html" target="_self">Network</a></li><li><a href="http://www.hkbea-beany.com" target="_blank">New York Homepage</a></li><li><a href="https://www.hkbea.com.sg" target="_blank">Singapore Homepage</a></li><li><a href="https://www.hkbea.co.uk" target="_blank">United Kingdom Homepage</a></li><li><a href="/html/en/bea-international-services-strategic-partners.html" target="_self">Strategic Partners</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-international-services-services.html" target="_self">I want to know more about BEA services overseas.</a></li></ul></div><div class="promo"><img alt="HKBEA International Services" src="/images/en/international_services.jpg"><a href="/html/en/bea-international-services-services.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Services</p></a></div></li></ul></li><li style="width:7.5%;" class="none tab" id="headerTab8"><a style="text-align: center;" href="/html/en/bea-about-bea-company-profile.html">About BEA</a><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-about-bea-company-profile.html" target="_self">Company Profile</a></li><li><a href="/html/en/bea-about-bea-directors-and-senior-management.html" target="_self">Directors and Senior Management</a></li><li><a href="/html/en/bea-about-bea-investor-communication.html" target="_self">Investor Communication</a></li><li><a href="/html/en/bea-corporate-governance.html" target="_self">Corporate Governance</a></li><li><a href="/html/en/bea-about-bea-regulatory-disclosures.html" target="_self">Regulatory Disclosures - Banking (Disclosure) Rules </a></li><li><a href="/html/en/bea-about-bea-news-room.html" target="_self">News Room</a></li><li><a href="/html/en/bea-about-bea-sustainability.html" target="_self">Sustainability</a></li><li><a href="/html/en/bea-career-landing.html" target="_self">Careers</a></li><li><a href="/html/en/bea-about-bea-economic-research.html" target="_self">Economic Research</a></li><li><a href="/html/en/bea-contact-us.html" target="_self">Contact Us</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-about-bea-company-profile.html" target="_self">I want to learn more about BEA.</a></li></ul></div><div class="promo"><img alt="HKBEA Sustainability" src="/images/en/menu/bea-csr-report.jpg"><a href="/html/en/bea-about-bea-sustainability.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Sustainability</p></a></div></li></ul></li></ul><div style="top: 39px; height: 0px; overflow: hidden;" class="submenu"><ul><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-personal-banking-supremegold-private.html" target="_self" class="headerSG">SupremeGold Private</a></li><li><a href="/html/en/bea-personal-banking-supremeGold-services-features.html?&amp;utm_source=BEA_Website&amp;utm_medium=Personal_Banking_Dropdown_List_SG_Services_Button&amp;utm_campaign=SG_acquisition_Q2_EN" target="_self" class="">SupremeGold</a></li><li><a href="/html/en/bea-personal-banking-supreme.html" target="_self" class="">Supreme</a></li><li><a href="/html/en/bea-personal-banking-account-services.html" target="_self" class="">Account Services </a></li><li><a href="/html/en/bea-wealth-management-connect.html" target="_self" class="">Cross Border Services</a></li><li><a href="/html/en/bea-rate-and-gold-price.html" target="_self" class="">Rates and Gold Price</a></li><li><a href="/html/en/bea-mortgage-loans.html" target="_self" class="">Mortgage Loans</a></li><li><a href="/html/en/bea-personal-banking-consumer-loan-hot-promotion.html" target="_self" class="">Consumer Loans</a></li><li><a href="/html/en/bea-credit-card-hot-promotions.html" target="_self" class="">Credit Cards </a></li><li><a href="/MarketInsights/en" target="_self" class="">Market Insights</a></li><li><a href="/html/en/bea-personal-banking-cyberbanking.html" target="_self" class="">Cyberbanking </a></li><li><a href="/html/en/bea-personal-banking-bea-mobile-app.html" target="_self" class="">BEA App</a></li><li><a href="/html/en/bea-mall-app.html" target="_self" class="">BEA Mall</a></li><li><a href="/html/en/bea-personal-banking-branches-and-atm-network.html" target="_self" class="">Branch, ATM and i-Teller Network</a></li><li><a href="/html/en/bea-personal-banking-innovation-and-awards.html" target="_self" class="">Innovation &amp; Awards</a></li><li><a href="/html/en/bea-personal-banking-bank-charges.html" target="_self" class="">Bank Charges</a></li><li><a href="/html/en/bea-personal-banking-key-facts-statement.html" target="_self" class="">Key Facts Statement</a></li></ul></div><div class="ansLinks"><p>Supreme</p><ul><li><a href="/beaflash/en/rewards?tspId=BEAWebsiteHomepageTopMenuBarQ2MAOGeneric1150EN&amp;utm_source=BEA_Website&amp;utm_medium=HomepageTop_Menu_Bar&amp;utm_campaign=Q2MAOGeneric_1150_EN" target="_blank">Open an account through BEA Flash</a></li><li><a href="https://ww2.hkbea-cyberbanking.com/servlet/OA011Show?Lang=Eng" target="_blank">Contact us for any enquiries</a></li></ul></div><div class="promo"><img alt="HKBEA Supreme" src="/images/en/menu/menu-personal-banking.jpg"><a href="/html/en/bea-personal-banking-supreme.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Supreme</p></a></div></li><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-corporate-banking-overview.html" target="_self">Overview</a></li><li><a href="/html/en/bea-corporate-banking-sme-financing.html" target="_self">SME Financing</a></li><li><a href="/html/en/bea-corporate-banking-corporate-and-commercial-financing.html" target="_self">Corporate and Commercial Financing</a></li><li><a href="/html/en/bea-corporate-banking-trade-services.html" target="_self">Trade Services</a></li><li><a href="/html/en/bea-corporate-banking-cash-management-services.html" target="_self">Cash Management Services</a></li><li><a href="/html/en/bea-corporate-banking-investment-insurance-services.html" target="_self">Investment and Insurance Services</a></li><li><a href="/html/en/bea-corporate-banking-treasury-products.html" target="_self">Treasury Products</a></li><li><a href="/html/en/bea-corporate-banking-greater-bay-area-services.html" target="_self">Greater Bay Area Services</a></li><li><a href="/html/en/bea-corporate-banking-useful-tips.html" target="_self">Useful Tips</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-corporate-banking-overview.html" target="_self">I need professional advice on how to grow my business.</a></li></ul></div><div class="promo"><img alt="HKBEA Wholesale Banking Services" src="/images/bea-menu-corporate-banking.jpg"><a href="/html/en/bea-corporate-banking-overview.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Wholesale Banking Services</p></a></div></li><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-wealth-management-private-banking-services.html" target="_self">Private Banking Services</a></li><li><a href="/html/en/bea-wealth-management-investment-solution.html" target="_self">Investment Solutions</a></li><li><a href="/html/en/bea-wealth-management-porfolio-management.html" target="_self">Portfolio Management</a></li><li><a href="/html/en/bea-wealth-management-market-outlook.html" target="_self">Market Outlook</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-wealth-management-investment-solution.html" target="_self">I want to grow my wealth.</a></li></ul></div><div class="promo"><img alt="HKBEA Wealth Management Services" src="/images/comprehensive-service.jpg"><a href="/html/en/bea-wealth-management-private-banking-services.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Private Banking Services</p></a></div></li><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-insurance-services.html" target="_self">Insurance Services</a></li><li><a href="/html/en/bea-mpf-index.html" target="_self">MPF Services</a></li><li><a href="/html/en/bea-trust-services.html" target="_self">Trust Services</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="http://www.hkbea.com/insurance/index.html?lang=eng&amp;page=productlanding" target="_self">I want to provide my family with comprehensive protection.</a></li></ul></div><div class="promo"><img alt="HKBEA Insurance &amp; MPF Services" src="/images/ISD_plan.jpg"><a href="http://www.hkbea.com/insurance/index.html?lang=eng&amp;page=productlanding" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Insurance Products</p></a></div></li><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-investment-services-securities-services.html" target="_self">BEA Securities Services</a></li><li><a href="http://www.easecurities.com.hk/en/Index.htm" target="_blank">East Asia Securities Cybertrading</a></li><li><a href="https://www.eafutures.com.hk/html/en/index.html" target="_blank">East Asia Futures Cybertrading</a></li><li><a href="/html/en/bea-investment-services-foreign-exchange-margin-n-option-margin-trading.html" target="_self">FX/Precious Metal Margin Trading Services</a></li><li><a href="/html/en/external_link_alert_name.html?page=http://www.beawarrants.com.hk/en/home&amp;Name=warrant" target="_blank">Derivative Warrants / CBBC</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-investment-services-foreign-exchange-margin-n-option-margin-trading.html" target="_self">I want to maximise my investment returns.</a></li></ul></div><div class="promo"><img alt="HKBEA Investment Services" src="/images/FX.jpg"><a href="/html/en/bea-investment-services-foreign-exchange-margin-n-option-margin-trading.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Foreign Exchange Margin and Option Margin Trading Services</p></a></div></li><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-china-services-background.html" target="_self">Background</a></li><li><a href="/html/en/bea-china-services-services.html" target="_self">Services</a></li><li><a href="/html/en/bea-china-services-network.html" target="_self">Network</a></li><li><a href="http://eng.hkbea.com.cn/" target="_blank">Mainland Homepage</a></li><li><a href="https://www.hkbea.com.mo/html/en/index.html" target="_blank">Macau Homepage</a></li><li><a href="https://www.hkbea.com.tw/html/en/index.html" target="_blank">Taiwan Homepage</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-china-services-services.html" target="_self">I want to know more about BEA services in Greater China.</a></li></ul></div><div class="promo"><img alt="HKBEA China Services" src="/images/CHBD-Picture-r.jpg"><a href="/html/en/bea-china-services-services.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Services</p></a></div></li><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-international-services-services.html" target="_self">Services</a></li><li><a href="/html/en/bea-international-services-international-contact.html" target="_self">Network</a></li><li><a href="http://www.hkbea-beany.com" target="_blank">New York Homepage</a></li><li><a href="https://www.hkbea.com.sg" target="_blank">Singapore Homepage</a></li><li><a href="https://www.hkbea.co.uk" target="_blank">United Kingdom Homepage</a></li><li><a href="/html/en/bea-international-services-strategic-partners.html" target="_self">Strategic Partners</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-international-services-services.html" target="_self">I want to know more about BEA services overseas.</a></li></ul></div><div class="promo"><img alt="HKBEA International Services" src="/images/en/international_services.jpg"><a href="/html/en/bea-international-services-services.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Services</p></a></div></li><li class="clearfix"><div class="links"><ul><li><a href="/html/en/bea-about-bea-company-profile.html" target="_self">Company Profile</a></li><li><a href="/html/en/bea-about-bea-directors-and-senior-management.html" target="_self">Directors and Senior Management</a></li><li><a href="/html/en/bea-about-bea-investor-communication.html" target="_self">Investor Communication</a></li><li><a href="/html/en/bea-corporate-governance.html" target="_self">Corporate Governance</a></li><li><a href="/html/en/bea-about-bea-regulatory-disclosures.html" target="_self">Regulatory Disclosures - Banking (Disclosure) Rules </a></li><li><a href="/html/en/bea-about-bea-news-room.html" target="_self">News Room</a></li><li><a href="/html/en/bea-about-bea-sustainability.html" target="_self">Sustainability</a></li><li><a href="/html/en/bea-career-landing.html" target="_self">Careers</a></li><li><a href="/html/en/bea-about-bea-economic-research.html" target="_self">Economic Research</a></li><li><a href="/html/en/bea-contact-us.html" target="_self">Contact Us</a></li></ul></div><div class="ansLinks"><p>What can we do for you?</p><ul><li><a href="/html/en/bea-about-bea-company-profile.html" target="_self">I want to learn more about BEA.</a></li></ul></div><div class="promo"><img alt="HKBEA Sustainability" src="/images/en/menu/bea-csr-report.jpg"><a href="/html/en/bea-about-bea-sustainability.html" class="defaultBtn yellowBtn">MORE<p class="hiddenTxt">Learn more about Sustainability</p></a></div></li></ul></div></div></div><div xmlns:iw="http://www.interwoven.com/XSL" class="overlayMask"></div><span class="subMenuBg" id="subMenuBg" style="top: 107px;"></span><!-- </HKBEAHEADER> --> 
+<!-- END:header--><!-- START:mainContainer-->
+<div id="master" class="mainContainer clearfix Small">
+  <div class="leftContainer">
+	<!-- <HKBEALEFTMENU> -->
+<script> 
+for (var i=1;i<=8;i++){
+var headerMenu = document.getElementById("headerTab"+i); 
+if (headerMenu){ headerMenu.className= "none";}} 
+var lHeaderSel= ""; 
+var headerMenu = document.getElementById("headerTab"+lHeaderSel); 
+if (headerMenu){ headerMenu.className="selected"; } 
+</script>	
+<!-- TOP MENU HIGHLIGHT --> 
+<div id="LEFT01" class="sideMenu">
+	<h2>Rates and Gold Price</h2>
+	<span></span>
+	<ul>
+	<li id="shareleftMenu_2461">
+		<a href="javascript:sitemap_gotoMenu(2461);">BEA's Prime Rates</a>
+		<div>
+<ul style="height:0px;visibility:hidden;min-height:1px" id="leftSubMenu_BEAPRIM_2461">
+<li id="leftSubMenu_BEAPRIM_2461_dummy" style="height:0px;visibility:hidden;">
+<a>&nbsp;</a>
+</li>
+</ul>
+</div>
+
+	</li>
+	<li id="shareleftMenu_2462">
+		<a href="javascript:sitemap_gotoMenu(2462);">Deposit Rates</a>
+		<div>
+<ul style="height:0px;visibility:hidden;min-height:1px" id="leftSubMenu_DEPRATE_2462">
+<li id="leftSubMenu_DEPRATE_2462_dummy" style="height:0px;visibility:hidden;">
+<a>&nbsp;</a>
+</li>
+</ul>
+</div>
+
+	</li>
+	<li id="shareleftMenu_2463" class="selected" style="height: auto; visibility: visible;">
+		<a href="javascript:sitemap_gotoMenu(2463);">Exchange Rates</a>
+		<div>
+
+</div>
+
+	<ul style="height: auto; visibility: visible; min-height: 1px;" id="leftSubMenu_EXCHRATE_2463">
+<li id="leftSubMenu_EXCHRATE_101">
+<a href="javascript:sitemap_gohttps('/cgi-bin/rate_ttfx.jsp?language=en');" target="_self">Telegraphic Transfer (T/T)</a>
+</li>
+<li id="leftSubMenu_EXCHRATE_102" class="selected">
+<a href="javascript:sitemap_gohttps('/cgi-bin/rate_notesfx.jsp?language=en');" target="_self">Notes</a>
+</li>
+</ul></li>
+
+	</ul>
+</div>
+<!-- </HKBEALEFTMENU> -->
+
+	<script>
+		var lMenu1_2="/menu/en/leftMenuShared_2405.html";
+	</script>
+	</div>
+  <div class="rightContainer"> 
+    <!-- START:banner-->
+    <div class="bannerContainer">
+      <div class="banner"> <img class="cornerL" src="/images/banner-corner-l.png"> <img class="cornerR" src="/images/banner-corner-r.png"> <img class="bannerBtm" src="/images/banner-btm.jpg"> <img class="bannerImg" src="/images/inner-banner-s-01.jpg"> </div>
+    </div>
+    <!-- END:banner-->
+    <div class="mainContent">      
+	  <div class="breadcrumb" id="breadcrumbDiv"><a href="/html/en/index.html">Home</a> &gt; <a href="/html/en/bea-rate-and-gold-price.html" id="shareNode_2405" target="_self">Rates and Gold Price</a> &gt; <a href="javascript:sitemap_gohttps(" cgi-bin="" rate_notesfx.jsp?language="en');'" id="shareNode_2463" target="_self">Exchange Rates</a> &gt; <span class="current">Notes</span></div>	  
+      <h2 class="pageTitle">Foreign Currency Notes Exchange Rates</h2>
+	  (as of: <span id="datetime">19/05/2022 17:50</span>)
+      <script>
+
+function getCookie_en_loginbox(cname) {
+    var name = cname+ "=";
+    var cookieArray = document.cookie.split(';');
+    for(var i=0; i<cookieArray.length; i++) {
+        var c = cookieArray[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function winPopupwithCookie_en_loginbox(cname, url, winName, winWd, winHt){
+	var cookieval=getCookie_en_loginbox(cname);
+	var urlval=url+"?beacookieid="+cookieval;
+	winPopup(urlval, winName, winWd, winHt);
+}
+</script>
+
+<!-- <HKBEALOGIN> --><div xmlns:iw="http://www.interwoven.com/XSL" class="loginBox" id="loginBoxDiv">
+	<img width="265" height="58" border="0" class="loginfield non_transparent" alt="" src="/images/inner-loginbox.jpg">
+	<div style="top: 20px;width: 40px" class="txt">Log in</div>
+	<div style="left: 60px" id="selection-box" class="">
+	  <div class="selection-title"><span style="left: 0px; padding-left: 5px">Select Cyberbanking service</span><a class="openBtn" href="javascript:;" style="font-size:0px;">Select Cyberbanking service</a></div>
+	      <div class="selection">
+			<div class="selectLocation">Hong Kong</div>
+				<ul class="locationHK">
+					<li class="hkimg01">
+						<div style="float:left;" class="iconCyberbank"></div>
+						<div style="padding: 3px 0px 0px 22px;"><a href="javascript:winPopupwithCookie_en_loginbox('BEACOOKIEKEYFORWHP', 'https://mobile.hkbea-cyberbanking.com/ChkJrun_Eng.htm', 'EngCyb');">Cyberbanking</a></div>
+					</li>
+					<li class="hkimg02" style="padding-left:1px;">
+						<div style="float:left;" class="iconCorpBank"></div>
+						<div style="padding: 0px 0px 0px 23px;"><a href="javascript:winPopup('https://biz.hkbea-cyberbanking.com/CCB_eng.html','EngCorpCyb');">Corporate Cyberbanking</a></div>
+					</li>
+					<li class="hkimg03">
+						<div style="float:left;" class="iconPrivateBank"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="javascript:winPopup('https://mobile.hkbea-cyberbanking.com/ChkJrunPB_Eng.htm','cybPri');">Private Banking</a></div>
+					</li>
+					<li class="hkimg04">
+						<div style="float:left;" class="iconCyberSec"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="javascript:winPopup('https://internet.easecurities.com.hk/EAS/loginAction.action?lang=english','cybSecur');">East Asia Securities Cybertrading</a></div>
+					</li>
+					<li class="hkimg05">
+						<div style="float:left;" class="iconCyberFuture"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="javascript:winPopup('https://www.eafutures.com.hk/so/servlet/SysLogin?languages=ENGLISH&amp;useraction=login&amp;haserrormessage=NO&amp;errormessage=NOTHING','cybTrad',1000,615);">East Asia Futures Cybertrading</a></div>
+					</li>
+				</ul>
+
+				<div class="selectLocation">Other Countries / Region</div>
+				<ul class="locationOther clearfix">
+					<li class="otherimg01">
+						<div style="float:left;padding-left:6px;" class="iconRedSquare"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="https://ebank.hkbea.com.cn/perbank/index.do" target="_blank">China Personal Cyberbanking</a></div>
+					</li>
+					<li class="otherimg01">
+						<div style="float:left;padding-left:6px;" class="iconRedSquare"></div>
+						<div style="padding: 0px 0px 0px 22px;"><a href="https://corpbank.hkbea.com.cn/corporbank/index.do?Lang=EN" target="_blank">China Corporate Cyberbanking</a></div>
+					</li>
+					<li class="otherimg02">
+						<div style="float:left;padding-left:6px;" class="iconRedSquare"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="javascript:winPopup('https://uk.hkbea-cyberbanking.com/','EngCybPers');">UK Personal Cyberbanking</a></div>
+					</li>
+					<li class="otherimg02">
+						<div style="float:left;padding-left:6px;" class="iconRedSquare"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="javascript:winPopup('https://uk.hkbea-cyberbanking.com/corporate','EngCybCorp');">UK Corporate Cyberbanking</a></div>
+					</li>
+					<li class="otherimg03">
+						<div style="float:left;padding-left:6px;" class="iconRedSquare"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="https://mo.hkbea-cyberbanking.com/servlet/FR01Show?Lang=Eng" target="_blank">Macau</a></div>
+					</li>
+					<li class="otherimg04">
+						<div style="float:left;padding-left:6px;" class="iconRedSquare"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="http://www.hkbea-beany.com/index/index.html" target="_blank">U.S.A.</a></div>
+					</li>
+					<li class="otherimg05">
+						<div style="float:left;padding-left:6px;" class="iconRedSquare"></div>
+						<div style="padding: 0px 0px 0px 22px;"> <a href="javascript:winPopup('https://sg.hkbea-cyberbanking.com/','SGCyb');">Singapore</a></div>
+					</li>
+				</ul>
+			</div>
+	</div> 
+</div><a name="skip" id="skip" class="hiddenTxt">Start of main content</a><!-- </HKBEALOGIN> --> 
+      <div class="mainContentArea">
+		<table class="table1">
+			<tbody><tr>
+				<th class="txt_currency alignC">Currency</th>
+				<th class="txt_unit alignC">Unit</th>
+				<th class="txt_bank_buy alignC">Bank Buy</th>
+				<th class="txt_bank_sell alignC">Bank Sell</th>
+			</tr>
+			
+				<tr>
+					<td>Australian Dollar (AUD)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">543.7000</td>
+					<td class="alignR">553.9000</td>
+				</tr>
+			
+				<tr>
+					<td>Canadian Dollar (CAD)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">607.9000</td>
+					<td class="alignR">616.5000</td>
+				</tr>
+			
+				<tr>
+					<td>Euro (EUR)</td>
+					<td class="alignR">1</td>
+					<td class="alignR">8.1850</td>
+					<td class="alignR">8.3010</td>
+				</tr>
+			
+				<tr>
+					<td>Japanese Yen (JPY)</td>
+					<td class="alignR">10,000</td>
+					<td class="alignR">610.1000</td>
+					<td class="alignR">619.9000</td>
+				</tr>
+			
+				<tr>
+					<td>New Zealand Dollar (NZD)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">492.6000</td>
+					<td class="alignR">503.6000</td>
+				</tr>
+			
+				<tr>
+					<td>Offshore Renminbi (CNH)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">115.0000</td>
+					<td class="alignR">116.5000</td>
+				</tr>
+			
+				<tr>
+					<td>Onshore Renminbi (CNY) </td>
+					<td class="alignR">100</td>
+					<td class="alignR">115.4000</td>
+					<td class="alignR">116.6000</td>
+				</tr>
+			
+				<tr>
+					<td>Pound Sterling (GBP)</td>
+					<td class="alignR">1</td>
+					<td class="alignR">9.6420</td>
+					<td class="alignR">9.8350</td>
+				</tr>
+			
+				<tr>
+					<td>Singapore Dollar (SGD)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">561.8000</td>
+					<td class="alignR">569.4000</td>
+				</tr>
+			
+				<tr>
+					<td>Swiss Franc (CHF)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">799.5000</td>
+					<td class="alignR">806.9000</td>
+				</tr>
+			
+				<tr>
+					<td>Thai Baht (THB)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">21.9000</td>
+					<td class="alignR">23.9000</td>
+				</tr>
+			
+				<tr>
+					<td>US Dollar - Big Notes (USD)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">782.5000</td>
+					<td class="alignR">787.7000</td>
+				</tr>
+			
+				<tr>
+					<td>US Dollar - Small Notes (USD)</td>
+					<td class="alignR">100</td>
+					<td class="alignR">782.2000</td>
+					<td class="alignR">789.1000</td>
+				</tr>
+			
+		</tbody></table>
+		<br>
+    <br>
+    <br>
+    <b>The exchanges rates above are provided solely for reference purposes. The actual exchange rate for each transaction will be determined by the Bank at the time such transaction is effected and may be subject to fees and charges and/or additional mark-up depending on the banking services selected by the customer and the actual operating cost of the Bank incurred in the process.</b>
+      </div>
+      <a class="scrollTop" href="javascript:void(0);">Back to top</a>
+    </div> 
+    </div>	
+	<div>
+	<script type="text/javascript" src="/sitemap/en/sitemap_EXCHRATE.js"></script>
+	<script type="text/javascript" src="/js/sitemap/sitemap_common.js?20140207"></script>
+	<script type="text/javascript" src="/js/sitemap/sitemap_shared_en.js"></script><script type="text/javascript" src="/js/sitemap/sitemap_shared_hk_en.js"></script>
+	<script>
+		var lMenuLv3Prefix="EXCHRATE";
+		var lLv12LeftMenuId="2463";
+		var lMenuSelLastLvItem = "102";
+		displayBreadcrumb('breadcrumbDiv', 'shared_'+lLv12LeftMenuId, lMenuLv3Prefix+'_'+lMenuSelLastLvItem);
+		setMenuDisplay();
+	</script>
+	</div>
+  </div>
+  <!-- END:mainContainer--><div xmlns:iw="http://www.interwoven.com/XSL" id="FTR" class="footer"><!-- <HKBEAFOOTER> -->
+<div id="cookiesBar" class="cookiesBar">
+<p style="padding: 2px;" class="cookiesMessage">
+				This website uses cookies to improve your browsing experience. You give consent for cookies to be used if you continue to browse this website. To learn more about how our website uses cookies, please read our <a target="_blank" href="/pdf/en/hkbea-privacy-policy.pdf">Privacy Policy Statement</a>.
+			</p>
+<a class="accept-btn" id="cookies_accept" style="position: relative; margin-right: 15px;" onclick="acceptCookieBar()"><span class="accept-span" style="display: block; font-weight:bold; background-color: #A7192F; color: white; padding: 8px 18px; text-align: center; cursor: pointer;">Accept</span></a><a class="info-btn" id="cookies_info" style="position: relative; margin-right: 30px;" onclick="moreInfoCookieBar()" href="/html/en/bea-cookies-information.html"><span class="info-span" style="min-width:60px; display: block; font-weight:bold; background-color: #808080; color: white; padding: 8px 18px; text-align: center;">More Info</span></a>
+</div>
+<div class="footerContainer clearfix">
+<div class="leftContainer">
+<img src="/images/btm-footer-heart.png" alt="We care about your every need" class="logoHeart"><img src="/images/en/btm-footer-message.png" alt="We care about your every need" class="logoHeart"><img src="/images/btm-footer-logo02.png" alt="Caring Company" class="logoCaring"></div>
+<ul class="rightContainer">
+<li>
+<a href="/html/en/bea-disclaimer.html" target="_self">Disclaimer</a>
+</li>
+<li>
+<a href="/html/en/bea-terms-and-conditions.html" target="_self">Terms &amp; Conditions</a>
+</li>
+<li>
+<a href="/html/en/bea-priacy-statement.html" target="_self">Privacy Statement</a>
+</li>
+<li>
+<a href="/html/en/bea-about-bea-regulatory-disclosures.html" target="_self">Regulatory Disclosures</a>
+</li>
+<li>
+<a href="/html/en/bea-career-opportunities.html" target="_self">Careers</a>
+</li>
+<li>
+<a href="/html/en/bea-faqs.html" target="_self">FAQs</a>
+</li>
+<li>
+<a href="/html/en/bea-security-tips.html" target="_self">Security Tips</a>
+</li>
+<li>
+<a href="/html/en/bea-cookies-information.html" target="_self">Cookies Information</a>
+</li>
+<li>
+<a href="/html/en/sitemap_main.html" target="_self">Sitemap</a>
+</li>
+</ul>
+<span class="copyrightContainer">Copyright © 2019 The Bank of East Asia, Limited. All rights reserved.</span>
+</div>
+<script src="/js/footer_cookie.js" type="text/javascript"></script>
+<!-- </HKBEAFOOTER> -->
+</div>
+ 
+</div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","1314819638534053");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1314819638534053&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="">(function(a,c,e,k,b){a[b]=a[b]||[];a[b].push({projectId:"10000",properties:{pixelId:"10030469"}});var d=c.createElement(e);d.src=k;d.async=!0;d.onload=d.onreadystatechange=function(){var f=this.readyState,l=a[b];if(!f||"complete"==f||"loaded"==f)try{var g=YAHOO.ywa.I13N.fireBeacon;a[b]=[];a[b].push=function(h){g([h])};g(l)}catch(h){}};c=c.getElementsByTagName(e)[0];e=c.parentNode;e.insertBefore(d,c)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>
+<!-- 1 -->
+
+
+<img class="ywa-10000" src="https://sp.analytics.yahoo.com/sp.pl?a=10000&amp;d=Thu%2C%2019%20May%202022%2009%3A52%3A53%20GMT&amp;n=-8&amp;b=Foreign%20Currency%20Notes%20Exchange%20Rates&amp;.yp=10030469&amp;f=https%3A%2F%2Fwww.hkbea.com%2Fcgi-bin%2Frate_notesfx.jsp%3Flanguage%3Den&amp;enc=UTF-8&amp;yv=1.12.0&amp;tagmgr=gtm" alt="dot image pixel" style="display: none;"></body></html>

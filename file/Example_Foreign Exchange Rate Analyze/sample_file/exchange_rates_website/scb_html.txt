@@ -1,0 +1,818 @@
+<html lang="en-hk" class=""><head>
+		<meta charset="UTF-8">
+		<title>Shanghai Commercial Bank</title>
+
+		<script type="text/javascript">
+			var section="personal";
+		</script>
+
+		
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta id="viewport" name="viewport" content="width=760, initial-scale=1.03, minimum-scale=1.03, maximum-scale=1.03, user-scalable=no">
+<!-- for Facebook -->         
+<meta property="og:title" content="Shanghai Commercial Bank">
+<meta property="og:description" content="The Bank has always been dedicated to the motto of “For Personalized Service”, aiming at providing up-to-date and tailored services to our customers as top-priority. We strive to meet our customers‘ various needs with a wide range of retail and corporate banking products and services, including deposits, loans, remittances, foreign exchange, credit cards, securities trading, international banking, insurance services, gold services, RMB services, internet and mobile banking, in order to fulfill our customers’ banking needs.">
+<meta property="og:image" content="http://www.shacombank.com.hk/tch/images/share_logo.jpg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<link rel="stylesheet" href="/share/css/common.css">
+<link rel="stylesheet" href="/share/css/common_tablet.css" id="responsive_css">
+
+<link rel="stylesheet" href="/share/css/common_tablet_eng.css" id="respon_lang">
+
+<link rel="stylesheet" id="section_css" href="/share/css/personal.css">
+<link rel="stylesheet" id="sec_respon_css" href="/share/css/personal_tablet.css">
+<link rel="stylesheet" id="tpl_css">
+<link rel="stylesheet" id="tpl_respon_css">
+
+<link rel="stylesheet" type="text/css" href="/share/css/jquery.fancybox.css?v=2.1.5" media="screen">
+
+<script src="/share/js/jquery.cookie.js"></script>
+
+<script src="/share/js/jquery-1.8.3.min.js"></script>
+<script src="/share/js/responsive_frame.js"></script>
+
+<script type="text/javascript">
+	$("#section_css").attr("href", "/share/css/"+section+".css");
+	$("#sec_respon_css").attr("href", "/share/css/"+section+"_desktop.css"); 
+	document.write("<script src=\"\/share\/js\/responsive_"+section+".js\"><\/script>");
+	
+	//var breadcrumb="<ul class=\"fixed\"><li><a href=\"javascript:void(0);\"><img src=\"/tch/images/scb_icon.jpg\" alt=\"scb_ico\" /></a></li><li><a href=\"javascript:void(0);\">信用卡服務</a></li><li><a href=\"javascript:void(0);\">個人信用卡</a></li></ul>"
+</script><script src="/share/js/responsive_personal.js"></script>
+<script src="/share/js/programBreadcrumb.js"></script>
+<script src="/share/js/jquery.fancybox.js?v=2.1.5"></script>	
+
+<script src="/share/js/jquery.cookie.js"></script>
+<script src="/share/js/jquery.xdomainrequest.min.js"></script>
+<script src="/share/js/common.js"></script><link rel="stylesheet" href="/share/css/perfect-scrollbar.min.css"><script src="/share/js/perfect-scrollbar.jquery.js"></script>
+
+<script src="/share/js/personalization.js"></script>
+<script type="text/javascript" src="/eng/js/breadcrumb.js"></script>
+
+
+
+ <!---facebook share ----->
+<script src="/share/js/facebook.js"></script>
+	<style type="text/css">.fancybox-margin{margin-right:15px;}</style></head>
+
+	<body style="visibility: visible;">
+
+		
+
+
+<script type="text/javascript">
+	function isearch1(){
+		var frm = document.getElementById("mainForm1");
+		var wd = document.getElementById("search").value;
+		frm.wd.value = wd;
+		frm.submit();
+	}
+	function myKeyDown1(e){
+		var key = window.event ? e.keyCode : e.which;
+		if(key==13){
+			isearch1();
+		}
+	}
+</script>
+<div id="topbar">	
+	<form id="mainForm1" action="/eng/main/search_result.jsp" method="post">
+        <input type="hidden" name="wd" id="wd">
+	</form>
+	<div class="topbar wrap fixed">		
+    	<ul>
+            <li class="topPrefMenu">
+            <a href="javascript:void(0);" class="topPerf" title="My Preference">My Preference</a>
+             <ul>         
+                	<span class="s3Arrow"></span>
+                    <li class="topMenuLi">
+                	
+
+
+
+
+<p>Please provide the following information, so we can give you with the most appropriate and up-to-date news and offers. After you finish, our system will store the cookies that contain your data to your devices (such as your computer or mobile phone). To learn more about these cookies, please read our Personal Information Collection Statement.</p>
+
+<form action="/eng/main/ajax.jsp" method="POST" id="ipform" name="ipform">
+	<input value="" id="latitude" name="latitude" type="hidden">
+	<input value="" id="longitude" name="longitude" type="hidden">  		
+	<input value="false" id="indexFlag" name="indexFlag" type="hidden">
+	<input value="/eng/main/ajax.jsp" id="searchLink" name="searchLink" type="hidden">
+	<input value="16529539181410101" id="scb_token" name="scb_token" type="hidden">
+	                          	
+			 <p>
+				<select title="content" name="preference1">
+					<option value="">Please indicate your age range:</option>  <!-- question -->
+				
+					<option value="1">1-15 ages</option> 	 
+				
+					<option value="2">16-25 ages</option> 	 
+				
+					<option value="3">26-35 ages</option> 	 
+				
+					<option value="4">35-55 ages</option> 	 
+				
+					<option value="5">56-70 ages</option> 	 
+				
+				</select>                       
+			</p>
+			
+	
+			<fieldset>                          	
+			 <p class="topCheckbox">
+				<span><legend>Do you have children aged 3 to 11?</legend></span>  <!-- question -->
+				
+						<span><input type="radio" title="checkbox" value="1" name="preference2">Yes</span> 	 
+						
+						<span><input type="radio" title="checkbox" value="2" name="preference2">No</span> 	 
+									                       
+			</p>
+			</fieldset>
+			
+	
+			  <p>Please indicate your interests (you can select all applicable options):</p>
+			 
+		<fieldset>
+		<p class="topCheckbox">
+			<span><legend>Personal Banking</legend></span>  <!-- question -->
+            
+			<span><input type="checkbox" title="checkbox" value="1" name="preference3">Deposits</span>
+			
+			<span><input type="checkbox" title="checkbox" value="2" name="preference3">Investment</span>
+			
+			<span><input type="checkbox" title="checkbox" value="3" name="preference3">Protection</span>
+			
+			<span><input type="checkbox" title="checkbox" value="4" name="preference3">Loan</span>
+			
+        </p>  
+        </fieldset>                
+		
+	
+		<fieldset>
+		<p class="topCheckbox">
+			<span><legend>Commercial Banking</legend></span>  <!-- question -->
+            
+			<span><input type="checkbox" title="checkbox" value="1" name="preference4">Cash Management</span>
+			
+			<span><input type="checkbox" title="checkbox" value="2" name="preference4">Investment</span>
+			
+			<span><input type="checkbox" title="checkbox" value="3" name="preference4">Finance</span>
+			
+        </p>  
+        </fieldset>                
+		
+	
+	<p class="fixed">
+		<a href="javascript:resetPersonal();" class="prev">Reset</a> 
+		<a href="javascript:getCurrentPosition();" class="next">Submit</a>
+	</p>
+</form>   
+                    </li>
+                    <li class="cloLi">
+						<p>Thank You!</p>
+						<p>Your preferences have updated.</p>
+						<a class="btn-close" title="Close" href="javascript:void(0);">Close</a>
+					</li>
+                </ul>
+            </li>
+            <li><a href="/eng/about/contact/contact.jsp" class="topLocation" title="Contact Us">Contact Us</a></li>          
+            <li class="eBankMenu topMenu">          	
+                <a href="javascript:void(0);" class="topEbank topBtn" title="i-Banking">i-Banking</a>
+                  <ul>
+<span class="s3Arrow"></span>
+<li><a href="/eng/ebanking/personal/personal.jsp">Personal Internet Banking</a></li>
+<li><a href="/eng/ebanking/mobile/overview.jsp">Personal Mobile Banking</a></li>
+<li><a href="/eng/ebanking/corporate/corporate.jsp">Corporate Internet Banking</a></li>
+<li><a href="/eng/ebanking/mobile-c/overview.jsp">Corporate Mobile Banking</a></li>
+<li><a href="/eng/ebanking/trading/trading.jsp">Mobile Stock Trading</a></li>
+<li><a href="/eng/ebanking/nst/nst.jsp">Internet Stock Trading</a></li>
+<li><a href="/eng/personal/other/atm/card/card.jsp">ATM Card</a></li>
+<li><a href="/eng/ebanking/phonebanking/phonebanking.jsp">Phone Banking</a></li>
+</ul>
+            </li>
+			<li><a href="/eng/about/career/Career.jsp" class="topJoin topBtn" title="Join Us">Join Us</a></li>
+			<li class="topMenu"><a href="javascript:void(0);" class="topAbout topBtn" title="About Us">About Us</a>
+            	  <ul>
+<span class="s3Arrow"></span>
+<li><a href="/eng/about/profile/profile.jsp">Corporate Profile</a></li>
+<li><a href="/eng/about/directors/directors.jsp">Board of Directors</a></li>
+<li><a href="/eng/about/management/management.jsp">Management</a></li>
+<li><a href="/eng/about/redevelopment/building.jsp">Property Redevelopment</a></li>
+<li><a href="/eng/about/responsibility/csr.jsp">Corporate Social Responsibility</a></li>
+<li><a href="/eng/about/subsidiaries/subsidiaries.jsp">Subsidiaries</a></li>
+<li><a href="/eng/about/reports/reports.jsp">Annual Reports &amp; Interim Reports</a></li>
+<li><a href="/eng/about/regulatory/regulatory.jsp">Regulatory Disclosures</a></li>
+<li><a href="/eng/about/sht-stm/stm.jsp">Slavery and Human Trafficking Statement</a></li>
+<li><a href="/eng/about/supplier/supplier.jsp">Supplier Code of Conduct</a></li>
+<li><a href="/eng/about/press/press.jsp">Press Releases</a></li>
+<li><a href="/eng/about/announcement/announcement.jsp">Announcement</a></li>
+<li><a href="/eng/about/career/Career.jsp">Careers</a></li>
+<li><a href="/eng/about/contact/contact.jsp">Contact Us</a></li>
+</ul>
+            </li>
+            <li class="topMenu">
+			<a href="/eng/tools/documents/download/personal/general.jsp" class="topForm" title="Forms">Forms</a>			
+			</li>
+            <li class="topMenu searchGrp">
+            	<a href="javascript:void(0);" class="topSearch" title="Search">Search</a>            	
+	            <span id="searchBoxLayer">
+	               	<label for="search">Search</label>
+	               	<input type="search" id="search" placeholder="Click here to search" name="word" onkeydown="javascript:myKeyDown1(event);">
+	            </span>	            
+            </li>
+            <li><a href="javascript:void(0);" class="topSmall" title="Smaller Font Size" style="opacity: 0.3;">Smaller Font Size</a></li>
+            <li><a href="javascript:void(0);" class="topLarge" title="Larger Font Size" style="opacity: 1;">Larger Font Size</a></li>            
+            <li><a href="javascript:switchlangtch();" class="topTch" title="繁體版本">繁</a></li>
+            <li><a href="javascript:switchlangsch();" class="topSch" title="简体版本" style="background-image: url(&quot;/tch/images/top_langLine.gif&quot;); background-position: left center;">简</a></li>						
+        </ul>
+		<a href="/eng/personal/index.jsp" class="topHome" title="Home">Home</a>
+    </div>
+</div>
+
+<div id="sticky_wrap" class="fixed" style="position: relative;">
+<div id="header">
+	<span class="colorBar"></span>
+	<div class="wrap">
+		<a href="/eng/personal/index.jsp" class="logo"><img src="/eng/images/logo.gif" alt="SCB"></a>
+    </div>
+</div>
+
+<div id="mainMenu">
+	<div class="wrap fixed">
+    	<div class="onlineBankGrp">
+        	<a href="javascript:void(0);" class="onlineBankBtn">Online Login</a>
+            <div class="onlineBankMenu">
+                <ul class="firstMenu">
+                    <li><a href="javascript:void(0);" onclick="window.open('https://www.shacomsecurities.com.hk/hks/en/index.htm','_blank','width=800, height=600,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes,left=0, top=0')">Internet Stock Trading</a></li>
+					<li><a href="https://m.shacombank.com.hk/mbbs/home_eng.html">Mobile Stock Trading</a></li>
+                    <li><a href="javascript:void(0);" target="onlinescb" onclick="window.open('https://www1.shacombank.com.hk/ibanking/hk/EstablishSession?dse_locale=en_US','onlinescb','width='+screen.width+',height='+screen.height*0.88+',location=no,directories=no,menubar=no,toolbar=no,scrollbars=yes,status=yes,resizable=yes,left=0,top=0');return (false);">Personal Internet Banking</a></li>
+					<li><a href="https://m.shacombank.com.hk/mbbs/home_eng.html">Personal Mobile Banking</a></li>
+					<li><a href="javascript:void(0);" target="onlinecib" onclick="window.open('https://www1.shacombank.com.hk/commercial/request/EstablishSession?dse_locale=en_US','onlinecib','width='+screen.width+',height='+screen.height*0.88+',location=no,directories=no,menubar=no,toolbar=no,scrollbars=yes,status=yes,resizable=yes,left=0,top=0');return (false);">Corporate Internet Banking</a></li>
+					<li><a href="javascript:void(0);" onclick="window.open('https://www2.shacombank.com.hk/ibanking/servlet/com.ibm.dse.cs.servlet.CSEstablishSessionServlet/oversea/en_US','_blank','width=800, height=600,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes,left=0, top=0')">Overseas Customers (US)</a></li>
+					<li><a href="javascript:void(0);" onclick="window.open('https://www3.shacombank.com.hk/uk-inb','_blank','width=800, height=600,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes,left=0, top=0')">Overseas Customers (UK)</a></li>
+                </ul>
+                <ul class="secondMenu">
+                    <li><a href="/eng/main/security.jsp">Security Notes</a></li>
+                </ul>
+            </div>
+         </div>
+		<a href="javascript:void(0);" class="bankMenuBtn">Personal Banking</a>
+		<a href="javascript:void(0);" class="mobileMenuBtn">;</a>
+	</div>
+</div>
+
+
+<div class="menuLayer">
+	<div class="wrap">
+		<div class="bankMenu" style="">	
+			<ul>				
+				<li><a href="/eng/personal/index.jsp" class="active">Personal Banking</a></li>
+<li><a href="/eng/commercial/index.jsp">Commercial Banking</a></li>
+<li><a href="/eng/smart/index.jsp">SMART Banking</a></li>
+<li><a href="/eng/international/index.jsp">International Banking</a></li>
+
+			</ul>
+		</div>
+        
+        <div class="mMenu" style="">
+                    <ul class="personalMenu" style="display: block;">
+                        <li><a href="/eng/personal/promotion/promotion.jsp">Promotions</a>
+</li>
+<li><a href="/eng/personal/ebanking/index.jsp">e-Banking</a>
+</li>
+<li><a href="/eng/personal/other/rmb/rmb.jsp">RMB</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/other/rmb/deposits/no-passbook.jsp">RMB Deposits</a></li>
+<li><a href="/eng/personal/other/rmb/exchange/exchange-service.jsp">RMB Exchange Service </a></li>
+<li><a href="/eng/personal/other/rmb/remittance/remittance-service.jsp">RMB Remittance Service</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/cards/index.jsp">RMB credit card Service</a></li>
+<li><a href="/eng/personal/other/rmb/atm/atm-cash-withdrawal.jsp">RMB ATM Cash Withdrawal Service</a></li>
+<li><a href="/eng/personal/other/rmb/regulations/service-regulations.jsp">RMB Service Regulations </a></li>
+</span></ul>
+</li>
+<li><a href="/eng/personal/deposits/index.jsp">Save</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/deposits/current/hkd-current.jsp">Current Savings</a></li>
+<li><a href="/eng/personal/deposits/checking/hkd.jsp">Checking Accounts</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/deposits/fixed/fixed.jsp">Fixed Deposits</a></li>
+<li><a href="/eng/personal/deposits/student/student.jsp">Student / Children Savings</a></li>
+</span><span class="menuPromote">
+<a href="/eng/personal/deposits/current/hkd-current.jsp"><img alt="Current Savings Account allows you to flexibly manage your daily transactions" src="/eng/images/cards/deposits/scb_mainimg_01.jpg">
+<p>Current Savings Account allows you to flexibly manage your daily transactions</p></a></span></ul>
+</li>
+<li><a href="/eng/personal/invest/invest.jsp">Invest</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/invest/securities/trading/advantages.jsp">Securities Services</a></li>
+<li><a href="/eng/personal/invest/fund/fund.jsp">Investment Funds</a></li>
+<li><a href="/eng/personal/invest/wmc/index.jsp">Cross-boundary Wealth Management Connect</a></li>
+<li><a href="/eng/personal/invest/esg/index.jsp">Sustainable Investing / ESG Investment</a></li>
+<li><a href="/eng/personal/invest/cld/facts.jsp">Currency Linked Deposits</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/invest/bond/bond.jsp">Bonds</a></li>
+<li><a href="/eng/personal/invest/gold/gold.jsp">Gold Trading</a></li>
+<li><a href="/eng/personal/invest/exchange/exchange.jsp">Foreign Currency Exchange</a></li>
+<li><a href="/eng/personal/invest/fxmargin/fxmargin.jsp">FX Margin Trading</a></li>
+<li><a href="/eng/personal/invest/education/education.jsp">Investment Education</a></li>
+</span><span class="menuPromote">
+<a href="/eng/personal/invest/cld/facts.jsp"><img alt="Our Currency Linked Deposits allows you to earn potential interest by taking advantage of foreign exchange movements." src="/eng/personal/invest/images/scb_invest_cld.jpg">
+<p>Our Currency Linked Deposits allows you to earn potential interest by taking advantage of foreign exchange movements.</p></a></span></ul>
+</li>
+<li><a href="/eng/personal/protection/index.jsp">Protect</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/protection/needs/needs.jsp">Life Insurance</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/protection/general/general.jsp">General Insurance</a></li>
+</span><span class="menuPromote">
+<a href="/eng/personal/promotion/insurance.jsp"><img alt="Special discount is offered for online application of General Insurance Products" src="/tch/personal/protection/images/Protect_promotion_2017.jpg">
+<p>Special discount is offered for online application of General Insurance Products</p></a></span></ul>
+</li>
+<li><a href="/eng/personal/loan/index.jsp">Borrow</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/loan/mortgage/mortgage.jsp">Mortgages</a></li>
+<li><a href="/eng/personal/loan/personal/installment.jsp">Personal Instalment Loan</a></li>
+<li><a href="/eng/personal/loan/unsecured/unsecured.jsp">Unsecured Overdraft Facility</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/loan/asset/asset.jsp">Asset Link Credit Facility</a></li>
+<li><a href="/eng/personal/loan/reversemort/reverse-mort.jsp">Reverse Mortgage Programme/ Policy Reverse Mortgage Programme</a></li>
+</span><span class="menuPromote">
+<a href="/eng/personal/loan/personal/installment.jsp"><img alt="Personal Instalment Loan Services<br>Make your dreams come true.<br>To borrow or not to borrow? Borrow only if you can repay!" src="/tch/personal/loan/images/scb_borrow_personalloans.jpg">
+<p>Personal Instalment Loan Services<br>Make your dreams come true.<br>To borrow or not to borrow? Borrow only if you can repay!</p></a></span></ul>
+</li>
+<li><a href="/eng/personal/cards/main.jsp">Cards</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/cards/index.jsp">Credit Card</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/other/atm/card/card.jsp">Shacom Card</a></li>
+</span><span class="menuPromote">
+<a href="/eng/personal/cards/type/personal/personal.jsp"><img alt="Photo is for reference only. Terms and conditions are applied on the welcome gifts. For details, please refer to the bank's website.<br>To borrow or not to borrow? Borrow only if you can repay!" src="/eng/personal/cards/images/menu_banner.jpg">
+<p>Photo is for reference only. Terms and conditions are applied on the welcome gifts. For details, please refer to the bank's website.<br>To borrow or not to borrow? Borrow only if you can repay!</p></a></span></ul>
+</li>
+<li><a href="/eng/personal/pay/index.jsp">Pay</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/pay/express/express-payment.jsp">Express Payment</a></li>
+<li><a href="/eng/personal/pay/bill/overview/overview.jsp">Bill Payment</a></li>
+<li><a href="/eng/personal/pay/autopay/autopay.jsp">AutoPay </a></li>
+<li><a href="/eng/personal/pay/standing/standing-instruction.jsp">Standing Instructions</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/pay/order/order.jsp">Cashier's Order</a></li>
+<li><a href="/eng/personal/pay/transfer/payment-transfer.jsp">Pay and Transfer</a></li>
+<li><a href="/eng/personal/pay/shacompay/shacompay.jsp">Shacom Pay</a></li>
+</span><span class="menuPromote">
+<a href="/eng/personal/pay/express/express-payment.jsp"><img alt="Transfer funds to designated accounts on the same day with our free-of-charge Express Payment Services" src="/eng/personal/pay/images/scb_pay_transfer.jpg">
+<p>Transfer funds to designated accounts on the same day with our free-of-charge Express Payment Services</p></a></span></ul>
+</li>
+<li><a href="/eng/personal/other/other.jsp">Others</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/personal/other/all/all-service.jsp#a">Consolidated Account Statement</a></li>
+<li><a href="/eng/personal/other/all/all-service.jsp#b">Gift cheques</a></li>
+<li><a href="/eng/personal/other/all/all-service.jsp#c">Safe Deposit Box</a></li>
+<li><a href="/eng/ebanking/personal/device/overview/overview.jsp">Security Device</a></li>
+<li><a href="/eng/ebanking/personal/mobile-security-token/overview/overview.jsp">Mobile Security Token</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/other/all/all-service.jsp#d">Coins Exchange</a></li>
+<li><a href="/eng/personal/other/all/all-service.jsp#e">Confirmation of Balance/Financial Reference Letter</a></li>
+<li><a href="/eng/personal/other/grow/gosp.jsp">Grow Our Sprouts</a></li>
+<li><a href="/eng/personal/other/echeque/echeque/echeque.jsp">e-Cheques Deposit Services</a></li>
+<li><a href="https://www.shacombank.com.hk/applications/bankingAppointmentForm/input?lang=en_US">Branch Appointment Service</a></li>
+</span><span class="menuPromote">
+<a href="#"><img alt="Grow Our Sprouts Plan (GOSP) helps your kids establish smart money management concepts and skills." src="/eng/personal/other/images/scb_other_gosp.jpg">
+<p>Grow Our Sprouts Plan (GOSP) helps your kids establish smart money management concepts and skills.</p></a></span></ul>
+</li>
+
+                    </ul>
+					
+					<ul class="commercialMenu" style="display: none;">
+						<li><a href="/eng/commercial/promotions/index.jsp">Promotions</a>
+</li>
+<li><a href="/eng/commercial/ebanking/index.jsp">e-Banking</a>
+</li>
+<li><a href="/eng/commercial/other/rmb/rmb.jsp">RMB</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/commercial/other/rmb/deposits/rmb-nopassbook.jsp">RMB Deposits Services </a></li>
+<li><a href="/eng/commercial/other/rmb/exchange/exchange.jsp">RMB Exchange Service</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/commercial/other/rmb/remittance/remittance.jsp">RMB Remittance Service</a></li>
+<li><a href="/eng/commercial/other/rmb/regulations/regulations.jsp">RMB Service Regulations</a></li>
+</span></ul>
+</li>
+<li><a href="/eng/commercial/cash/index.jsp">Cash Management</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/commercial/cash/savings/hkd-current.jsp">Current Savings</a></li>
+<li><a href="/eng/commercial/cash/checking/hkd-checking.jsp">Checking Accounts</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/commercial/cash/fixed/fixed.jsp">Fixed Deposits</a></li>
+<li><a href="/eng/commercial/cash/call/call.jsp">Call Deposits</a></li>
+</span></ul>
+</li>
+<li><a href="/eng/commercial/payment/payment.jsp">Pay</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/commercial/payment/receivable/autopay-in.jsp">Receivable Management Services</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/commercial/payment/pay/payroll.jsp">Payment Management Services</a></li>
+</span></ul>
+</li>
+<li><a href="/eng/commercial/Investment/index.jsp">Invest</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/commercial/Investment/securities/trading/advantages.jsp">Securities Trading</a></li>
+<li><a href="/eng/commercial/Investment/fund/fund.jsp">Investment Funds</a></li>
+<li><a href="/eng/commercial/Investment/cld/facts.jsp">Currency Linked Deposits</a></li>
+<li><a href="/eng/commercial/Investment/bonds/bonds.jsp">Bonds</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/commercial/Investment/gold/gold.jsp">Gold Trading</a></li>
+<li><a href="/eng/commercial/Investment/foreign/foreign-exchange.jsp">Foreign Exchange</a></li>
+<li><a href="/eng/commercial/Investment/fxmargin/fx-margin.jsp">FX Margin Trading</a></li>
+</span></ul>
+</li>
+<li><a href="/eng/commercial/finance/finance.jsp">Finance</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/commercial/finance/business/business.jsp">Business Loans</a></li>
+<li><a href="/eng/commercial/finance/trade/trade.jsp">Trade Finance</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/commercial/finance/other/other.jsp">Other Loans </a></li>
+</span></ul>
+</li>
+<li><a href="/eng/commercial/insurance/insurance.jsp">Protect</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/commercial/insurance/office.jsp">Office Package Insurance</a></li>
+<li><a href="/eng/commercial/insurance/shop.jsp">Shop Package Insurance</a></li>
+<li><a href="/eng/commercial/insurance/contractors.jsp">Contractors' All Risks Insurance </a></li>
+<li><a href="/eng/commercial/insurance/public.jsp">Public Liability Insurance</a></li>
+<li><a href="/eng/commercial/insurance/employees.jsp">Employees' Compensation Insurance</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/commercial/insurance/cargo.jsp">Marine Cargo Insurance</a></li>
+<li><a href="/eng/commercial/insurance/motor.jsp">Commercial Motor Insurance</a></li>
+<li><a href="/eng/commercial/insurance/medical.jsp">Group Medical Insurance</a></li>
+<li><a href="/eng/commercial/insurance/product.jsp">Product Liability Insurance</a></li>
+<li><a href="/eng/commercial/insurance/service-providers.jsp">Service Providers</a></li>
+</span></ul>
+</li>
+<li><a href="/eng/commercial/mpf/mpf.jsp">MPF</a>
+</li>
+<li><a href="/eng/commercial/other/index.jsp">Others</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/commercial/other/shacom/card.jsp">ATM Card</a></li>
+<li><a href="/eng/personal/cards/type/business/business.jsp">Business Credit Card</a></li>
+<li><a href="/eng/commercial/other/statement/services.jsp">Account Statement Related Services</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/personal/other/echeque/echeque/echeque.jsp">e-Cheques Deposit Services</a></li>
+<li><a href="/eng/ebanking/corporate/device/overview/overview.jsp">Security Device</a></li>
+<li><a href="/eng/ebanking/corporate/mobile-security-token/overview/overview.jsp">Mobile Security Token</a></li>
+</span></ul>
+</li>
+
+					</ul>
+					
+					<ul class="smartMenu" style="display: none;">
+						<li><a href="/eng/smart/promotions/index.jsp">Promotions &amp; Info</a>
+</li>
+<li><a href="/eng/smart/overview/index.jsp">Overview</a>
+</li>
+<li><a href="/eng/smart/privileges/index.jsp">Privileged Offers</a>
+</li>
+
+					</ul>
+					
+					<ul class="internationalMenu" style="display: none;">
+                        <li><a href="/eng/international/channel/index.jsp">Green Channel</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/international/channel/overview/overview.jsp">Overview</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/international/channel/privileges/Privilegesp.jsp">Privileges</a></li>
+</span></ul>
+</li>
+<li><a href="/eng/international/china/index.jsp">China</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/international/china/overview/overview.jsp">Overview</a></li>
+</span>
+<span class="s3items"><li><a href="/eng/international/china/branch/branch.jsp">Branch Network</a></li>
+</span></ul>
+</li>
+<li><a href="/eng/international/overseas/index.jsp">Overseas</a>
+<ul style="display: none;">
+<span class="s3items"><li><a href="/eng/international/overseas/us/overview/overview.jsp">United States </a></li>
+</span>
+<span class="s3items"><li><a href="/eng/international/overseas/uk/overview/overview.jsp">United Kingdom </a></li>
+</span></ul>
+</li>
+
+					</ul>
+         </div>
+	</div>
+</div>
+</div>
+
+
+			<div id="main" style="margin-top: 0px; font-size: 1em;">
+				<div class="mainbanner">
+					<img src="/share/rate/images/SCB_tools_ratepriceenquires_web.jpg" alt="banner" class="responImg">
+					<div class="ban_shadow"></div>
+					<div class="wrap porelati">
+						<div class="banner_text">Rate / Price Enquiry</div>
+					</div>
+				</div>
+				<div class="wrap fixed">
+
+					<div class="maintop_menu">
+						<h2>Foreign Notes Exchange Rate</h2><a class="facebookBtn" href="javascript:void();" title="Share on Facebook" onclick="openFbPopUp();"><img src="/share/images/Facebook.png"></a>
+					</div>
+					<!--maintop_menu-->
+
+					<div class="contentArea cmsArea">
+                        
+                        <p style="text-align:right;">Last Update Date: 19/05/2022</p>
+                        <p style="text-align:right;">Last Update Time: 12:40:40<span style="  min-width: 18px;display: inline-block;"></span></p>
+						<br>
+						<div class="tableWrap ps-container" data-ps-id="ad0d2ce8-60eb-3847-be24-449e7fc67280"><table class="tableLd" style="text-align:center;">
+							<thead>
+								<tr>
+									<th width="15%"></th>
+									<th>Bank Sell</th>
+									<th>Bank Buy</th>
+								</tr>
+							</thead>
+						  <tbody>
+							<tr>
+<td>USD (Large)</td>
+<td>  787.1000</td>
+<td>  780.1000</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>USD (Small)</td>
+<td>  786.8000</td>
+<td>  779.8000</td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>    9.8300</td>
+<td>    9.6200</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>JPY</td>
+<td>    6.1370</td>
+<td>    6.0520</td>
+</tr>
+<tr>
+<td>EUR</td>
+<td>  829.6000</td>
+<td>  820.8000</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>CHF</td>
+<td>  802.9000</td>
+<td>  788.6000</td>
+</tr>
+<tr>
+<td>CAD</td>
+<td>  617.3000</td>
+<td>  608.1000</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>AUD</td>
+<td>  555.5000</td>
+<td>  547.1000</td>
+</tr>
+<tr>
+<td>NZD</td>
+<td>  507.6000</td>
+<td>  494.7000</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>CNY</td>
+<td>  116.9000</td>
+<td>  114.9000</td>
+</tr>
+<tr>
+<td>SGD</td>
+<td>  572.0000</td>
+<td>  560.0000</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>PHP</td>
+<td>   16.0300</td>
+<td>   14.3400</td>
+</tr>
+<tr>
+<td>TWD</td>
+<td>   26.2100</td>
+<td>   24.2900</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>KRW</td>
+<td>    0.6460</td>
+<td>    0.5910</td>
+</tr>
+<tr>
+<td>THB</td>
+<td>   23.7500</td>
+<td>   21.8600</td>
+</tr>
+<tr style="background-color: rgb(239, 242, 250);">
+<td>IDR</td>
+<td>    0.0590</td>
+<td>    0.0490</td>
+</tr>
+	
+						  </tbody>
+						</table><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px; display: block;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px; display: block;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div>
+
+
+						<p>Note: </p>
+                        <ol>
+                        	<li>Rates shown are for indication only. For further details, please feel free to contact us.  </li>
+							<li>USD (Large) means USD notes denomination in 50 or above. </li>
+							<li>USD (Small) means USD notes denomination in 20 or below.  </li>
+                        </ol>
+						
+						<div class="col12">
+					<div class="backTop"><a href="javascript:history.go(-1)" title="Previous page"><img src="/tch/images/cards/scb_left.png" alt="Previous page"></a><a href="#" title="Back to top"><img src="/tch/images/cards/scb_rede_top.png" alt="Back to top"></a></div>
+				</div>
+						
+					</div>
+					<!--contentArea-->
+				</div>
+				<!--warp-->
+			</div>
+
+
+			<div id="middle_donw">
+	<div class="wrap">
+        <div class="mdown_top">
+            <ul class="fixed">                
+              	<li>
+  <p class="marbtm30"><img src="/tch/images/contact.png" alt=""></p>
+  <p class="liptext">Contact Us</p>
+  <p class="plineheight"><a href="tel:+85228180282">(852) 2818 0282</a></p>
+</li>
+<li>
+  <p class="marbtm30"><img src="/tch/images/tools.png" alt=""></p>
+  <p class="liptext">Tools</p>
+  <p class="plineheight"><a href="/eng/main/atm.jsp">Branch Network</a></p>
+</li>
+<li>
+  <p class="marbtm30"><img src=" /tch/images/recommend.png" alt=""></p>
+  <p class="liptext">Recommendations</p>
+  <p class="plineheight"><a href="/eng/personal/promotion/promotion.jsp">Latest Promotions</a></p>
+</li>
+
+            </ul>
+				        </div><!--mdown_top-->
+				    </div><!--wrap-->
+			</div><!--middle_donw-->
+			﻿
+
+
+<div class="mdown_bottom">
+    <div class="wrap" id="breadcrumb"><ul class="fixed"><li><a href="javascript:void(0);"><img src="/eng/images/scb_icon.jpg" alt="scb_ico"></a></li><li><a href="/eng/rate/rate.jsp">Rate / Price Enquiry</a></li><li><a href="/eng/rate/notes-exchange-rate.jsp">Notes Exchange Rate</a></li></ul>
+    </div>
+</div><!--mdown_bottom-->
+
+
+<div id="footer">
+    
+    <div class="wrap">
+    	<div class="footLink fixed">
+			<div class="fLinkLeft">Partnerships</div>
+			<div class="fLinkRight">
+				<ul class="fixed">
+					<li><a href="http://www.scsb.com.tw/econtent/index.jsp" target="_blank" title="The Shanghai Commercial &amp; Saving Bank, Ltd."><img src="/eng/images/footer_img19.jpg" alt="The Shanghai Commercial &amp; Saving Bank, Ltd."></a></li>
+					<li><a href="http://www.bankofshanghai.com/en/index.shtml" target="_blank" title="Bank of Shanghai"><img src="/eng/images/footer_img20.jpg" alt="Bank of Shanghai"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footLink fixed">
+			<div class="fLinkLeft">Awards</div>
+			<div class="fLinkRight">
+				<ul class="fixed">
+					<li><img src="/eng/images/footer_img25.jpg" alt="Best SME's Partner Award 2019"></li>
+					<li><img src="/eng/images/footer_img26.jpg" alt="2020 Outstanding Brand Award"></li>
+					<li><img src="/eng/images/footer_img15.jpg" alt="HKEJ SME Award 2018"></li>
+					<li><img src="/eng/images/footer_img23.jpg" alt="2019 Merits of Achievement in Banking and Finance"></li>
+				</ul>
+			</div>
+			<div class="fLinkLeft">&nbsp;</div>
+			<div class="fLinkRight">
+				<ul class="fixed">
+					<li><img src="/eng/images/footer_img03.jpg" alt="Caring Company"></li>
+					<li><img src="/eng/images/footer_img18.jpg" alt="Social Capital Builder Awards"></li>
+					<li><img src="/eng/images/footer_img27.jpg" alt="Business Environment Council"></li>
+					<li><img src="/eng/images/footer_img09.jpg" alt="WW Certificate"></li>
+				</ul>
+			</div>
+		</div>
+    </div><!--wrap-->
+    
+    <div class="footer_menu">
+    	<div class="wrap">
+            <ul class="fmenuul fixed">
+                <li>
+                    <ul class="fixed">
+                        <li><a href="/eng/personal/index.jsp">Personal Banking</a></li>
+<li><a href="/eng/personal/promotion/promotion.jsp">Promotions</a></li>
+<li><a href="/eng/personal/ebanking/index.jsp">e-Banking</a></li>
+<li><a href="/eng/personal/other/rmb/rmb.jsp">RMB</a></li>
+<li><a href="/eng/personal/deposits/index.jsp">Save</a></li>
+<li><a href="/eng/personal/invest/invest.jsp">Invest </a></li>
+<li><a href="/eng/personal/protection/index.jsp">Protect</a></li>
+<li><a href="/eng/personal/loan/index.jsp">Borrow</a></li>
+<li><a href="/eng/personal/cards/main.jsp">Cards</a></li>
+<li><a href="/eng/personal/pay/index.jsp">Pay</a></li>
+<li><a href="/eng/personal/other/other.jsp">Others</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <ul class="fixed">
+                        <li><a href="/eng/commercial/index.jsp">Commercial Banking</a></li>
+<li><a href="/eng/commercial/promotions/index.jsp">Promotions</a></li>
+<li><a href="/eng/commercial/ebanking/index.jsp">e-Banking</a></li>
+<li><a href="/eng/commercial/other/rmb/rmb.jsp">RMB</a></li>
+<li><a href="/eng/commercial/cash/index.jsp">Cash Management</a></li>
+<li><a href="/eng/commercial/payment/payment.jsp">Pay</a></li>
+<li><a href="/eng/commercial/Investment/index.jsp">Invest</a></li>
+<li><a href="/eng/commercial/finance/finance.jsp">Finance</a></li>
+<li><a href="/eng/commercial/insurance/insurance.jsp">Protect</a></li>
+<li><a href="/eng/commercial/mpf/mpf.jsp">MPF</a></li>
+<li><a href="/eng/commercial/other/index.jsp">Others</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <ul class="fixed">
+                       <li><a href="/eng/smart/index.jsp">SMART Banking</a></li>
+<li><a href="/eng/smart/promotions/index.jsp">Promotions &amp; Info</a></li>
+<li><a href="/eng/smart/overview/index.jsp">Overview</a></li>
+<li><a href="/eng/smart/privileges/index.jsp">Privileged Offers</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                     <ul class="fixed">
+                        <li><a href="/eng/international/index.jsp">International Banking</a></li>
+<li><a href="/eng/international/channel/index.jsp">Green Channel</a></li>
+<li><a href="/eng/international/china/index.jsp">China</a></li>
+<li><a href="/eng/international/overseas/index.jsp">Overseas</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <ul class="fixed">
+                        <li><a>About Us</a></li>
+<li><a href="/eng/about/profile/profile.jsp">Corporate Profile</a></li>
+<li><a href="/eng/about/directors/directors.jsp">Board of Directors</a></li>
+<li><a href="/eng/about/management/management.jsp">Management</a></li>
+<li><a href="/eng/about/redevelopment/building.jsp">Property Redevelopment</a></li>
+<li><a href="/eng/about/responsibility/csr.jsp">Corporate Social Responsibility</a></li>
+<li><a href="/eng/about/subsidiaries/subsidiaries.jsp">Subsidiaries</a></li>
+<li><a href="/eng/about/reports/reports.jsp">Annual Reports &amp; Interim Reports</a></li>
+<li><a href="/eng/about/regulatory/regulatory.jsp">Regulatory Disclosures</a></li>
+<li><a href="/eng/about/sht-stm/stm.jsp">Slavery and Human Trafficking Statement</a></li>
+<li><a href="/eng/about/supplier/supplier.jsp">Supplier Code of Conduct</a></li>
+<li><a href="/eng/about/press/press.jsp">Press Releases</a></li>
+<li><a href="/eng/about/announcement/announcement.jsp">Announcement</a></li>
+<li><a href="/eng/about/career/Career.jsp">Careers</a></li>
+<li><a href="/eng/about/contact/contact.jsp">Contact Us</a></li>
+
+                    </ul>
+                </li>
+                <li style="margin-right: 0px;">
+                    <ul class="fixed">
+                      	<li><a>Tools</a></li>
+<li><a href="/eng/tools/calculators/calculators.jsp">Calculators</a></li>
+<li><a href="/eng/tools/documents/download/personal/general.jsp">Forms &amp; Documents</a></li>
+<li><a href="/eng/tools/oapi/product.jsp">Open API</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div><!--footer_menu-->
+    
+ 	<span class="foo_colbar"><div class="wrap">For Personalized Service</div></span>
+    
+    <div class="footer_down">
+    	<div class="wrap">
+            <div class="footdownt">
+                <ul class="fixed">
+                    <li><a href="/eng/main/disclaimer.jsp" title="">Disclaimer</a></li>
+                    <li><a href="/eng/main/privacy-policy.jsp" title="">Privacy Policy Statement</a></li>
+                    <li><a href="/eng/main/terms-and-conditions.jsp" title="">Terms and Conditions</a></li>
+                </ul>
+                <p>© Shanghai Commercial Bank Limited</p>
+            </div>
+        </div>
+    </div><!--footer_down-->
+    
+</div>
+
+
+
+
+	
+
+	</body></html>
